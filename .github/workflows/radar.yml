@@ -1,0 +1,66 @@
+name: Taiwan Event Radar
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -s requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run scanner
+        run: python -m taiwan_event_radar.radar
+
+      - name: Validate latest.json
+        run: |
+          test -s output/latest.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          latest = json.loads(Path("output/latest.json").read_text(encoding="utf-8"))
+          required = {
+              "generated_at",
+              "scan_success",
+              "coverage_ok",
+              "new_events",
+              "new_sale_info",
+              "changed_events",
+              "source_health",
+          }
+          missing = sorted(required - set(latest))
+          if missing:
+              raise SystemExit(f"latest.json missing keys: {missing}")
+          if not latest["scan_success"]:
+              raise SystemExit("scanner reported scan_success=false")
+          PY
+
+      - name: Commit scanner state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/latest.json output/state.json
+          if git diff --cached --quiet; then
+            echo "No scanner output changes to commit."
+          else
+            git commit -m "Update Taiwan event radar output"
+            git push
+          fi

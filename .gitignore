@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Runtime logs and ad-hoc reports
+*.log
+reports/*.md
+
+# Keep committed scanner state/output for scheduler-agnostic daily diff.
+!output/
+!output/latest.json
+!output/state.json

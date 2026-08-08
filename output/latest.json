@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-08-09T03:52:25+08:00",
+  "scan_success": true,
+  "coverage_ok": true,
+  "new_events": [
+    {
+      "id": "83ffc756b84a0f66",
+      "sale_date": "2026-08-09",
+      "sale_time": "11:00",
+      "name": "2026 KIM JAE WON WORLD TOUR FANMEETING THE MOMENT WE MET - Episode 1 : \"The Present in Taipei\"",
+      "type": "大型演唱會",
+      "performance_date": "2026-08-30 ~ 2026-08-09",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://2sentertw.kktix.cc/events/b36e675c",
+      "discovery": "kktix_search_index",
+      "scope": "large_music_taiwan",
+      "note": ""
+    },
+    {
+      "id": "7936593420b913bb",
+      "sale_date": "2026-10-03",
+      "sale_time": "18:00",
+      "name": "【會員優先購、全面啟售】2026 SUPER JUNIOR-83z FANCON TOUR [1983] in KAOHSIUNG",
+      "type": "大型演唱會",
+      "performance_date": "2026-10-03 ~ 2026-07-06",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://chuanyeah.kktix.cc/events/080cefdf",
+      "discovery": "kktix_search_index",
+      "scope": "large_music_taiwan",
+      "note": ""
+    }
+  ],
+  "new_sale_info": [],
+  "changed_events": [],
+  "source_health": {
+    "OPENTIX": {
+      "status": "ok",
+      "last_success_at": "2026-08-09T03:52:25+08:00",
+      "primary_method": "programs/detail API",
+      "fallback_used": false,
+      "error": ""
+    },
+    "Ticket Plus": {
+      "status": "ok",
+      "last_success_at": "2026-08-09T03:52:25+08:00",
+      "primary_method": "mainEvents/event JSON",
+      "fallback_used": false,
+      "error": ""
+    },
+    "KKTIX": {
+      "status": "ok",
+      "last_success_at": "2026-08-09T03:52:25+08:00",
+      "primary_method": "public kktix.cc listing",
+      "fallback_used": false,
+      "error": ""
+    },
+    "ibon": {
+      "status": "failed",
+      "last_success_at": "",
+      "primary_method": "ticket website listing",
+      "fallback_used": true,
+      "error": "HTTP 403"
+    },
+    "tixCraft": {
+      "status": "degraded",
+      "last_success_at": "2026-08-09T03:52:25+08:00",
+      "primary_method": "activity listing",
+      "fallback_used": true,
+      "error": ""
+    },
+    "Public Web/News": {
+      "status": "ok",
+      "last_success_at": "2026-08-09T03:52:25+08:00",
+      "primary_method": "Bing RSS search + public pages",
+      "fallback_used": false,
+      "error": ""
+    }
+  }
+}

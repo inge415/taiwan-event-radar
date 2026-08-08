@@ -1,0 +1,28 @@
+[
+  {
+    "sale_date": "2026-08-10",
+    "sale_time": "00:00",
+    "name": "《大喜利王者 Season 1 正式開跑》",
+    "type": "其他藝文活動",
+    "performance_date": "2026-08-16 14:00",
+    "city": "台北市",
+    "venue": "Comedy Plus 卡米地＋",
+    "source_url": "https://comedyclub.kktix.cc/events/ohgiriseason10816",
+    "discovery": "kktix_search_index",
+    "scope": "taipei_only",
+    "note": "KKTIX listing 403，目前仍需搜尋索引或公開頁 fallback"
+  },
+  {
+    "sale_date": "2026-08-10",
+    "sale_time": "12:00",
+    "name": "尾巴音樂節 Tail Music Festival",
+    "type": "大型音樂祭",
+    "performance_date": "2026-09-25 ~ 2026-09-26",
+    "city": "台中市",
+    "venue": "烏日啤酒廠",
+    "source_url": "https://ilove78813.kktix.cc/events/tailmusicfest",
+    "discovery": "kktix_search_index",
+    "scope": "large_music_taiwan",
+    "note": "KKTIX listing 403，目前仍需搜尋索引或公開頁 fallback"
+  }
+]

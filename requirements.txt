@@ -1,0 +1,2 @@
+# Runtime dependencies
+# The scanner currently uses only the Python standard library.

@@ -1,0 +1,9 @@
+[project]
+name = "taiwan-event-radar"
+version = "0.1.0"
+description = "Scheduler-agnostic Taiwan event on-sale radar."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools]
+packages = ["taiwan_event_radar"]

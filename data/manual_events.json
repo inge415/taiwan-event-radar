@@ -1,0 +1,15 @@
+[
+  {
+    "sale_date": "2026-08-15",
+    "sale_time": "13:00",
+    "name": "2026 KIM MOO YUL 1st FANMEETING《마주：遇見》in Taipei",
+    "type": "Fan meeting",
+    "performance_date": "2026-09-06 18:00",
+    "city": "台北市",
+    "venue": "台北國際會議中心 TICC",
+    "source_url": "https://tixcraft.com/activity/detail/26_kimmooyul",
+    "discovery": "tixcraft_search_index",
+    "scope": "taipei_only",
+    "note": "直接抓取 401 時，以可索引公開資訊補足"
+  }
+]

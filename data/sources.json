@@ -1,0 +1,102 @@
+[
+  {
+    "name": "tixCraft 活動列表",
+    "url": "https://tixcraft.com/activity",
+    "kind": "listing"
+  },
+  {
+    "name": "年代售票活動列表",
+    "url": "https://ticket.com.tw/Application/UTK01/UTK0101_.aspx",
+    "kind": "listing"
+  },
+  {
+    "name": "年代售票演唱會",
+    "url": "https://ticket.com.tw/Application/UTK01/UTK0101_06.aspx?CATEGORY=205&TYPE=1",
+    "kind": "listing"
+  },
+  {
+    "name": "年代售票戲劇舞蹈",
+    "url": "https://ticket.com.tw/Application/UTK01/UTK0101_06.aspx?CATEGORY=116&TYPE=1",
+    "kind": "listing"
+  },
+  {
+    "name": "寬宏售票活動列表",
+    "url": "https://kham.com.tw/application/UTK01/UTK0101_.aspx",
+    "kind": "listing"
+  },
+  {
+    "name": "ibon 售票首頁",
+    "url": "https://ticket.ibon.com.tw/",
+    "kind": "listing"
+  },
+  {
+    "name": "udn 售票活動列表",
+    "url": "https://tickets.udnfunlife.com/application/UTK01/UTK0101_.aspx",
+    "kind": "listing"
+  },
+  {
+    "name": "OPENTIX 搜尋頁",
+    "url": "https://www.opentix.life/search",
+    "kind": "listing"
+  },
+  {
+    "name": "OPENTIX programs API",
+    "url": "https://csm.api.opentix.life/programs?page=1&rowCount=20&sortBy=LAUNCHED_DATE_TIME",
+    "kind": "api"
+  },
+  {
+    "name": "KKTIX 活動列表",
+    "url": "https://kktix.com/events",
+    "kind": "listing"
+  },
+  {
+    "name": "KKTIX fallback：尾巴音樂節公開頁",
+    "url": "https://ilove78813.kktix.cc/events/tailmusicfest",
+    "kind": "fallback_detail"
+  },
+  {
+    "name": "KKTIX fallback：大喜利王者公開頁",
+    "url": "https://comedyclub.kktix.cc/events/ohgiriseason10816",
+    "kind": "fallback_detail"
+  },
+  {
+    "name": "Ticket Plus mainEvents JSON",
+    "url": "https://apis.ticketplus.com.tw/config/api/v1/getS3?path=main/mainEvents.json",
+    "kind": "api"
+  },
+  {
+    "name": "YG BIGBANG 官方公告",
+    "url": "https://ygfamily.com/ko/news/notice/5882",
+    "kind": "official"
+  },
+  {
+    "name": "拓元 KIM MOO YUL 活動頁",
+    "url": "https://tixcraft.com/activity/detail/26_kimmooyul",
+    "kind": "detail"
+  },
+  {
+    "name": "MTV BIGBANG 新聞",
+    "url": "https://www.mtv.com.tw/news/newsdetail/13713",
+    "kind": "news"
+  },
+  {
+    "name": "Focus Taiwan BIGBANG 新聞",
+    "url": "https://focustaiwan.tw/culture/202607290014",
+    "kind": "news"
+  },
+  {
+    "name": "遠見 2026 演唱會整理",
+    "url": "https://www.gvm.com.tw/article/125822",
+    "kind": "news"
+  },
+  {
+    "name": "Yahoo 演唱會資訊 fallback",
+    "url": "https://tw.news.yahoo.com/2026%E6%BC%94%E5%94%B1%E6%9C%83%E8%B3%87%E8%A8%8A%E5%94%AE%E7%A5%A8%E6%97%A5%E6%9C%9F%E4%B8%80%E6%AC%A1%E7%9C%8B%EF%BC%81exo%E3%80%81%E6%BB%85%E7%81%AB%E5%99%A8%E3%80%81%E7%86%8A%E4%BB%94%E3%80%81%E7%9B%A7%E5%BB%A3%E4%BB%B2%E3%80%81%E5%84%AA%E9%87%8C%EF%BC%88%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0%EF%BC%89-015243643.html",
+    "kind": "news"
+  },
+  {
+    "name": "台北大巨蛋新聞公告",
+    "url": "https://www.arena.taipei/News.aspx?n=2E1489AFE4B1BEA1&sms=F9A95D3F5A5C2C68",
+    "kind": "venue"
+  }
+]
