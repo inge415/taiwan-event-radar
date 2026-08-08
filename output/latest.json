@@ -1,57 +1,28 @@
 {
-  "generated_at": "2026-08-09T04:11:06+08:00",
+  "generated_at": "2026-08-09T04:18:55+08:00",
   "scan_success": true,
   "coverage_ok": true,
-  "new_events": [
-    {
-      "id": "b64eb2a45c8bcec0",
-      "sale_date": "2026-08-08",
-      "sale_time": "20:00",
-      "name": "《向流星許願的我們》Keep Wishing｜Wishing Upon the Shooting Stars FAN MEETING in Taipei",
-      "type": "Fan meeting",
-      "performance_date": "2026-08-30",
-      "city": "台北市",
-      "venue": "三創生活園區12F 多元廳",
-      "source_url": "https://ticketplus.com.tw/activity/bb9948660136eaba30650c703af2ab12",
-      "discovery": "ticketplus_s3_event_json",
-      "scope": "taipei_only",
-      "note": ""
-    },
-    {
-      "id": "2725df060bfc7549",
-      "sale_date": "2026-08-08",
-      "sale_time": "20:00",
-      "name": "《向流星許願的我們》Keep Wishing｜Wishing Upon the Shooting Stars FAN MEETING in Taipei・福利加購",
-      "type": "Fan meeting",
-      "performance_date": "2026-08-30",
-      "city": "台北市",
-      "venue": "三創生活園區12F 多元廳",
-      "source_url": "https://ticketplus.com.tw/activity/038b85c4ac922e8c7e8217cf53597623",
-      "discovery": "ticketplus_s3_event_json",
-      "scope": "taipei_only",
-      "note": ""
-    }
-  ],
+  "new_events": [],
   "new_sale_info": [],
   "changed_events": [],
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-09T04:11:06+08:00",
+      "last_success_at": "2026-08-09T04:18:55+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
     },
     "Ticket Plus": {
       "status": "ok",
-      "last_success_at": "2026-08-09T04:11:06+08:00",
+      "last_success_at": "2026-08-09T04:18:55+08:00",
       "primary_method": "mainEvents/event JSON",
       "fallback_used": false,
       "error": ""
     },
     "KKTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-09T04:11:06+08:00",
+      "last_success_at": "2026-08-09T04:18:55+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -64,15 +35,15 @@
       "error": "HTTP 403"
     },
     "tixCraft": {
-      "status": "failed",
-      "last_success_at": "2026-08-09T03:52:25+08:00",
+      "status": "degraded",
+      "last_success_at": "2026-08-09T04:18:55+08:00",
       "primary_method": "activity listing",
       "fallback_used": true,
-      "error": "HTTP 403"
+      "error": ""
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-09T04:11:06+08:00",
+      "last_success_at": "2026-08-09T04:18:55+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""

@@ -54,6 +54,15 @@ EXCLUDE_HINTS = (
     "限量加購",
     "1元加購",
     "特典",
+    "福利加購",
+    "福利方案",
+    "加購商品",
+    "merchandise",
+    "周邊",
+    "升級方案",
+    "套票附加",
+    "附加項目",
+    "加購",
 )
 LARGE_MUSIC_TYPES = ("大型演唱會", "大型音樂祭", "大型音樂活動")
 LARGE_MUSIC_HINTS = (
@@ -944,6 +953,46 @@ def diff_events(previous_events: dict[str, dict[str, str]], current_events: dict
     return new_events, new_sale_info, changed_events
 
 
+def filter_actionable_notifications(events: list[dict[str, str]], scan_date: dt.date, generated_at: str) -> list[dict[str, str]]:
+    return [
+        event
+        for event in events
+        if sale_info_still_actionable(event, scan_date, generated_at) or has_fresh_announcement_hint(event)
+    ]
+
+
+def sale_info_still_actionable(event: dict[str, str], scan_date: dt.date, generated_at: str) -> bool:
+    sale_date = event.get("sale_date", "")
+    if not sale_date:
+        return True
+    try:
+        parsed_date = dt.date.fromisoformat(sale_date)
+    except ValueError:
+        return True
+    if parsed_date > scan_date:
+        return True
+    if parsed_date < scan_date:
+        return False
+    sale_time = event.get("sale_time", "")
+    if not sale_time:
+        return True
+    try:
+        hour, minute = [int(part) for part in sale_time.split(":", 1)]
+    except (ValueError, TypeError):
+        return True
+    try:
+        scan_datetime = dt.datetime.fromisoformat(generated_at)
+    except ValueError:
+        scan_datetime = dt.datetime.combine(scan_date, dt.time.max, tzinfo=TAIPEI_TZ)
+    sale_datetime = dt.datetime.combine(parsed_date, dt.time(hour, minute), tzinfo=TAIPEI_TZ)
+    return sale_datetime >= scan_datetime
+
+
+def has_fresh_announcement_hint(event: dict[str, str]) -> bool:
+    text = " ".join(str(event.get(key, "")) for key in ("name", "note", "discovery")).lower()
+    return any(token in text for token in ("官宣", "宣布", "今日", "今天", "加場", "公告", "public_web_news_search"))
+
+
 def build_latest(today: dt.date, save_state: bool = True, state_path: Path = STATE, simulate_previous: dict[str, Any] | None = None, force_source_failure: str = "") -> dict[str, Any]:
     generated_at = now_iso()
     previous = simulate_previous if simulate_previous is not None else read_json(state_path, {"events": {}, "source_health": {}})
@@ -955,6 +1004,8 @@ def build_latest(today: dt.date, save_state: bool = True, state_path: Path = STA
     coverage_ok = calculate_coverage_ok(source_health)
     current_events = make_snapshot(events)
     new_events, new_sale_info, changed_events = diff_events(previous.get("events", {}), current_events)
+    new_events = filter_actionable_notifications(new_events, today, generated_at)
+    new_sale_info = filter_actionable_notifications(new_sale_info, today, generated_at)
     latest = {
         "generated_at": generated_at,
         "scan_success": True,
