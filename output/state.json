@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T03:52:25+08:00",
+  "generated_at": "2026-08-09T04:11:06+08:00",
   "events": {
     "629aee72b8af64c2": {
       "id": "629aee72b8af64c2",
@@ -29,18 +29,32 @@
       "scope": "large_music_taiwan",
       "note": ""
     },
-    "83ffc756b84a0f66": {
-      "id": "83ffc756b84a0f66",
-      "sale_date": "2026-08-09",
-      "sale_time": "11:00",
-      "name": "2026 KIM JAE WON WORLD TOUR FANMEETING THE MOMENT WE MET - Episode 1 : \"The Present in Taipei\"",
-      "type": "大型演唱會",
-      "performance_date": "2026-08-30 ~ 2026-08-09",
+    "b64eb2a45c8bcec0": {
+      "id": "b64eb2a45c8bcec0",
+      "sale_date": "2026-08-08",
+      "sale_time": "20:00",
+      "name": "《向流星許願的我們》Keep Wishing｜Wishing Upon the Shooting Stars FAN MEETING in Taipei",
+      "type": "Fan meeting",
+      "performance_date": "2026-08-30",
       "city": "台北市",
-      "venue": "",
-      "source_url": "https://2sentertw.kktix.cc/events/b36e675c",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
+      "venue": "三創生活園區12F 多元廳",
+      "source_url": "https://ticketplus.com.tw/activity/bb9948660136eaba30650c703af2ab12",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    "2725df060bfc7549": {
+      "id": "2725df060bfc7549",
+      "sale_date": "2026-08-08",
+      "sale_time": "20:00",
+      "name": "《向流星許願的我們》Keep Wishing｜Wishing Upon the Shooting Stars FAN MEETING in Taipei・福利加購",
+      "type": "Fan meeting",
+      "performance_date": "2026-08-30",
+      "city": "台北市",
+      "venue": "三創生活園區12F 多元廳",
+      "source_url": "https://ticketplus.com.tw/activity/038b85c4ac922e8c7e8217cf53597623",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "taipei_only",
       "note": ""
     },
     "855d9f9c190bf467": {
@@ -253,20 +267,6 @@
       "scope": "taipei_only",
       "note": ""
     },
-    "7936593420b913bb": {
-      "id": "7936593420b913bb",
-      "sale_date": "2026-10-03",
-      "sale_time": "18:00",
-      "name": "【會員優先購、全面啟售】2026 SUPER JUNIOR-83z FANCON TOUR [1983] in KAOHSIUNG",
-      "type": "大型演唱會",
-      "performance_date": "2026-10-03 ~ 2026-07-06",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://chuanyeah.kktix.cc/events/080cefdf",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
     "64c356500e06080c": {
       "id": "64c356500e06080c",
       "sale_date": "2026-10-17",
@@ -313,21 +313,21 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-09T03:52:25+08:00",
+      "last_success_at": "2026-08-09T04:11:06+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
     },
     "Ticket Plus": {
       "status": "ok",
-      "last_success_at": "2026-08-09T03:52:25+08:00",
+      "last_success_at": "2026-08-09T04:11:06+08:00",
       "primary_method": "mainEvents/event JSON",
       "fallback_used": false,
       "error": ""
     },
     "KKTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-09T03:52:25+08:00",
+      "last_success_at": "2026-08-09T04:11:06+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -340,15 +340,15 @@
       "error": "HTTP 403"
     },
     "tixCraft": {
-      "status": "degraded",
+      "status": "failed",
       "last_success_at": "2026-08-09T03:52:25+08:00",
       "primary_method": "activity listing",
       "fallback_used": true,
-      "error": ""
+      "error": "HTTP 403"
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-09T03:52:25+08:00",
+      "last_success_at": "2026-08-09T04:11:06+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
