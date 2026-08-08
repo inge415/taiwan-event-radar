@@ -253,16 +253,30 @@ def date_in_next_days(date_value: str, today: dt.date, days: int = 90) -> bool:
     return today <= parsed <= today + dt.timedelta(days=days)
 
 
-def parse_sale_from_text(text: str) -> tuple[str, str]:
+def event_is_upcoming(event: dict[str, str], today: dt.date, days: int = 180) -> bool:
+    if event.get("sale_date"):
+        return date_in_next_days(event.get("sale_date", ""), today, days=days)
+    performance = event.get("performance_date", "")
+    for date_text in re.findall(r"20\d{2}-\d{2}-\d{2}", performance):
+        if date_in_next_days(date_text, today, days=days):
+            return True
+    return not performance
+
+
+def parse_sale_from_text(text: str, default_year: int | None = None) -> tuple[str, str]:
     for keyword in SALE_KEYWORDS:
         for match in re.finditer(re.escape(keyword), text, flags=re.IGNORECASE):
             start = max(0, match.start() - 120)
             end = min(len(text), match.end() + 120)
             window = text[start:end]
+            if default_year is not None:
+                flexible_match = nearest_flexible_date(window, match.start() - start, default_year)
+                if flexible_match:
+                    date_text, date_end = flexible_match
+                    return date_text, parse_time_near_date(window, date_end)
             date_match = nearest_date(window, match.start() - start)
-            if not date_match:
-                continue
-            return normalize_date(date_match.group(0)), parse_time_near_date(window, date_match.end())
+            if date_match:
+                return normalize_date(date_match.group(0)), parse_time_near_date(window, date_match.end())
     return "", ""
 
 
@@ -385,6 +399,27 @@ def event_id(event: dict[str, str]) -> str:
         return hashlib.sha1(url.encode("utf-8")).hexdigest()[:16]
     key = compact_space(event.get("name", "")).lower()
     return hashlib.sha1(key.encode("utf-8")).hexdigest()[:16]
+
+
+def content_event_id(event: dict[str, str]) -> str:
+    key = "|".join(
+        compact_space(event.get(field, "")).lower()
+        for field in ("name", "performance_date", "city", "venue")
+    )
+    return hashlib.sha1(f"content:{key}".encode("utf-8")).hexdigest()[:16]
+
+
+def exhibition_content_event_id(event: dict[str, str]) -> str:
+    name = compact_space(event.get("name", "")).replace("臺", "台")
+    name = re.split(r"[、；;]", name, maxsplit=1)[0]
+    key = "|".join(
+        (
+            name.lower(),
+            compact_space(event.get("performance_date", "")).lower(),
+            compact_space(event.get("city", "")).lower(),
+        )
+    )
+    return hashlib.sha1(f"exhibition:{key}".encode("utf-8")).hexdigest()[:16]
 
 
 def normalize_event(event: dict[str, str]) -> dict[str, str]:
@@ -697,6 +732,9 @@ def discover_public_web_news(today: dt.date) -> SourceRun:
         "台灣 音樂祭 開賣 售票 公告 2026",
         "台北 音樂劇 舞台劇 開賣 售票 2026",
         "台北 展覽 藝術節 開賣 售票 2026",
+        "台北 特展 展期 開展 2026",
+        "台北 展覽 即將登場 展期",
+        "台北 藝術展 展出 展期 2026",
         "藝人 來台 活動 售票 公告 2026",
         "加場 正式開賣 台灣 演唱會 2026",
         "site:news.yahoo.com 台灣 演唱會 開賣 售票",
@@ -715,10 +753,13 @@ def discover_public_web_news(today: dt.date) -> SourceRun:
         unique_items.setdefault(link, {**item, "link": link})
     run.discovery_count = len(unique_items)
     for item in unique_items.values():
-        event = public_search_item_to_event(item)
+        for event in exhibition_events_from_search_item(item, today):
+            if event_is_upcoming(event, today, days=240):
+                run.events.append(event)
+        event = public_search_item_to_event(item, today)
         if not event:
             continue
-        if date_in_next_days(event.get("sale_date", ""), today, days=180):
+        if event_is_upcoming(event, today, days=180):
             run.events.append(event)
     if not run.primary_ok:
         run.error = run.error or "all public search queries failed"
@@ -729,6 +770,8 @@ def discover_performing_arts_web(today: dt.date) -> SourceRun:
     run = SourceRun("Performing Arts Web", "Bing RSS taxonomy search + public pages")
     mna_events = discover_mna_performing_arts(run, today)
     run.events.extend(mna_events)
+    exhibition_schedule_events = discover_taipei_exhibition_schedules(run, today)
+    run.events.extend(exhibition_schedule_events)
     queries = [
         "台北 音樂會 全面啟售 2026",
         "台北 古典 音樂會 售票 2026",
@@ -737,6 +780,9 @@ def discover_performing_arts_web(today: dt.date) -> SourceRun:
         "台北 歌劇 芭蕾 舞團 售票 2026",
         "台北 戲劇 音樂劇 全面啟售 2026",
         "台北 展覽 藝術節 售票 2026",
+        "台北 特展 展期 開展 2026",
+        "台北 展覽 即將登場 展期",
+        "台北 藝術展 展出 展期 2026",
         "訪台 來台演出 登台 指揮 獨奏 音樂會",
         "site:ticket.mna.com.tw 音樂會 全面啟售 臺北",
         "site:mna.com.tw 音樂會 訪台 售票",
@@ -756,14 +802,184 @@ def discover_performing_arts_web(today: dt.date) -> SourceRun:
         unique_items.setdefault(link, {**item, "link": link})
     run.discovery_count = len(unique_items)
     for item in unique_items.values():
+        for event in exhibition_events_from_search_item(item, today):
+            if event_is_upcoming(event, today, days=240):
+                run.events.append(event)
         event = performing_arts_search_item_to_event(item, today)
         if not event:
             continue
-        if date_in_next_days(event.get("sale_date", ""), today, days=240):
+        if event_is_upcoming(event, today, days=240):
             run.events.append(event)
     if not run.primary_ok:
         run.error = run.error or "all performing arts search queries failed"
     return run
+
+
+def discover_taipei_exhibition_schedules(run: SourceRun, today: dt.date) -> list[dict[str, str]]:
+    sources = [
+        ("TaiNEX exhibition schedule", "https://www.tainex.com.tw/event", parse_tainex_exhibition_schedule),
+        ("TWTC exhibition schedule", "https://www.twtc.com.tw/exhibition", parse_twtc_exhibition_schedule),
+    ]
+    events: list[dict[str, str]] = []
+    for name, url, parser in sources:
+        ok, body, status, size = fetch(url, timeout=20)
+        run.records.append(FetchRecord(name, url, ok, status, size))
+        run.primary_ok = run.primary_ok or ok
+        if not ok:
+            run.detail_failures += 1
+            run.error = run.error or status
+            continue
+        parsed = parser(visible_text(body), url, today.year)
+        run.discovery_count += len(parsed)
+        for event in parsed:
+            if event_is_upcoming(event, today, days=240):
+                events.append(event)
+    return events
+
+
+def parse_tainex_exhibition_schedule(text: str, source_url: str, default_year: int) -> list[dict[str, str]]:
+    events: list[dict[str, str]] = []
+    pattern = re.compile(
+        r"(?:[12]館(?:\s+[12]館)?\s+)?(?P<year>20\d{2})\s+"
+        r"(?P<start>\d{2}/\d{2})\([^)]+\)-(?P<end>\d{2}/\d{2})\([^)]+\)\s+"
+        r"(?P<name>.*?)\s+地點：(?P<venue>.*?)(?=(?:\s+[12]館(?:\s+[12]館)?\s+20\d{2}\s+\d{2}/\d{2}|南港展覽館1館|$))"
+    )
+    for match in pattern.finditer(text):
+        event = exhibition_schedule_event(
+            clean_exhibition_name(match.group("name")),
+            match.group("start"),
+            match.group("end"),
+            compact_space(match.group("venue")) or "台北南港展覽館",
+            source_url,
+            int(match.group("year") or default_year),
+            "tainex_public_schedule",
+        )
+        if event:
+            events.append(event)
+    return events
+
+
+def parse_twtc_exhibition_schedule(text: str, source_url: str, default_year: int) -> list[dict[str, str]]:
+    events: list[dict[str, str]] = []
+    pattern = re.compile(
+        r"(?P<start>\d{2}/\d{2})\s*~\s*(?P<end>\d{2}/\d{2})\s+"
+        r"(?P<name>.*?)\s+more\s+.*?\s+(?P<venue>南港展覽館\d?館|世貿一館)"
+        r"(?=\s+\d{2}/\d{2}\s*~|\s*$)"
+    )
+    for match in pattern.finditer(text):
+        event = exhibition_schedule_event(
+            clean_exhibition_name(match.group("name")),
+            match.group("start"),
+            match.group("end"),
+            compact_space(match.group("venue")),
+            source_url,
+            default_year,
+            "twtc_public_schedule",
+        )
+        if event:
+            events.append(event)
+    return events
+
+
+def exhibition_schedule_event(
+    name: str,
+    start_text: str,
+    end_text: str,
+    venue: str,
+    source_url: str,
+    default_year: int,
+    discovery: str,
+) -> dict[str, str] | None:
+    dates = parse_flexible_dates(f"{start_text} {end_text}", default_year)
+    if not name or len(dates) < 2 or not exhibition_schedule_name_is_relevant(name):
+        return None
+    event = {
+        "sale_date": "",
+        "sale_time": "",
+        "name": name,
+        "type": "展覽",
+        "performance_date": f"{dates[0]} ~ {dates[1]}",
+        "city": "台北市",
+        "venue": venue,
+        "source_url": source_url,
+        "discovery": discovery,
+        "scope": "taipei_only",
+        "note": "public venue exhibition schedule",
+    }
+    event["id"] = exhibition_content_event_id(event)
+    return event
+
+
+def exhibition_schedule_name_is_relevant(name: str) -> bool:
+    exclude_hints = (
+        "職涯",
+        "就業",
+        "自動化",
+        "半導體",
+        "機器人",
+        "工業",
+        "冷鏈",
+        "物流",
+        "物聯網",
+        "流體傳動",
+        "模具",
+        "五金",
+        "金屬材料",
+        "電路板",
+        "雷射",
+        "3D列印",
+        "積層製造",
+        "塑橡膠",
+        "智慧能源",
+        "淨零永續",
+        "水週",
+        "醫療科技",
+        "建築建材",
+        "建築",
+        "建材",
+        "照顧博覽會",
+        "健康",
+        "寵物",
+        "兩棲",
+        "爬蟲",
+        "3C",
+        "電腦",
+        "電器",
+        "空調",
+        "創新技術",
+        "留學",
+        "連鎖加盟",
+        "戶外用品",
+        "紡織",
+        "美容",
+        "美甲",
+        "美髮",
+    )
+    if any(hint in name for hint in exclude_hints):
+        return False
+    include_hints = (
+        "藝術",
+        "文創",
+        "文化",
+        "創意",
+        "設計",
+        "攝影",
+        "影音",
+        "書展",
+        "漫畫",
+        "動漫",
+        "玩具",
+        "旅展",
+        "食品",
+        "咖啡",
+        "茶",
+        "酒展",
+        "陶瓷",
+        "工藝",
+        "博覽會",
+        "展",
+    )
+    return any(hint in name for hint in include_hints)
 
 
 def discover_mna_performing_arts(run: SourceRun, today: dt.date) -> list[dict[str, str]]:
@@ -787,7 +1003,7 @@ def discover_mna_performing_arts(run: SourceRun, today: dt.date) -> list[dict[st
         if not event:
             run.detail_failures += 1
             continue
-        if date_in_next_days(event.get("sale_date", ""), today, days=240):
+        if event_is_upcoming(event, today, days=240):
             events.append(event)
     return events
 
@@ -882,7 +1098,134 @@ def performing_arts_search_item_to_event(item: dict[str, str], today: dt.date) -
     }
     if not event["name"]:
         return None
+    if not sale_date and not has_unsold_event_minimum(event):
+        return None
+    event["id"] = content_event_id(event)
     return event
+
+
+def exhibition_events_from_search_item(item: dict[str, str], today: dt.date) -> list[dict[str, str]]:
+    title = compact_space(item.get("title", ""))
+    description = compact_space(item.get("description", ""))
+    link = item.get("link", "")
+    text = f"{title} {description}"
+    lower_link = link.lower()
+    if not any(domain in lower_link for domain in ("travel.taipei", "kje.com.tw", "twtc.com.tw", "twtc.org.tw")):
+        return []
+    if any(noise in text for noise in ("總整理", "旅遊攻略", "懶人包", "票券列表")):
+        return []
+    events: list[dict[str, str]] = []
+    events.extend(exhibition_events_from_full_date_listing(text, link))
+    events.extend(exhibition_events_from_named_period_listing(text, link, today.year))
+    deduped: dict[str, dict[str, str]] = {}
+    for event in events:
+        deduped[event["id"]] = event
+    return list(deduped.values())
+
+
+def exhibition_events_from_full_date_listing(text: str, source_url: str) -> list[dict[str, str]]:
+    events: list[dict[str, str]] = []
+    date_first_pattern = re.compile(
+        r"(?P<start>20\d{2}-\d{2}-\d{2})\s*[～~-]\s*(?P<end>20\d{2}-\d{2}-\d{2})\s*"
+        r"(?P<name>[^*#|。；\n]{4,90}?)(?=(?:20\d{2}-\d{2}-\d{2}|\d{3}\s*臺北市|\d{3}\s*台北市|$))"
+    )
+    name_first_pattern = re.compile(
+        r"(?P<name>[^*#|。；\n\d]{4,90}?)\s*"
+        r"(?P<start>20\d{2}-\d{2}-\d{2})\s*[～~-]\s*(?P<end>20\d{2}-\d{2}-\d{2})"
+    )
+    for match in list(date_first_pattern.finditer(text)) + list(name_first_pattern.finditer(text)):
+        name = clean_exhibition_name(match.group("name"))
+        if not name:
+            continue
+        context = text[match.start() : min(len(text), match.end() + 160)]
+        venue = parse_venue_from_text(context)
+        city = city_from_text(context) or "台北市"
+        event = {
+            "sale_date": "",
+            "sale_time": "",
+            "name": name,
+            "type": "展覽",
+            "performance_date": f"{match.group('start')} ~ {match.group('end')}",
+            "city": city,
+            "venue": venue,
+            "source_url": source_url,
+            "discovery": "exhibition_search_listing",
+            "scope": "taipei_only",
+            "note": "public indexed exhibition listing",
+        }
+        event["id"] = content_event_id(event)
+        events.append(event)
+    return events
+
+
+def exhibition_events_from_named_period_listing(text: str, source_url: str, default_year: int) -> list[dict[str, str]]:
+    events: list[dict[str, str]] = []
+    pattern = re.compile(
+        r"(?:###\s*)?(?P<name>[^。；\n]{4,90}?)\s*展覽期間\s*"
+        r"(?P<start>20\d{2}-\d{2}-\d{2})\s*[~～-]\s*(?P<end>20\d{2}-\d{2}-\d{2})"
+        r"(?:\s*展出地點\s*(?P<venue>[^。；\n]{2,40}))?"
+    )
+    for match in pattern.finditer(text):
+        name = clean_exhibition_name(match.group("name"))
+        if not name:
+            continue
+        venue = compact_space(match.group("venue") or parse_venue_from_text(match.group(0)))
+        city = city_from_text(venue) or city_from_text(match.group(0)) or "台北市"
+        event = {
+            "sale_date": "",
+            "sale_time": "",
+            "name": name,
+            "type": "展覽",
+            "performance_date": f"{match.group('start')} ~ {match.group('end')}",
+            "city": city,
+            "venue": venue,
+            "source_url": source_url,
+            "discovery": "exhibition_search_listing",
+            "scope": "taipei_only",
+            "note": "public indexed exhibition listing",
+        }
+        event["id"] = content_event_id(event)
+        events.append(event)
+    twtc_pattern = re.compile(
+        r"(?P<start>\d{2}/\d{2})\s*~\s*(?P<end>\d{2}/\d{2})\s*\|\s*(?P<name>[^|。；\n]{4,90})"
+    )
+    for match in twtc_pattern.finditer(text):
+        name = clean_exhibition_name(match.group("name"))
+        dates = parse_flexible_dates(f"{match.group('start')} {match.group('end')}", default_year)
+        if not name or len(dates) < 2:
+            continue
+        context = text[match.start() : min(len(text), match.end() + 120)]
+        venue = parse_venue_from_text(context)
+        city = city_from_text(context) or "台北市"
+        event = {
+            "sale_date": "",
+            "sale_time": "",
+            "name": name,
+            "type": "展覽",
+            "performance_date": f"{dates[0]} ~ {dates[1]}",
+            "city": city,
+            "venue": venue,
+            "source_url": source_url,
+            "discovery": "exhibition_search_listing",
+            "scope": "taipei_only",
+            "note": "public indexed exhibition listing",
+        }
+        event["id"] = content_event_id(event)
+        events.append(event)
+    return events
+
+
+def clean_exhibition_name(name: str) -> str:
+    name = compact_space(name)
+    name = re.sub(r"^(?:\*|###|Image|Button|活動展演|展覽資訊|more)\s*", "", name, flags=re.IGNORECASE)
+    name = re.sub(r"\s*(?:more|了解更多|立即索票).*$", "", name, flags=re.IGNORECASE)
+    if any(noise in name for noise in ("共有", "排序", "選擇", "全部", "列表模式")):
+        return ""
+    if re.match(r"^\d{3}\s*[臺台]北市", name) or re.search(r"[臺台]北市\S{0,12}[路街段巷號]", name):
+        return ""
+    if len(name) < 4:
+        return ""
+    return name[:120]
 
 
 def performing_arts_item_is_relevant(text: str) -> bool:
@@ -932,9 +1275,15 @@ def performing_arts_item_is_relevant(text: str) -> bool:
         "宣布",
     )
     place_hints = ("台北", "臺北", "taipei", "國家音樂廳", "國家戲劇院", "表演藝術中心", "松菸", "北美館")
+    lifecycle_hints = ("展期", "開展", "展出", "展覽期間", "活動日期", "演出日期", "即將登場")
+    has_lifecycle_signal = (
+        any(hint in lower for hint in lifecycle_hints)
+        and any(hint.lower() in lower for hint in place_hints)
+        and has_flexible_date_text(text)
+    )
     return (
         any(hint in lower for hint in type_hints)
-        and any(hint.lower() in lower for hint in action_hints)
+        and (any(hint.lower() in lower for hint in action_hints) or has_lifecycle_signal)
         and any(hint.lower() in lower for hint in place_hints)
     )
 
@@ -979,6 +1328,8 @@ def nearest_flexible_date(text: str, center: int, default_year: int) -> tuple[st
     year = int(match.group(1) or default_year)
     month = int(match.group(2))
     day = int(match.group(3))
+    if not valid_date_parts(year, month, day):
+        return None
     return f"{year:04d}-{month:02d}-{day:02d}", match.end()
 
 
@@ -991,7 +1342,10 @@ def parse_performing_arts_performance(text: str, default_year: int) -> str:
             window,
         ):
             year = int(date_match.group(1) or default_year)
-            normalized.append(f"{year:04d}-{int(date_match.group(2)):02d}-{int(date_match.group(3)):02d}")
+            month = int(date_match.group(2))
+            day = int(date_match.group(3))
+            if valid_date_parts(year, month, day):
+                normalized.append(f"{year:04d}-{month:02d}-{day:02d}")
     normalized = sorted(dict.fromkeys(normalized))
     if len(normalized) >= 2:
         return f"{normalized[0]} ~ {normalized[1]}"
@@ -1113,15 +1467,16 @@ def normalize_performance_text(value: str) -> str:
     return value
 
 
-def public_search_item_to_event(item: dict[str, str]) -> dict[str, str] | None:
+def public_search_item_to_event(item: dict[str, str], today: dt.date | None = None) -> dict[str, str] | None:
+    today = today or dt.date.today()
     title = compact_space(item.get("title", ""))
     description = compact_space(item.get("description", ""))
     link = item.get("link", "")
     text = f"{title} {description}"
     if not public_item_is_relevant(text):
         return None
-    sale_date, sale_time = parse_sale_from_text(text)
-    performance = parse_performance_from_text(text)
+    sale_date, sale_time = parse_sale_from_text(text, today.year)
+    performance = parse_performance_from_text(text, today.year)
     venue = parse_venue_from_text(text)
     city = city_from_text(text)
     event_type = classify_event(title, "", venue)
@@ -1140,6 +1495,9 @@ def public_search_item_to_event(item: dict[str, str]) -> dict[str, str] | None:
     }
     if not event["name"]:
         return None
+    if not sale_date and not has_unsold_event_minimum(event):
+        return None
+    event["id"] = content_event_id(event)
     return event
 
 
@@ -1157,6 +1515,10 @@ def public_item_is_relevant(text: str) -> bool:
         "寬宏售票",
         "年代售票",
         "ibon售票",
+        "旅遊攻略",
+        "懶人包",
+        "必看展覽",
+        "熱門展覽",
     )
     if any(noise.lower() in lower for noise in generic_noise):
         return False
@@ -1169,6 +1531,10 @@ def public_item_is_relevant(text: str) -> bool:
         "音樂劇",
         "舞台劇",
         "展覽",
+        "特展",
+        "開展",
+        "展期",
+        "展出",
         "藝術節",
         "來台",
         "live in taipei",
@@ -1179,10 +1545,16 @@ def public_item_is_relevant(text: str) -> bool:
     )
     place_hints = ("台灣", "臺灣", "台北", "臺北", "高雄", "台中", "臺中", "taipei", "kaohsiung", "taiwan")
     concrete_hints = ("開賣", "售票", "加場", "公告", "宣布", "登台", "來台", "live in", "tour in", "fan meeting", "fan concert")
+    lifecycle_hints = ("展期", "開展", "展出", "展覽期間", "活動日期", "演出日期", "即將登場")
+    has_lifecycle_signal = (
+        any(hint in lower for hint in lifecycle_hints)
+        and any(hint.lower() in lower for hint in place_hints)
+        and has_flexible_date_text(text)
+    )
     return (
         any(hint in lower for hint in event_hints)
         and any(hint.lower() in lower for hint in place_hints)
-        and any(hint.lower() in lower for hint in concrete_hints)
+        and (any(hint.lower() in lower for hint in concrete_hints) or has_lifecycle_signal)
     )
 
 
@@ -1230,24 +1602,29 @@ def parse_public_event_pages(urls: list[str], run: SourceRun, discovery: str, to
         if not ok:
             run.detail_failures += 1
             continue
-        event = event_from_public_page(url, body, discovery)
+        event = event_from_public_page(url, body, discovery, today)
         if not event:
             run.detail_failures += 1
             continue
-        if event and date_in_next_days(event.get("sale_date", ""), today):
+        if event and event_is_upcoming(event, today):
             events.append(event)
     return events
 
 
-def event_from_public_page(url: str, body: str, discovery: str) -> dict[str, str] | None:
+def event_from_public_page(url: str, body: str, discovery: str, today: dt.date | None = None) -> dict[str, str] | None:
+    today = today or dt.date.today()
     text = visible_text(body)
     title = parse_title(body) or text[:80]
-    sale_date, sale_time = parse_sale_from_text(text)
-    performance = parse_performance_from_text(text)
+    sale_date, sale_time = parse_sale_from_text(text, today.year)
+    performance = parse_performance_from_text(text, today.year)
     venue = parse_venue_from_text(text)
     city = city_from_text(text)
     event_type = classify_event(title, "", venue)
-    if not sale_date and not any(token in text for token in SALE_KEYWORDS):
+    if not public_item_is_relevant(f"{title} {text[:1000]}"):
+        return None
+    if not sale_date and not has_unsold_event_minimum(
+        {"performance_date": performance, "city": city, "venue": venue, "type": event_type}
+    ):
         return None
     return {
         "sale_date": sale_date,
@@ -1277,10 +1654,14 @@ def parse_title(body: str) -> str:
     return ""
 
 
-def parse_performance_from_text(text: str) -> str:
+def parse_performance_from_text(text: str, default_year: int | None = None) -> str:
     dates = re.findall(r"20\d{2}[./-]\d{1,2}[./-]\d{1,2}(?:\s+\d{1,2}:\d{2})?", text)
     normalized = [normalize_date(item) for item in dates]
     normalized = [item for item in normalized if item]
+    if default_year is not None:
+        context_dates = parse_context_dates(text, default_year)
+        if context_dates:
+            normalized = context_dates
     unique = list(dict.fromkeys(normalized))
     if len(unique) >= 2:
         return f"{unique[0]} ~ {unique[1]}"
@@ -1289,8 +1670,68 @@ def parse_performance_from_text(text: str) -> str:
     return ""
 
 
+def parse_context_dates(text: str, default_year: int) -> list[str]:
+    contexts: list[str] = []
+    for match in re.finditer(
+        r"(?:展期|展覽期間|展出期間|展出日期|活動日期|演出日期|開展|展出|開幕)[:：]?\s*([^。；;\n]{0,120})",
+        text,
+    ):
+        contexts.append(match.group(1))
+    for match in re.finditer(
+        r"([^。；;\n]{0,60})\s*(?:開展|展出|開幕|即將登場)",
+        text,
+    ):
+        contexts.append(match.group(1))
+    dates: list[str] = []
+    for context in contexts:
+        dates.extend(parse_flexible_dates(context, default_year))
+    return sorted(dict.fromkeys(dates))
+
+
+def parse_flexible_dates(text: str, default_year: int) -> list[str]:
+    dates: list[str] = []
+    for match in re.finditer(
+        r"(?:(20\d{2})\s*[./年/-]\s*)?(\d{1,2})\s*(?:[./月/-]|月)\s*(\d{1,2})\s*(?:日|號)?",
+        text,
+    ):
+        year = int(match.group(1) or default_year)
+        month = int(match.group(2))
+        day = int(match.group(3))
+        if valid_date_parts(year, month, day):
+            dates.append(f"{year:04d}-{month:02d}-{day:02d}")
+    return dates
+
+
+def valid_date_parts(year: int, month: int, day: int) -> bool:
+    try:
+        dt.date(year, month, day)
+    except ValueError:
+        return False
+    return True
+
+
+def has_flexible_date_text(text: str) -> bool:
+    return bool(
+        re.search(
+            r"(?:(20\d{2})\s*[./年/-]\s*)?\d{1,2}\s*(?:[./月/-]|月)\s*\d{1,2}\s*(?:日|號)?",
+            text,
+        )
+    )
+
+
+def has_unsold_event_minimum(event: dict[str, str]) -> bool:
+    if not event.get("performance_date"):
+        return False
+    if not (event.get("city") or event.get("venue")):
+        return False
+    return event.get("type") not in ("", "其他藝文活動")
+
+
 def parse_venue_from_text(text: str) -> str:
-    venue_match = re.search(r"(台北國際會議中心|臺北大巨蛋|台北大巨蛋|Legacy Taipei|Zepp New Taipei|Comedy Plus[^ ]*|烏日啤酒廠|高雄國家體育場)", text)
+    venue_match = re.search(
+        r"(台北國際會議中心|臺北大巨蛋|台北大巨蛋|Legacy Taipei|Zepp New Taipei|Comedy Plus[^ ]*|烏日啤酒廠|高雄國家體育場|臺北市立美術館|台北市立美術館|北美館|松山文創園區|松菸|華山1914文化創意產業園區|華山文創園區|華山|國立臺灣博物館|國立台灣博物館|臺北當代藝術館|台北當代藝術館|台北世貿一館|臺北世貿一館|世貿一館|台北南港展覽館|臺北南港展覽館|南港展覽館[^ ]*|花博爭豔館|圓山花博|台北喜來登大飯店[^ ]*)",
+        text,
+    )
     return venue_match.group(1) if venue_match else ""
 
 
