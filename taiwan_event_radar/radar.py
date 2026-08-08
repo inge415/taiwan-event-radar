@@ -308,22 +308,41 @@ def classify_event(name: str, category: str = "", venue: str = "") -> str:
     text = f"{name} {category} {venue}".lower()
     if "音樂祭" in text:
         return "大型音樂祭"
-    if any(token in text for token in ("巨蛋", "stadium", "arena", "world tour")):
-        return "大型演唱會"
-    if "演唱會" in text or "concert" in text or "tour" in text:
-        return "大型演唱會"
     if "fan meeting" in text or "fan concert" in text or "見面會" in text:
         return "Fan meeting"
     if "音樂劇" in text:
         return "音樂劇"
     if "舞台劇" in text or "劇場" in text:
         return "舞台劇"
-    if "舞蹈" in text or "dance" in text:
-        return "舞蹈"
-    if "古典" in text or "交響" in text or "管弦" in text:
-        return "古典音樂"
     if "歌劇" in text or "戲曲" in text:
         return "歌劇 / 戲曲"
+    if "芭蕾" in text or "舞團" in text or "舞蹈" in text or "dance" in text or "ballet" in text:
+        return "舞蹈"
+    classical_hints = (
+        "音樂會",
+        "音樂廳",
+        "國家兩廳院",
+        "古典",
+        "交響",
+        "管弦",
+        "愛樂",
+        "指揮",
+        "獨奏",
+        "協奏曲",
+        "室內樂",
+        "合唱",
+        "orchestra",
+        "philharmonic",
+        "symphony",
+        "recital",
+        "concerto",
+    )
+    if any(token in text for token in classical_hints):
+        return "古典音樂"
+    if any(token in text for token in ("巨蛋", "stadium", "arena", "world tour")):
+        return "大型演唱會"
+    if "演唱會" in text or "concert" in text or "tour" in text:
+        return "大型演唱會"
     if "展" in text:
         return "展覽"
     return category or "其他藝文活動"
@@ -706,6 +725,308 @@ def discover_public_web_news(today: dt.date) -> SourceRun:
     return run
 
 
+def discover_performing_arts_web(today: dt.date) -> SourceRun:
+    run = SourceRun("Performing Arts Web", "Bing RSS taxonomy search + public pages")
+    mna_events = discover_mna_performing_arts(run, today)
+    run.events.extend(mna_events)
+    queries = [
+        "台北 音樂會 全面啟售 2026",
+        "台北 古典 音樂會 售票 2026",
+        "台北 交響 管弦 愛樂 音樂會 售票",
+        "台北 指揮 獨奏 訪台 音樂會 售票",
+        "台北 歌劇 芭蕾 舞團 售票 2026",
+        "台北 戲劇 音樂劇 全面啟售 2026",
+        "台北 展覽 藝術節 售票 2026",
+        "訪台 來台演出 登台 指揮 獨奏 音樂會",
+        "site:ticket.mna.com.tw 音樂會 全面啟售 臺北",
+        "site:mna.com.tw 音樂會 訪台 售票",
+        "site:udnfunlife.com 音樂會 全面啟售 台北",
+        "site:tpf.org.tw 音樂節 音樂會 全面啟售",
+        "site:gov.taipei 音樂會 啟售 臺北",
+    ]
+    items: list[dict[str, str]] = []
+    for query in queries:
+        items.extend(bing_rss_items(query, run, limit=8))
+    run.primary_ok = any(record.ok for record in run.records)
+    unique_items: dict[str, dict[str, str]] = {}
+    for item in items:
+        link = unique_urls([item.get("link", "")])[0] if item.get("link") else ""
+        if not link:
+            continue
+        unique_items.setdefault(link, {**item, "link": link})
+    run.discovery_count = len(unique_items)
+    for item in unique_items.values():
+        event = performing_arts_search_item_to_event(item, today)
+        if not event:
+            continue
+        if date_in_next_days(event.get("sale_date", ""), today, days=240):
+            run.events.append(event)
+    if not run.primary_ok:
+        run.error = run.error or "all performing arts search queries failed"
+    return run
+
+
+def discover_mna_performing_arts(run: SourceRun, today: dt.date) -> list[dict[str, str]]:
+    listing_url = "https://ticket.mna.com.tw/UTK0102_?TYPE=0"
+    ok, body, status, size = fetch(listing_url, timeout=20)
+    run.records.append(FetchRecord("MNA event overview", listing_url, ok, status, size))
+    run.primary_ok = run.primary_ok or ok
+    if not ok:
+        run.error = run.error or status
+        return []
+    urls = extract_mna_detail_urls(body, listing_url)
+    run.discovery_count += len(urls)
+    events: list[dict[str, str]] = []
+    for url in urls[:80]:
+        detail_ok, detail_body, detail_status, detail_size = fetch(url, timeout=20)
+        run.records.append(FetchRecord("MNA event detail", url, detail_ok, detail_status, detail_size))
+        if not detail_ok:
+            run.detail_failures += 1
+            continue
+        event = event_from_mna_page(url, detail_body, today)
+        if not event:
+            run.detail_failures += 1
+            continue
+        if date_in_next_days(event.get("sale_date", ""), today, days=240):
+            events.append(event)
+    return events
+
+
+def extract_mna_detail_urls(body: str, base_url: str) -> list[str]:
+    urls: list[str] = []
+    for match in re.finditer(r'href=["\']([^"\']*(?:UTK0201_[^"\']*PRODUCT_ID=[A-Z0-9]+|PRODUCT_ID=[A-Z0-9]+)[^"\']*)["\']', body, flags=re.IGNORECASE):
+        href = html.unescape(match.group(1))
+        urls.append(urllib.parse.urljoin(base_url, href))
+    for match in re.finditer(r"(?:PRODUCT_ID=)([A-Z0-9]+)", body, flags=re.IGNORECASE):
+        urls.append(f"https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID={match.group(1)}")
+    return unique_urls(urls)
+
+
+def event_from_mna_page(url: str, body: str, today: dt.date) -> dict[str, str] | None:
+    text = visible_text(body)
+    title = parse_title(body) or first_heading_from_text(text)
+    if not title:
+        return None
+    sale_date, sale_time = parse_performing_arts_sale(text, today.year)
+    if not sale_date:
+        return None
+    performance = parse_mna_performance(text, today.year) or parse_performing_arts_performance(text, today.year)
+    venue = parse_performing_arts_venue(text) or parse_venue_from_text(text)
+    event_type = classify_event(title, "", venue)
+    return {
+        "sale_date": sale_date,
+        "sale_time": sale_time,
+        "name": clean_performing_arts_title(title),
+        "type": event_type,
+        "performance_date": performance,
+        "city": city_from_text(text) or city_from_text(venue),
+        "venue": venue,
+        "source_url": url,
+        "discovery": "mna_public_listing",
+        "scope": "large_music_taiwan" if event_type in LARGE_MUSIC_TYPES else "taipei_only",
+        "note": "MNA public event overview discovery",
+    }
+
+
+def first_heading_from_text(text: str) -> str:
+    for line in text.splitlines():
+        line = compact_space(line)
+        if len(line) >= 4 and not any(skip in line for skip in ("會員登入", "活動類別", "剩餘時間")):
+            return line
+    return ""
+
+
+def parse_mna_performance(text: str, default_year: int) -> str:
+    match = re.search(r"節目場次\s*(.*?)\s*票價", text, flags=re.DOTALL)
+    if not match:
+        return ""
+    dates: list[str] = []
+    for date_match in re.finditer(
+        r"(?:(20\d{2})\s*[./年/-]\s*)?(\d{1,2})\s*(?:[./月/-]|月)\s*(\d{1,2})\s*(?:日|號)?",
+        match.group(1),
+    ):
+        year = int(date_match.group(1) or default_year)
+        dates.append(f"{year:04d}-{int(date_match.group(2)):02d}-{int(date_match.group(3)):02d}")
+    dates = sorted(dict.fromkeys(dates))
+    if len(dates) >= 2:
+        return f"{dates[0]} ~ {dates[-1]}"
+    if dates:
+        return dates[0]
+    return ""
+
+
+def performing_arts_search_item_to_event(item: dict[str, str], today: dt.date) -> dict[str, str] | None:
+    title = compact_space(item.get("title", ""))
+    description = compact_space(item.get("description", ""))
+    link = item.get("link", "")
+    text = f"{title} {description}"
+    if not performing_arts_item_is_relevant(text):
+        return None
+    sale_date, sale_time = parse_performing_arts_sale(text, today.year)
+    performance = parse_performing_arts_performance(text, today.year)
+    venue = parse_performing_arts_venue(text) or parse_venue_from_text(text)
+    city = city_from_text(text) or city_from_text(venue)
+    event_type = classify_event(title, "", venue)
+    event = {
+        "sale_date": sale_date,
+        "sale_time": sale_time,
+        "name": clean_performing_arts_title(title),
+        "type": event_type,
+        "performance_date": performance,
+        "city": city,
+        "venue": venue,
+        "source_url": link,
+        "discovery": "performing_arts_web_search",
+        "scope": "large_music_taiwan" if event_type in LARGE_MUSIC_TYPES else "taipei_only",
+        "note": "performing arts taxonomy public search discovery",
+    }
+    if not event["name"]:
+        return None
+    return event
+
+
+def performing_arts_item_is_relevant(text: str) -> bool:
+    lower = text.lower()
+    type_hints = (
+        "音樂會",
+        "交響",
+        "管弦",
+        "愛樂",
+        "古典",
+        "歌劇",
+        "芭蕾",
+        "舞團",
+        "舞蹈",
+        "指揮",
+        "獨奏",
+        "協奏曲",
+        "室內樂",
+        "合唱",
+        "戲劇",
+        "舞台劇",
+        "音樂劇",
+        "展覽",
+        "藝術節",
+        "orchestra",
+        "philharmonic",
+        "symphony",
+        "recital",
+        "ballet",
+        "opera",
+    )
+    action_hints = (
+        "全面啟售",
+        "全面開賣",
+        "正式開賣",
+        "一般售票",
+        "會員優先預購",
+        "優先預購",
+        "優先購票",
+        "售票",
+        "啟售",
+        "開賣",
+        "訪台",
+        "來台演出",
+        "登台",
+        "公告",
+        "宣布",
+    )
+    place_hints = ("台北", "臺北", "taipei", "國家音樂廳", "國家戲劇院", "表演藝術中心", "松菸", "北美館")
+    return (
+        any(hint in lower for hint in type_hints)
+        and any(hint.lower() in lower for hint in action_hints)
+        and any(hint.lower() in lower for hint in place_hints)
+    )
+
+
+def parse_performing_arts_sale(text: str, default_year: int) -> tuple[str, str]:
+    keywords = (
+        "全面啟售",
+        "全面開賣",
+        "正式開賣",
+        "一般售票",
+        "一般販售",
+        "一般開賣",
+        "會員優先預購",
+        "優先預購",
+        "優先購票",
+        "啟售",
+        "開賣",
+        "售票",
+    )
+    for keyword in keywords:
+        for match in re.finditer(re.escape(keyword), text, flags=re.IGNORECASE):
+            start = max(0, match.start() - 100)
+            end = min(len(text), match.end() + 100)
+            window = text[start:end]
+            date_match = nearest_flexible_date(window, match.start() - start, default_year)
+            if not date_match:
+                continue
+            date_text, date_end = date_match
+            return date_text, parse_time_near_date(window, date_end)
+    return "", ""
+
+
+def nearest_flexible_date(text: str, center: int, default_year: int) -> tuple[str, int] | None:
+    pattern = re.compile(
+        r"(?:(20\d{2})\s*[./年/-]\s*)?(\d{1,2})\s*(?:[./月/-]|月)\s*(\d{1,2})\s*(?:日|號)?"
+    )
+    matches = list(pattern.finditer(text))
+    if not matches:
+        return None
+    before = [item for item in matches if item.start() <= center]
+    match = max(before, key=lambda item: item.start()) if before else min(matches, key=lambda item: abs(item.start() - center))
+    year = int(match.group(1) or default_year)
+    month = int(match.group(2))
+    day = int(match.group(3))
+    return f"{year:04d}-{month:02d}-{day:02d}", match.end()
+
+
+def parse_performing_arts_performance(text: str, default_year: int) -> str:
+    normalized: list[str] = []
+    for match in re.finditer(r"(?:演出日期|演出時間|活動日期|日期)[:：]?\s*([^。；;]{0,80})", text):
+        window = match.group(1)
+        for date_match in re.finditer(
+            r"(?:(20\d{2})\s*[./年/-]\s*)?(\d{1,2})\s*(?:[./月/-]|月)\s*(\d{1,2})\s*(?:日|號)?",
+            window,
+        ):
+            year = int(date_match.group(1) or default_year)
+            normalized.append(f"{year:04d}-{int(date_match.group(2)):02d}-{int(date_match.group(3)):02d}")
+    normalized = sorted(dict.fromkeys(normalized))
+    if len(normalized) >= 2:
+        return f"{normalized[0]} ~ {normalized[1]}"
+    if normalized:
+        return normalized[0]
+    return parse_performance_from_text(text)
+
+
+def parse_performing_arts_venue(text: str) -> str:
+    venues = (
+        "臺北國家音樂廳",
+        "台北國家音樂廳",
+        "國家音樂廳",
+        "臺北國家戲劇院",
+        "台北國家戲劇院",
+        "國家戲劇院",
+        "臺北表演藝術中心",
+        "台北表演藝術中心",
+        "臺北市中山堂",
+        "台北市中山堂",
+        "臺北流行音樂中心",
+        "台北流行音樂中心",
+    )
+    for venue in venues:
+        if venue in text:
+            return venue
+    return ""
+
+
+def clean_performing_arts_title(title: str) -> str:
+    title = re.sub(r"\s*[-|]\s*(Yahoo奇摩新聞|Yahoo News|自由娛樂|ETtoday星光雲|鏡週刊|新聞|MNA售票網|udn售票網).*$", "", title)
+    title = re.sub(r"\s*售票.*$", "", title)
+    return compact_space(title)
+
+
 def discover_concert_aggregators(today: dt.date) -> SourceRun:
     run = SourceRun("Concert Aggregators", "structured public concert aggregators")
     sources = [
@@ -993,6 +1314,7 @@ def discover_all(today: dt.date, include_static: bool = True) -> tuple[list[dict
         discover_ibon(today),
         discover_tixcraft(today),
         discover_public_web_news(today),
+        discover_performing_arts_web(today),
         discover_concert_aggregators(today),
     ]
     events: list[dict[str, str]] = []
@@ -1109,9 +1431,8 @@ def build_latest(today: dt.date, save_state: bool = True, state_path: Path = STA
 
 
 def calculate_coverage_ok(source_health: dict[str, Any]) -> bool:
-    public_status = source_health.get("Public Web/News", {}).get("status")
-    aggregator_status = source_health.get("Concert Aggregators", {}).get("status")
-    if public_status == "failed" and aggregator_status == "failed":
+    public_layers = ("Public Web/News", "Performing Arts Web", "Concert Aggregators")
+    if all(source_health.get(name, {}).get("status") == "failed" for name in public_layers):
         return False
     primary_sources = ("OPENTIX", "Ticket Plus", "KKTIX", "tixCraft")
     working_primary = sum(

@@ -32,6 +32,58 @@ class CoverageRegressionTests(unittest.TestCase):
         self.assertEqual(event["venue"], "高雄國家體育場")
         self.assertEqual(event["scope"], "large_music_taiwan")
 
+    def test_performing_arts_search_item_parses_classical_general_sale(self) -> None:
+        item = {
+            "title": "世界級愛樂樂團2026台北音樂會售票資訊",
+            "description": (
+                "年度古典音樂盛事，知名指揮率團訪台登台。"
+                "8/10 12:00 會員優先預購，8/12 12:00 全面啟售。"
+                "演出日期：2026/11/20 臺北國家音樂廳"
+            ),
+            "link": "https://example.com/classical-concert",
+        }
+
+        event = radar.performing_arts_search_item_to_event(item, radar.dt.date(2026, 8, 9))
+
+        self.assertIsNotNone(event)
+        assert event is not None
+        self.assertEqual(event["type"], "古典音樂")
+        self.assertEqual(event["sale_date"], "2026-08-12")
+        self.assertEqual(event["sale_time"], "12:00")
+        self.assertEqual(event["performance_date"], "2026-11-20")
+        self.assertEqual(event["city"], "台北市")
+        self.assertEqual(event["venue"], "臺北國家音樂廳")
+        self.assertEqual(event["scope"], "taipei_only")
+
+    def test_english_classical_concert_is_not_large_pop_concert(self) -> None:
+        event_type = radar.classify_event(
+            "World Philharmonic Taipei Concert 2026",
+            "",
+            "臺北國家音樂廳",
+        )
+
+        self.assertEqual(event_type, "古典音樂")
+
+    def test_classical_hall_concert_is_not_large_pop_concert(self) -> None:
+        event_type = radar.classify_event(
+            "International Soloist Live in Concert",
+            "",
+            "臺北國家音樂廳",
+        )
+
+        self.assertEqual(event_type, "古典音樂")
+
+    def test_mna_listing_extracts_public_detail_urls(self) -> None:
+        html = """
+        <a href="/UTK0201_?PRODUCT_ID=P1ABC123">世界級愛樂樂團台北音樂會</a>
+        <a href="UTK0201_?PRODUCT_ID=P2DEF456&kk=1">國際芭蕾舞團台北公演</a>
+        """
+
+        urls = radar.extract_mna_detail_urls(html, "https://ticket.mna.com.tw/UTK0102_?TYPE=0")
+
+        self.assertIn("https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1ABC123", urls)
+        self.assertIn("https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P2DEF456&kk=1", urls)
+
 
 if __name__ == "__main__":
     unittest.main()
