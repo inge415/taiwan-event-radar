@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T04:18:55+08:00",
+  "generated_at": "2026-08-09T04:43:03+08:00",
   "events": {
     "629aee72b8af64c2": {
       "id": "629aee72b8af64c2",
@@ -25,6 +25,20 @@
       "city": "台北市",
       "venue": "高雄國家體育場",
       "source_url": "https://kklivetw.kktix.cc/events/34473ba4",
+      "discovery": "kktix_search_index",
+      "scope": "large_music_taiwan",
+      "note": ""
+    },
+    "83ffc756b84a0f66": {
+      "id": "83ffc756b84a0f66",
+      "sale_date": "2026-08-09",
+      "sale_time": "11:00",
+      "name": "2026 KIM JAE WON WORLD TOUR FANMEETING THE MOMENT WE MET - Episode 1 : \"The Present in Taipei\"",
+      "type": "大型演唱會",
+      "performance_date": "2026-08-30 ~ 2026-08-09",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://2sentertw.kktix.cc/events/b36e675c",
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": ""
@@ -98,6 +112,20 @@
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": ""
+    },
+    "211dc660a275425d": {
+      "id": "211dc660a275425d",
+      "sale_date": "2026-08-11",
+      "sale_time": "12:00",
+      "name": "魔力紅 Maroon 5 高雄演唱會 2026",
+      "type": "大型演唱會",
+      "performance_date": "2027-01-24",
+      "city": "高雄市",
+      "venue": "高雄國家體育場",
+      "source_url": "https://www.tickettw.com/",
+      "discovery": "concert_aggregator_structured",
+      "scope": "large_music_taiwan",
+      "note": "structured public concert aggregator"
     },
     "a77a9901e61f9047": {
       "id": "a77a9901e61f9047",
@@ -183,6 +211,20 @@
       "scope": "taipei_only",
       "note": ""
     },
+    "f4f83ef73dfd93c1": {
+      "id": "f4f83ef73dfd93c1",
+      "sale_date": "2026-09-05",
+      "sale_time": "",
+      "name": "臺北小巨蛋-已公開 (售票/派票)活動",
+      "type": "大型演唱會",
+      "performance_date": "2026-09-05 ~ 2026-09-11",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://www.arena.taipei/News_Photo.aspx?n=2E1489AFE4B1BEA1&sms=F9A95D3F5A5C2C68",
+      "discovery": "public_web_news_search",
+      "scope": "large_music_taiwan",
+      "note": "public search/news discovery"
+    },
     "a5d80262f4bf6b3c": {
       "id": "a5d80262f4bf6b3c",
       "sale_date": "2026-09-05",
@@ -239,6 +281,20 @@
       "scope": "taipei_only",
       "note": ""
     },
+    "7936593420b913bb": {
+      "id": "7936593420b913bb",
+      "sale_date": "2026-10-03",
+      "sale_time": "18:00",
+      "name": "【會員優先購、全面啟售】2026 SUPER JUNIOR-83z FANCON TOUR [1983] in KAOHSIUNG",
+      "type": "大型演唱會",
+      "performance_date": "2026-10-03 ~ 2026-07-06",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://chuanyeah.kktix.cc/events/080cefdf",
+      "discovery": "kktix_search_index",
+      "scope": "large_music_taiwan",
+      "note": ""
+    },
     "64c356500e06080c": {
       "id": "64c356500e06080c",
       "sale_date": "2026-10-17",
@@ -285,21 +341,21 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-09T04:18:55+08:00",
+      "last_success_at": "2026-08-09T04:43:03+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
     },
     "Ticket Plus": {
       "status": "ok",
-      "last_success_at": "2026-08-09T04:18:55+08:00",
+      "last_success_at": "2026-08-09T04:43:03+08:00",
       "primary_method": "mainEvents/event JSON",
       "fallback_used": false,
       "error": ""
     },
     "KKTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-09T04:18:55+08:00",
+      "last_success_at": "2026-08-09T04:43:03+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -313,15 +369,22 @@
     },
     "tixCraft": {
       "status": "degraded",
-      "last_success_at": "2026-08-09T04:18:55+08:00",
+      "last_success_at": "2026-08-09T04:43:03+08:00",
       "primary_method": "activity listing",
       "fallback_used": true,
       "error": ""
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-09T04:18:55+08:00",
+      "last_success_at": "2026-08-09T04:43:03+08:00",
       "primary_method": "Bing RSS search + public pages",
+      "fallback_used": false,
+      "error": ""
+    },
+    "Concert Aggregators": {
+      "status": "ok",
+      "last_success_at": "2026-08-09T04:43:03+08:00",
+      "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
     }

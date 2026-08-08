@@ -706,6 +706,92 @@ def discover_public_web_news(today: dt.date) -> SourceRun:
     return run
 
 
+def discover_concert_aggregators(today: dt.date) -> SourceRun:
+    run = SourceRun("Concert Aggregators", "structured public concert aggregators")
+    sources = [
+        "https://www.tickettw.com/",
+    ]
+    for url in sources:
+        ok, body, status, size = fetch(url, timeout=20)
+        run.records.append(FetchRecord("TicketTW concert aggregator", url, ok, status, size))
+        run.primary_ok = run.primary_ok or ok
+        if not ok:
+            run.error = run.error or status
+            continue
+        parsed = parse_tickettw_events(body, url)
+        run.discovery_count += len(parsed)
+        for event in parsed:
+            if date_in_next_days(event.get("sale_date", ""), today, days=180):
+                run.events.append(event)
+    return run
+
+
+def parse_tickettw_events(markup: str, source_url: str) -> list[dict[str, str]]:
+    text = visible_text(markup)
+    text = re.sub(r"\s+", " ", text)
+    pattern = re.compile(
+        r"(?P<name>[^。？！\n]{2,90}?(?:演唱會|音樂祭)[^。？！\n]{0,40})"
+        r"演出日期:\s*(?P<performance>.*?)"
+        r"門票價錢:\s*(?P<price>.*?)"
+        r"演出場館:\s*(?P<venue>.*?)"
+        r"(?P<sales>(?:(?:優先購票|全面開賣|加場全面開賣|優先登記|Live Nation會員全面開賣):\s*"
+        r"20\d{2}年\d{1,2}月\d{1,2}日\d{1,2}(?::\d{2})?起\s*[^演]{0,60})+)",
+    )
+    events: list[dict[str, str]] = []
+    for match in pattern.finditer(text):
+        name = clean_aggregator_name(match.group("name"))
+        if not name:
+            continue
+        sale_date, sale_time = parse_first_sale(match.group("sales"))
+        venue = compact_space(match.group("venue"))
+        event_type = classify_event(name, "", venue)
+        events.append(
+            {
+                "sale_date": sale_date,
+                "sale_time": sale_time,
+                "name": name,
+                "type": event_type,
+                "performance_date": normalize_performance_text(match.group("performance")),
+                "city": city_from_text(venue + " " + name),
+                "venue": venue,
+                "source_url": source_url,
+                "discovery": "concert_aggregator_structured",
+                "scope": "large_music_taiwan" if event_type in LARGE_MUSIC_TYPES else "taipei_only",
+                "note": "structured public concert aggregator",
+            }
+        )
+    return events
+
+
+def clean_aggregator_name(value: str) -> str:
+    value = compact_space(value)
+    for marker in ("門票資訊 ", "票資訊 ", "官方購票連結 "):
+        if marker in value:
+            value = value.rsplit(marker, 1)[-1]
+    candidates = re.findall(r"([^｜|]{1,90}(?:演唱會|音樂祭)\s*20\d{2})", value)
+    if candidates:
+        value = candidates[-1]
+    value = re.sub(r"^[\s｜|:：,，、]+", "", value)
+    return value[:120]
+
+
+def parse_first_sale(value: str) -> tuple[str, str]:
+    match = re.search(r"(20\d{2}年\d{1,2}月\d{1,2}日)(\d{1,2}(?::\d{2})?)?起", value)
+    if not match:
+        return "", ""
+    return normalize_date(match.group(1)), normalize_time(match.group(2) or "")
+
+
+def normalize_performance_text(value: str) -> str:
+    value = compact_space(value)
+    dates = re.findall(r"20\d{2}年\d{1,2}月\d{1,2}日", value)
+    if len(dates) >= 2:
+        return f"{normalize_date(dates[0])} ~ {normalize_date(dates[1])}"
+    if dates:
+        return normalize_date(dates[0])
+    return value
+
+
 def public_search_item_to_event(item: dict[str, str]) -> dict[str, str] | None:
     title = compact_space(item.get("title", ""))
     description = compact_space(item.get("description", ""))
@@ -907,6 +993,7 @@ def discover_all(today: dt.date, include_static: bool = True) -> tuple[list[dict
         discover_ibon(today),
         discover_tixcraft(today),
         discover_public_web_news(today),
+        discover_concert_aggregators(today),
     ]
     events: list[dict[str, str]] = []
     for run in runs:
@@ -1023,7 +1110,8 @@ def build_latest(today: dt.date, save_state: bool = True, state_path: Path = STA
 
 def calculate_coverage_ok(source_health: dict[str, Any]) -> bool:
     public_status = source_health.get("Public Web/News", {}).get("status")
-    if public_status == "failed":
+    aggregator_status = source_health.get("Concert Aggregators", {}).get("status")
+    if public_status == "failed" and aggregator_status == "failed":
         return False
     primary_sources = ("OPENTIX", "Ticket Plus", "KKTIX", "tixCraft")
     working_primary = sum(
