@@ -190,6 +190,33 @@ class CoverageRegressionTests(unittest.TestCase):
 
         self.assertEqual(events, [])
 
+    def test_exhibition_relevance_keeps_culture_entertainment_semantics(self) -> None:
+        kept = (
+            "某國際當代藝術博覽會",
+            "某美術館沉浸式主題特展",
+            "某動畫IP原畫展",
+            "某博物館文化特展",
+            "某台北攝影展",
+        )
+
+        for name in kept:
+            with self.subTest(name=name):
+                self.assertTrue(radar.exhibition_schedule_name_is_relevant(name))
+
+    def test_exhibition_relevance_rejects_trade_or_procurement_semantics(self) -> None:
+        rejected = (
+            "某台北國際家具名床大展暨居家生活用品展",
+            "某國際食品暨設備展",
+            "某台北國際旅展",
+            "某台北國際精緻酒展",
+            "某佛事用品工藝品展",
+            "某採購博覽會",
+        )
+
+        for name in rejected:
+            with self.subTest(name=name):
+                self.assertFalse(radar.exhibition_schedule_name_is_relevant(name))
+
 
 if __name__ == "__main__":
     unittest.main()

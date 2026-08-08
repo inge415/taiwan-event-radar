@@ -1,62 +1,6 @@
 {
-  "generated_at": "2026-08-09T05:48:18+08:00",
+  "generated_at": "2026-08-09T06:00:32+08:00",
   "events": {
-    "ec8a11322f5d9c4f": {
-      "id": "ec8a11322f5d9c4f",
-      "sale_date": "",
-      "sale_time": "",
-      "name": "2026台北國際室內設計家具名床大展暨居家生活用品展",
-      "type": "展覽",
-      "performance_date": "2026-09-11 ~ 2026-09-14",
-      "city": "台北市",
-      "venue": "世貿一館",
-      "source_url": "https://www.twtc.com.tw/exhibition",
-      "discovery": "twtc_public_schedule",
-      "scope": "taipei_only",
-      "note": "public venue exhibition schedule"
-    },
-    "97091673421302b5": {
-      "id": "97091673421302b5",
-      "sale_date": "",
-      "sale_time": "",
-      "name": "2026台北國際精緻酒展(夏季)",
-      "type": "展覽",
-      "performance_date": "2026-08-21 ~ 2026-08-24",
-      "city": "台北市",
-      "venue": "世貿一館",
-      "source_url": "https://www.twtc.com.tw/exhibition",
-      "discovery": "twtc_public_schedule",
-      "scope": "taipei_only",
-      "note": "public venue exhibition schedule"
-    },
-    "7e17cff0698bb61a": {
-      "id": "7e17cff0698bb61a",
-      "sale_date": "",
-      "sale_time": "",
-      "name": "2026台北國際酒展",
-      "type": "展覽",
-      "performance_date": "2026-11-13 ~ 2026-11-16",
-      "city": "台北市",
-      "venue": "一樓展場",
-      "source_url": "https://www.tainex.com.tw/event",
-      "discovery": "tainex_public_schedule",
-      "scope": "taipei_only",
-      "note": "public venue exhibition schedule"
-    },
-    "9b20cfa3ea10ee30": {
-      "id": "9b20cfa3ea10ee30",
-      "sale_date": "",
-      "sale_time": "",
-      "name": "2026第五屆亞太永續博覽會",
-      "type": "展覽",
-      "performance_date": "2026-08-27 ~ 2026-08-29",
-      "city": "台北市",
-      "venue": "世貿一館",
-      "source_url": "https://www.twtc.com.tw/exhibition",
-      "discovery": "twtc_public_schedule",
-      "scope": "taipei_only",
-      "note": "public venue exhibition schedule"
-    },
     "9bd12ac6c1522ec0": {
       "id": "9bd12ac6c1522ec0",
       "sale_date": "",
@@ -71,34 +15,6 @@
       "scope": "taipei_only",
       "note": "public venue exhibition schedule"
     },
-    "6a494096cd9c4ef5": {
-      "id": "6a494096cd9c4ef5",
-      "sale_date": "",
-      "sale_time": "",
-      "name": "2026臺灣國際咖啡展",
-      "type": "展覽",
-      "performance_date": "2026-11-13 ~ 2026-11-16",
-      "city": "台北市",
-      "venue": "一樓展場 四樓展場",
-      "source_url": "https://www.tainex.com.tw/event",
-      "discovery": "tainex_public_schedule",
-      "scope": "taipei_only",
-      "note": "public venue exhibition schedule"
-    },
-    "7670bade716efa8e": {
-      "id": "7670bade716efa8e",
-      "sale_date": "",
-      "sale_time": "",
-      "name": "2026臺灣國際食品暨設備展",
-      "type": "展覽",
-      "performance_date": "2026-11-13 ~ 2026-11-16",
-      "city": "台北市",
-      "venue": "一樓展場 四樓展場",
-      "source_url": "https://www.tainex.com.tw/event",
-      "discovery": "tainex_public_schedule",
-      "scope": "taipei_only",
-      "note": "public venue exhibition schedule"
-    },
     "f149ca0261c1c636": {
       "id": "f149ca0261c1c636",
       "sale_date": "",
@@ -110,76 +26,6 @@
       "venue": "一樓展場",
       "source_url": "https://www.tainex.com.tw/event",
       "discovery": "tainex_public_schedule",
-      "scope": "taipei_only",
-      "note": "public venue exhibition schedule"
-    },
-    "54505b69e53b6c6e": {
-      "id": "54505b69e53b6c6e",
-      "sale_date": "",
-      "sale_time": "",
-      "name": "2026臺灣茶業博覽會",
-      "type": "展覽",
-      "performance_date": "2026-11-13 ~ 2026-11-16",
-      "city": "台北市",
-      "venue": "一樓展場 四樓展場",
-      "source_url": "https://www.tainex.com.tw/event",
-      "discovery": "tainex_public_schedule",
-      "scope": "taipei_only",
-      "note": "public venue exhibition schedule"
-    },
-    "9f485bc1da01e39c": {
-      "id": "9f485bc1da01e39c",
-      "sale_date": "",
-      "sale_time": "",
-      "name": "台北攝影器材暨影音創作設備展",
-      "type": "展覽",
-      "performance_date": "2026-10-02 ~ 2026-10-05",
-      "city": "台北市",
-      "venue": "台北南港展覽館",
-      "source_url": "https://www.tainex.com.tw/event",
-      "discovery": "tainex_public_schedule",
-      "scope": "taipei_only",
-      "note": "public venue exhibition schedule"
-    },
-    "555ec61aea5f7e7d": {
-      "id": "555ec61aea5f7e7d",
-      "sale_date": "",
-      "sale_time": "",
-      "name": "第14屆台灣國際旅遊展(秋季)/2026台北兩岸旅展/2026台北食品暨伴手禮國際博覽會",
-      "type": "展覽",
-      "performance_date": "2026-08-21 ~ 2026-08-24",
-      "city": "台北市",
-      "venue": "世貿一館",
-      "source_url": "https://www.twtc.com.tw/exhibition",
-      "discovery": "twtc_public_schedule",
-      "scope": "taipei_only",
-      "note": "public venue exhibition schedule"
-    },
-    "e8fd535f3fef9737": {
-      "id": "e8fd535f3fef9737",
-      "sale_date": "",
-      "sale_time": "",
-      "name": "第19屆台北國際蔬食養生．佛事用品工藝品展（秋季）/第17屆台北國際茶文化陶瓷展",
-      "type": "展覽",
-      "performance_date": "2026-08-21 ~ 2026-08-24",
-      "city": "台北市",
-      "venue": "世貿一館",
-      "source_url": "https://www.twtc.com.tw/exhibition",
-      "discovery": "twtc_public_schedule",
-      "scope": "taipei_only",
-      "note": "public venue exhibition schedule"
-    },
-    "8a9efee9365fefb4": {
-      "id": "8a9efee9365fefb4",
-      "sale_date": "",
-      "sale_time": "",
-      "name": "第32屆福爾摩莎家具展暨家設計用品採購節",
-      "type": "展覽",
-      "performance_date": "2026-08-14 ~ 2026-08-17",
-      "city": "台北市",
-      "venue": "世貿一館",
-      "source_url": "https://www.twtc.com.tw/exhibition",
-      "discovery": "twtc_public_schedule",
       "scope": "taipei_only",
       "note": "public venue exhibition schedule"
     },
@@ -253,20 +99,6 @@
       "scope": "large_music_taiwan",
       "note": "structured public concert aggregator"
     },
-    "c659a61a3224f2a8": {
-      "id": "c659a61a3224f2a8",
-      "sale_date": "2026-08-12",
-      "sale_time": "12:00",
-      "name": "維也納愛樂在臺北",
-      "type": "古典音樂",
-      "performance_date": "2026-10-16 ~ 2026-10-17",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1DXKS26",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
     "a77a9901e61f9047": {
       "id": "a77a9901e61f9047",
       "sale_date": "2026-08-14",
@@ -309,48 +141,6 @@
       "scope": "large_music_taiwan",
       "note": ""
     },
-    "817863c3c0ef832b": {
-      "id": "817863c3c0ef832b",
-      "sale_date": "2026-08-18",
-      "sale_time": "12:00",
-      "name": "2026臺中國際巨星音樂節 Yo-Yo Ma Live in Concert",
-      "type": "古典音樂",
-      "performance_date": "2026-10-18 ~ 2026-10-21",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1DXKS2A",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
-    "c5ef2717adf036e8": {
-      "id": "c5ef2717adf036e8",
-      "sale_date": "2026-08-18",
-      "sale_time": "12:00",
-      "name": "凱基雋永饗宴—Yo-Yo Ma Live in Concert",
-      "type": "古典音樂",
-      "performance_date": "2026-10-18 ~ 2026-10-21",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1DXKS27",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
-    "42f8452a86e1188d": {
-      "id": "42f8452a86e1188d",
-      "sale_date": "2026-08-18",
-      "sale_time": "12:00",
-      "name": "遠東璀璨饗宴—Yo-Yo Ma Live in Concert",
-      "type": "古典音樂",
-      "performance_date": "2026-10-18 ~ 2026-10-21",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1DXKS28",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
     "dcfec351738edbdd": {
       "id": "dcfec351738edbdd",
       "sale_date": "2026-08-20",
@@ -377,20 +167,6 @@
       "source_url": "https://himmusic.kktix.cc/events/ro8brr",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
-      "note": ""
-    },
-    "83ffc756b84a0f66": {
-      "id": "83ffc756b84a0f66",
-      "sale_date": "2026-08-23",
-      "sale_time": "23:59",
-      "name": "2026 KIM JAE WON WORLD TOUR FANMEETING THE MOMENT WE MET - Episode 1 : \"The Present in Taipei\"",
-      "type": "大型演唱會",
-      "performance_date": "2026-08-09 ~ 2026-08-30",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://2sentertw.kktix.cc/events/b36e675c",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
       "note": ""
     },
     "794d7cc9ef5d6d03": {
@@ -477,20 +253,6 @@
       "scope": "large_music_taiwan",
       "note": ""
     },
-    "7936593420b913bb": {
-      "id": "7936593420b913bb",
-      "sale_date": "2026-10-03",
-      "sale_time": "18:00",
-      "name": "【會員優先購、全面啟售】2026 SUPER JUNIOR-83z FANCON TOUR [1983] in KAOHSIUNG",
-      "type": "大型演唱會",
-      "performance_date": "2026-08-12 ~ 2026-10-03",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://chuanyeah.kktix.cc/events/080cefdf",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
     "64c356500e06080c": {
       "id": "64c356500e06080c",
       "sale_date": "2026-10-17",
@@ -565,21 +327,21 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-09T05:48:18+08:00",
+      "last_success_at": "2026-08-09T06:00:32+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
     },
     "Ticket Plus": {
       "status": "ok",
-      "last_success_at": "2026-08-09T05:48:18+08:00",
+      "last_success_at": "2026-08-09T06:00:32+08:00",
       "primary_method": "mainEvents/event JSON",
       "fallback_used": false,
       "error": ""
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-09T05:48:18+08:00",
+      "last_success_at": "2026-08-09T06:00:32+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -593,28 +355,28 @@
     },
     "tixCraft": {
       "status": "degraded",
-      "last_success_at": "2026-08-09T05:48:18+08:00",
+      "last_success_at": "2026-08-09T06:00:32+08:00",
       "primary_method": "activity listing",
       "fallback_used": true,
       "error": ""
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-09T05:48:18+08:00",
+      "last_success_at": "2026-08-09T06:00:32+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
-      "status": "degraded",
-      "last_success_at": "2026-08-09T05:48:18+08:00",
+      "status": "ok",
+      "last_success_at": "2026-08-09T06:00:32+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
-      "error": ""
+      "error": "TimeoutError: The read operation timed out"
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-09T05:48:18+08:00",
+      "last_success_at": "2026-08-09T06:00:32+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
