@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T22:05:31+08:00",
+  "generated_at": "2026-08-10T23:32:21+08:00",
   "events": {
     "9bd12ac6c1522ec0": {
       "id": "9bd12ac6c1522ec0",
@@ -28,20 +28,6 @@
       "discovery": "tainex_public_schedule",
       "scope": "taipei_only",
       "note": "public venue exhibition schedule"
-    },
-    "c8e2f8d0290af3e0": {
-      "id": "c8e2f8d0290af3e0",
-      "sale_date": "2026-08-09",
-      "sale_time": "12:00",
-      "name": "林鼓子台北粉絲見面會2026",
-      "type": "Fan meeting",
-      "performance_date": "2026-09-27",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://digitalidea.kktix.cc/events/2d9b4d89",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
     },
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
@@ -411,21 +397,21 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-09T22:05:31+08:00",
+      "last_success_at": "2026-08-10T23:32:21+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
     },
     "Ticket Plus": {
       "status": "ok",
-      "last_success_at": "2026-08-09T22:05:31+08:00",
+      "last_success_at": "2026-08-10T23:32:21+08:00",
       "primary_method": "mainEvents/event JSON",
       "fallback_used": false,
       "error": ""
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-09T22:05:31+08:00",
+      "last_success_at": "2026-08-10T23:32:21+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -446,21 +432,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-09T22:05:31+08:00",
+      "last_success_at": "2026-08-10T23:32:21+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-08-09T22:05:31+08:00",
+      "last_success_at": "2026-08-10T23:32:21+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-09T22:05:31+08:00",
+      "last_success_at": "2026-08-10T23:32:21+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
