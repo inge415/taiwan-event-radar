@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T23:32:21+08:00",
+  "generated_at": "2026-08-11T23:30:17+08:00",
   "events": {
     "9bd12ac6c1522ec0": {
       "id": "9bd12ac6c1522ec0",
@@ -57,20 +57,6 @@
       "scope": "large_music_taiwan",
       "note": "KKTIX listing 403，目前仍需搜尋索引或公開頁 fallback"
     },
-    "3910e064161d8567": {
-      "id": "3910e064161d8567",
-      "sale_date": "2026-08-10",
-      "sale_time": "19:00",
-      "name": "黃之儀Kyra Zilver「冷都女Tour」巡迴 台北站",
-      "type": "大型演唱會",
-      "performance_date": "2026-10-26",
-      "city": "新北市",
-      "venue": "",
-      "source_url": "https://spaceport.kktix.cc/events/kyrazilver2026",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
     "211dc660a275425d": {
       "id": "211dc660a275425d",
       "sale_date": "2026-08-11",
@@ -85,6 +71,20 @@
       "scope": "large_music_taiwan",
       "note": "structured public concert aggregator"
     },
+    "f6cbafe6a01fde85": {
+      "id": "f6cbafe6a01fde85",
+      "sale_date": "2026-08-12",
+      "sale_time": "12:00",
+      "name": "《K21》顏社二十一週年演唱會",
+      "type": "大型演唱會",
+      "performance_date": "2026-12-12 ~ 2026-12-13",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://kaoinc.kktix.cc/events/kiorfd",
+      "discovery": "kktix_search_index",
+      "scope": "large_music_taiwan",
+      "note": ""
+    },
     "24f6bf1e6e8ed4bd": {
       "id": "24f6bf1e6e8ed4bd",
       "sale_date": "2026-08-12",
@@ -98,6 +98,20 @@
       "discovery": "mna_public_listing",
       "scope": "taipei_only",
       "note": "MNA public event overview discovery"
+    },
+    "0a6c3873f66f7b5b": {
+      "id": "0a6c3873f66f7b5b",
+      "sale_date": "2026-08-12",
+      "sale_time": "12:00",
+      "name": "李東軒AUSTIN LEE《FOREVER 我們・不變》十週年演唱會",
+      "type": "大型演唱會",
+      "performance_date": "2026-10-08",
+      "city": "台北市",
+      "venue": "Legacy Taipei",
+      "source_url": "https://ticketplus.com.tw/activity/e8ba6fb7729f1ee91796c65d6b861b67",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "large_music_taiwan",
+      "note": ""
     },
     "c659a61a3224f2a8": {
       "id": "c659a61a3224f2a8",
@@ -207,6 +221,20 @@
       "city": "台北市",
       "venue": "臺北大巨蛋",
       "source_url": "https://ticketplus.com.tw/activity/21d3c3504ff522a6732789a46f5796d7",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "large_music_taiwan",
+      "note": ""
+    },
+    "1f1bf44d52d1a346": {
+      "id": "1f1bf44d52d1a346",
+      "sale_date": "2026-08-22",
+      "sale_time": "13:00",
+      "name": "Tiffany Young：Edge of Calm Tour In Taipei",
+      "type": "大型演唱會",
+      "performance_date": "2026-10-09 ~ 2026-10-10",
+      "city": "台北市",
+      "venue": "國立臺灣大學綜合體育館",
+      "source_url": "https://ticketplus.com.tw/activity/0dcd13114224adf9ff51382e8b535894",
       "discovery": "ticketplus_s3_event_json",
       "scope": "large_music_taiwan",
       "note": ""
@@ -397,21 +425,21 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-10T23:32:21+08:00",
+      "last_success_at": "2026-08-11T23:30:17+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
     },
     "Ticket Plus": {
       "status": "ok",
-      "last_success_at": "2026-08-10T23:32:21+08:00",
+      "last_success_at": "2026-08-11T23:30:17+08:00",
       "primary_method": "mainEvents/event JSON",
       "fallback_used": false,
       "error": ""
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-10T23:32:21+08:00",
+      "last_success_at": "2026-08-11T23:30:17+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -432,21 +460,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-10T23:32:21+08:00",
+      "last_success_at": "2026-08-11T23:30:17+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-08-10T23:32:21+08:00",
+      "last_success_at": "2026-08-11T23:30:17+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-10T23:32:21+08:00",
+      "last_success_at": "2026-08-11T23:30:17+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
