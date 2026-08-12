@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-11T23:30:17+08:00",
+  "generated_at": "2026-08-12T23:30:08+08:00",
   "events": {
+    "f149ca0261c1c636": {
+      "id": "f149ca0261c1c636",
+      "sale_date": "",
+      "sale_time": "",
+      "name": "2026台灣文化創意博覽會、2026臺灣文化創意博覽會「114年文化黑潮之臺灣圖像角色IP品牌發展徵案計畫成果展」",
+      "type": "展覽",
+      "performance_date": "2026-08-06 ~ 2026-08-12",
+      "city": "台北市",
+      "venue": "南港展覽館1館",
+      "source_url": "https://www.twtc.com.tw/exhibition",
+      "discovery": "twtc_public_schedule",
+      "scope": "taipei_only",
+      "note": "public venue exhibition schedule"
+    },
     "9bd12ac6c1522ec0": {
       "id": "9bd12ac6c1522ec0",
       "sale_date": "",
@@ -12,20 +26,6 @@
       "venue": "世貿一館",
       "source_url": "https://www.twtc.com.tw/exhibition",
       "discovery": "twtc_public_schedule",
-      "scope": "taipei_only",
-      "note": "public venue exhibition schedule"
-    },
-    "f149ca0261c1c636": {
-      "id": "f149ca0261c1c636",
-      "sale_date": "",
-      "sale_time": "",
-      "name": "2026臺灣文化創意博覽會",
-      "type": "展覽",
-      "performance_date": "2026-08-06 ~ 2026-08-12",
-      "city": "台北市",
-      "venue": "一樓展場",
-      "source_url": "https://www.tainex.com.tw/event",
-      "discovery": "tainex_public_schedule",
       "scope": "taipei_only",
       "note": "public venue exhibition schedule"
     },
@@ -56,20 +56,6 @@
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": "KKTIX listing 403，目前仍需搜尋索引或公開頁 fallback"
-    },
-    "211dc660a275425d": {
-      "id": "211dc660a275425d",
-      "sale_date": "2026-08-11",
-      "sale_time": "12:00",
-      "name": "魔力紅 Maroon 5 高雄演唱會 2026",
-      "type": "大型演唱會",
-      "performance_date": "2027-01-24",
-      "city": "高雄市",
-      "venue": "高雄國家體育場",
-      "source_url": "https://www.tickettw.com/",
-      "discovery": "concert_aggregator_structured",
-      "scope": "large_music_taiwan",
-      "note": "structured public concert aggregator"
     },
     "f6cbafe6a01fde85": {
       "id": "f6cbafe6a01fde85",
@@ -127,6 +113,20 @@
       "scope": "taipei_only",
       "note": "MNA public event overview discovery"
     },
+    "e86437d6d3542602": {
+      "id": "e86437d6d3542602",
+      "sale_date": "2026-08-14",
+      "sale_time": "12:00",
+      "name": "房潔恩James fong 《雲朵觀察家》ft.杏仁茶Victoria",
+      "type": "其他藝文活動",
+      "performance_date": "2026-09-19",
+      "city": "台北市",
+      "venue": "女巫店",
+      "source_url": "https://ticketplus.com.tw/activity/86def539d3a8bfad2631a586ede9b015",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "taipei_only",
+      "note": ""
+    },
     "a77a9901e61f9047": {
       "id": "a77a9901e61f9047",
       "sale_date": "2026-08-14",
@@ -139,6 +139,20 @@
       "source_url": "https://resonance-works.kktix.cc/events/tsumugirisa",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
+      "note": ""
+    },
+    "ffa558605622733a": {
+      "id": "ffa558605622733a",
+      "sale_date": "2026-08-15",
+      "sale_time": "00:00",
+      "name": "UVERworld LIVE TOUR 2026 in TAIPEI",
+      "type": "大型演唱會",
+      "performance_date": "2026-11-21",
+      "city": "新北市",
+      "venue": "Zepp New Taipei",
+      "source_url": "https://ticketplus.com.tw/activity/641abfeafd8760018e1f02fadcf3d4c0",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "large_music_taiwan",
       "note": ""
     },
     "bad892178947e6da": {
@@ -168,6 +182,20 @@
       "discovery": "ticketplus_s3_event_json",
       "scope": "large_music_taiwan",
       "note": ""
+    },
+    "211dc660a275425d": {
+      "id": "211dc660a275425d",
+      "sale_date": "2026-08-17",
+      "sale_time": "10:00",
+      "name": "00起 Live Nation Taiwan 全面開賣: 2026年8月14日12:00起 TIXCRAFT 🔥 今天售票中 BIGBANG 台北演唱會 2026",
+      "type": "大型演唱會",
+      "performance_date": "2026-10-10",
+      "city": "台北市",
+      "venue": "台北大巨蛋",
+      "source_url": "https://www.tickettw.com/",
+      "discovery": "concert_aggregator_structured",
+      "scope": "large_music_taiwan",
+      "note": "structured public concert aggregator"
     },
     "817863c3c0ef832b": {
       "id": "817863c3c0ef832b",
@@ -239,18 +267,18 @@
       "scope": "large_music_taiwan",
       "note": ""
     },
-    "51c48d8b44dc265e": {
-      "id": "51c48d8b44dc265e",
+    "22b9bca4f0a43004": {
+      "id": "22b9bca4f0a43004",
       "sale_date": "2026-08-22",
-      "sale_time": "15:00",
-      "name": "Julia吳卓源 CTRL+S? add to playlist 近距離新歌搶聽會",
-      "type": "其他藝文活動",
-      "performance_date": "2026-08-05 ~ 2026-08-22",
+      "sale_time": "19:30",
+      "name": "HowZ 2026 專場演唱會【Bloomin：最深的那一夜】",
+      "type": "大型演唱會",
+      "performance_date": "2026-08-22 ~ 2026-06-13",
       "city": "台北市",
       "venue": "",
-      "source_url": "https://himmusic.kktix.cc/events/ro8brr",
+      "source_url": "https://kklivetw.kktix.cc/events/d4666d7a",
       "discovery": "kktix_search_index",
-      "scope": "taipei_only",
+      "scope": "large_music_taiwan",
       "note": ""
     },
     "794d7cc9ef5d6d03": {
@@ -295,6 +323,20 @@
       "scope": "large_music_taiwan",
       "note": ""
     },
+    "629aee72b8af64c2": {
+      "id": "629aee72b8af64c2",
+      "sale_date": "2026-09-13",
+      "sale_time": "18:00",
+      "name": "2026 PARK EUNBIN FAN CONCERT <EUNBIN NOTE: EUN-iverse> IN TAIPEI",
+      "type": "Fan meeting",
+      "performance_date": "2026-08-07 ~ 2026-09-13",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://wve.kktix.cc/events/parkeunbin2026fancon",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
     "8ca2b5a5bb3116fb": {
       "id": "8ca2b5a5bb3116fb",
       "sale_date": "2026-09-18",
@@ -309,16 +351,16 @@
       "scope": "large_music_taiwan",
       "note": ""
     },
-    "33a8d56ccf5f3c77": {
-      "id": "33a8d56ccf5f3c77",
-      "sale_date": "2026-09-23",
+    "2c992cf87c310484": {
+      "id": "2c992cf87c310484",
+      "sale_date": "2026-09-19",
       "sale_time": "19:30",
-      "name": "英格伯漢普汀克 不柘傳奇2026世界巡迴演唱會－台北站",
+      "name": "Andr [Shedding Skin 脱皮] 2026 Asia Tour in Taipei [Special Edition]",
       "type": "大型演唱會",
-      "performance_date": "2026-05-07 ~ 2026-09-23",
+      "performance_date": "2026-07-24 ~ 2026-09-19",
       "city": "台北市",
-      "venue": "",
-      "source_url": "https://globalmusic.kktix.cc/events/5dee326c",
+      "venue": "Legacy Taipei",
+      "source_url": "https://fujimusic.kktix.cc/events/f268d2ca",
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": ""
@@ -349,20 +391,6 @@
       "source_url": "https://chuanyeah.kktix.cc/events/080cefdf",
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
-      "note": ""
-    },
-    "64c356500e06080c": {
-      "id": "64c356500e06080c",
-      "sale_date": "2026-10-17",
-      "sale_time": "19:00",
-      "name": "國泰世華銀行 蔡健雅 除此之外Into The B-Sides",
-      "type": "其他藝文活動",
-      "performance_date": "2026-07-30 ~ 2026-07-31",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://kpmc.kktix.cc/events/tanya26kmcselect",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
       "note": ""
     },
     "d86b7eb2528c0eb7": {
@@ -406,40 +434,26 @@
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": ""
-    },
-    "5d3a72bbd3981bed": {
-      "id": "5d3a72bbd3981bed",
-      "sale_date": "2026-11-29",
-      "sale_time": "17:00",
-      "name": "HITORI-ESCAPE ASIA TOUR 2026 【TAIPEI】",
-      "type": "大型演唱會",
-      "performance_date": "2026-11-29 ~ 2026-07-25",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://gutspromotion.kktix.cc/events/hitorie2026",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
     }
   },
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-11T23:30:17+08:00",
+      "last_success_at": "2026-08-12T23:30:08+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
     },
     "Ticket Plus": {
       "status": "ok",
-      "last_success_at": "2026-08-11T23:30:17+08:00",
+      "last_success_at": "2026-08-12T23:30:08+08:00",
       "primary_method": "mainEvents/event JSON",
       "fallback_used": false,
       "error": ""
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-11T23:30:17+08:00",
+      "last_success_at": "2026-08-12T23:30:08+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -460,21 +474,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-11T23:30:17+08:00",
+      "last_success_at": "2026-08-12T23:30:08+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-08-11T23:30:17+08:00",
+      "last_success_at": "2026-08-12T23:30:08+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-11T23:30:17+08:00",
+      "last_success_at": "2026-08-12T23:30:08+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
