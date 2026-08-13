@@ -1,20 +1,6 @@
 {
-  "generated_at": "2026-08-12T23:30:08+08:00",
+  "generated_at": "2026-08-13T23:31:51+08:00",
   "events": {
-    "f149ca0261c1c636": {
-      "id": "f149ca0261c1c636",
-      "sale_date": "",
-      "sale_time": "",
-      "name": "2026台灣文化創意博覽會、2026臺灣文化創意博覽會「114年文化黑潮之臺灣圖像角色IP品牌發展徵案計畫成果展」",
-      "type": "展覽",
-      "performance_date": "2026-08-06 ~ 2026-08-12",
-      "city": "台北市",
-      "venue": "南港展覽館1館",
-      "source_url": "https://www.twtc.com.tw/exhibition",
-      "discovery": "twtc_public_schedule",
-      "scope": "taipei_only",
-      "note": "public venue exhibition schedule"
-    },
     "9bd12ac6c1522ec0": {
       "id": "9bd12ac6c1522ec0",
       "sale_date": "",
@@ -56,62 +42,6 @@
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": "KKTIX listing 403，目前仍需搜尋索引或公開頁 fallback"
-    },
-    "f6cbafe6a01fde85": {
-      "id": "f6cbafe6a01fde85",
-      "sale_date": "2026-08-12",
-      "sale_time": "12:00",
-      "name": "《K21》顏社二十一週年演唱會",
-      "type": "大型演唱會",
-      "performance_date": "2026-12-12 ~ 2026-12-13",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://kaoinc.kktix.cc/events/kiorfd",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
-    "24f6bf1e6e8ed4bd": {
-      "id": "24f6bf1e6e8ed4bd",
-      "sale_date": "2026-08-12",
-      "sale_time": "12:00",
-      "name": "富邦世紀音樂盛宴 維也納愛樂在臺北",
-      "type": "古典音樂",
-      "performance_date": "2026-10-16 ~ 2026-10-17",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1DXKS24",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
-    "0a6c3873f66f7b5b": {
-      "id": "0a6c3873f66f7b5b",
-      "sale_date": "2026-08-12",
-      "sale_time": "12:00",
-      "name": "李東軒AUSTIN LEE《FOREVER 我們・不變》十週年演唱會",
-      "type": "大型演唱會",
-      "performance_date": "2026-10-08",
-      "city": "台北市",
-      "venue": "Legacy Taipei",
-      "source_url": "https://ticketplus.com.tw/activity/e8ba6fb7729f1ee91796c65d6b861b67",
-      "discovery": "ticketplus_s3_event_json",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
-    "c659a61a3224f2a8": {
-      "id": "c659a61a3224f2a8",
-      "sale_date": "2026-08-12",
-      "sale_time": "12:00",
-      "name": "維也納愛樂在臺北",
-      "type": "古典音樂",
-      "performance_date": "2026-10-16 ~ 2026-10-17",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1DXKS26",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
     },
     "e86437d6d3542602": {
       "id": "e86437d6d3542602",
@@ -253,6 +183,20 @@
       "scope": "large_music_taiwan",
       "note": ""
     },
+    "fd0170a1febc0f5b": {
+      "id": "fd0170a1febc0f5b",
+      "sale_date": "2026-08-20",
+      "sale_time": "12:00",
+      "name": "全球第一男高音 – 胡安・迪亞戈・佛瑞茲",
+      "type": "古典音樂",
+      "performance_date": "2026-10-14",
+      "city": "台北市",
+      "venue": "臺北國家音樂廳",
+      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1EB5DN3",
+      "discovery": "mna_public_listing",
+      "scope": "taipei_only",
+      "note": "MNA public event overview discovery"
+    },
     "1f1bf44d52d1a346": {
       "id": "1f1bf44d52d1a346",
       "sale_date": "2026-08-22",
@@ -379,18 +323,18 @@
       "scope": "large_music_taiwan",
       "note": ""
     },
-    "7936593420b913bb": {
-      "id": "7936593420b913bb",
-      "sale_date": "2026-10-03",
-      "sale_time": "18:00",
-      "name": "【會員優先購、全面啟售】2026 SUPER JUNIOR-83z FANCON TOUR [1983] in KAOHSIUNG",
-      "type": "大型演唱會",
-      "performance_date": "2026-08-12 ~ 2026-10-03",
+    "2f4db80f5a709078": {
+      "id": "2f4db80f5a709078",
+      "sale_date": "2026-10-18",
+      "sale_time": "17:00",
+      "name": "韓東《仲夏夜之鏡》Fan Concert in Taipei",
+      "type": "Fan meeting",
+      "performance_date": "2026-10-18",
       "city": "台北市",
       "venue": "",
-      "source_url": "https://chuanyeah.kktix.cc/events/080cefdf",
+      "source_url": "https://weekendplanent.kktix.cc/events/d23c8c16",
       "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
+      "scope": "taipei_only",
       "note": ""
     },
     "d86b7eb2528c0eb7": {
@@ -439,21 +383,21 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-12T23:30:08+08:00",
+      "last_success_at": "2026-08-13T23:31:51+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
     },
     "Ticket Plus": {
       "status": "ok",
-      "last_success_at": "2026-08-12T23:30:08+08:00",
+      "last_success_at": "2026-08-13T23:31:51+08:00",
       "primary_method": "mainEvents/event JSON",
       "fallback_used": false,
       "error": ""
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-12T23:30:08+08:00",
+      "last_success_at": "2026-08-13T23:31:51+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -474,21 +418,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-12T23:30:08+08:00",
+      "last_success_at": "2026-08-13T23:31:51+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-08-12T23:30:08+08:00",
+      "last_success_at": "2026-08-13T23:31:51+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-12T23:30:08+08:00",
+      "last_success_at": "2026-08-13T23:31:51+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
