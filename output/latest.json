@@ -1,57 +1,44 @@
 {
-  "generated_at": "2026-08-13T23:31:51+08:00",
+  "generated_at": "2026-08-14T23:06:49+08:00",
   "scan_success": true,
-  "coverage_ok": true,
-  "new_events": [
-    {
-      "id": "fd0170a1febc0f5b",
-      "sale_date": "2026-08-20",
-      "sale_time": "12:00",
-      "name": "全球第一男高音 – 胡安・迪亞戈・佛瑞茲",
-      "type": "古典音樂",
-      "performance_date": "2026-10-14",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1EB5DN3",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
+  "coverage_ok": false,
+  "new_events": [],
+  "new_sale_info": [],
+  "changed_events": [
     {
       "id": "2f4db80f5a709078",
-      "sale_date": "2026-10-18",
-      "sale_time": "17:00",
       "name": "韓東《仲夏夜之鏡》Fan Concert in Taipei",
-      "type": "Fan meeting",
-      "performance_date": "2026-10-18",
-      "city": "台北市",
-      "venue": "",
       "source_url": "https://weekendplanent.kktix.cc/events/d23c8c16",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
+      "changes": {
+        "sale_date": {
+          "old": "2026-10-18",
+          "new": "2026-08-14"
+        },
+        "sale_time": {
+          "old": "17:00",
+          "new": "13:00"
+        }
+      }
     }
   ],
-  "new_sale_info": [],
-  "changed_events": [],
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-13T23:31:51+08:00",
+      "last_success_at": "2026-08-14T23:06:49+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
     },
     "Ticket Plus": {
-      "status": "ok",
+      "status": "failed",
       "last_success_at": "2026-08-13T23:31:51+08:00",
       "primary_method": "mainEvents/event JSON",
       "fallback_used": false,
-      "error": ""
+      "error": "HTTP 403"
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-13T23:31:51+08:00",
+      "last_success_at": "2026-08-14T23:06:49+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -72,21 +59,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-13T23:31:51+08:00",
+      "last_success_at": "2026-08-14T23:06:49+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-08-13T23:31:51+08:00",
+      "last_success_at": "2026-08-14T23:06:49+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-13T23:31:51+08:00",
+      "last_success_at": "2026-08-14T23:06:49+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""

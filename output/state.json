@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T23:31:51+08:00",
+  "generated_at": "2026-08-14T23:06:49+08:00",
   "events": {
     "9bd12ac6c1522ec0": {
       "id": "9bd12ac6c1522ec0",
@@ -43,17 +43,17 @@
       "scope": "large_music_taiwan",
       "note": "KKTIX listing 403，目前仍需搜尋索引或公開頁 fallback"
     },
-    "e86437d6d3542602": {
-      "id": "e86437d6d3542602",
+    "2f4db80f5a709078": {
+      "id": "2f4db80f5a709078",
       "sale_date": "2026-08-14",
-      "sale_time": "12:00",
-      "name": "房潔恩James fong 《雲朵觀察家》ft.杏仁茶Victoria",
-      "type": "其他藝文活動",
-      "performance_date": "2026-09-19",
+      "sale_time": "13:00",
+      "name": "韓東《仲夏夜之鏡》Fan Concert in Taipei",
+      "type": "Fan meeting",
+      "performance_date": "2026-10-18",
       "city": "台北市",
-      "venue": "女巫店",
-      "source_url": "https://ticketplus.com.tw/activity/86def539d3a8bfad2631a586ede9b015",
-      "discovery": "ticketplus_s3_event_json",
+      "venue": "",
+      "source_url": "https://weekendplanent.kktix.cc/events/d23c8c16",
+      "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
     },
@@ -71,20 +71,6 @@
       "scope": "taipei_only",
       "note": ""
     },
-    "ffa558605622733a": {
-      "id": "ffa558605622733a",
-      "sale_date": "2026-08-15",
-      "sale_time": "00:00",
-      "name": "UVERworld LIVE TOUR 2026 in TAIPEI",
-      "type": "大型演唱會",
-      "performance_date": "2026-11-21",
-      "city": "新北市",
-      "venue": "Zepp New Taipei",
-      "source_url": "https://ticketplus.com.tw/activity/641abfeafd8760018e1f02fadcf3d4c0",
-      "discovery": "ticketplus_s3_event_json",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
     "bad892178947e6da": {
       "id": "bad892178947e6da",
       "sale_date": "2026-08-15",
@@ -98,20 +84,6 @@
       "discovery": "tixcraft_search_index",
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
-    },
-    "8d6d4f9c3fc6d8ea": {
-      "id": "8d6d4f9c3fc6d8ea",
-      "sale_date": "2026-08-15",
-      "sale_time": "19:00",
-      "name": "我們搖滾——無妄合作社十週年演唱會",
-      "type": "大型演唱會",
-      "performance_date": "2026-08-15 ~ 2026-08-29",
-      "city": "台北市",
-      "venue": "台北 Legacy Tera、高雄 後台Backstage Live",
-      "source_url": "https://ticketplus.com.tw/activity/27556b3a4728bc77d96892108a15ab73",
-      "discovery": "ticketplus_s3_event_json",
-      "scope": "large_music_taiwan",
-      "note": ""
     },
     "211dc660a275425d": {
       "id": "211dc660a275425d",
@@ -169,20 +141,6 @@
       "scope": "taipei_only",
       "note": "MNA public event overview discovery"
     },
-    "dcfec351738edbdd": {
-      "id": "dcfec351738edbdd",
-      "sale_date": "2026-08-20",
-      "sale_time": "10:00",
-      "name": "BIGBANG 2026-2027 WORLD TOUR < XX : COSMOS > IN TAIPEI",
-      "type": "大型演唱會",
-      "performance_date": "2026-10-10 ~ 2026-10-11",
-      "city": "台北市",
-      "venue": "臺北大巨蛋",
-      "source_url": "https://ticketplus.com.tw/activity/21d3c3504ff522a6732789a46f5796d7",
-      "discovery": "ticketplus_s3_event_json",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
     "fd0170a1febc0f5b": {
       "id": "fd0170a1febc0f5b",
       "sale_date": "2026-08-20",
@@ -196,20 +154,6 @@
       "discovery": "mna_public_listing",
       "scope": "taipei_only",
       "note": "MNA public event overview discovery"
-    },
-    "1f1bf44d52d1a346": {
-      "id": "1f1bf44d52d1a346",
-      "sale_date": "2026-08-22",
-      "sale_time": "13:00",
-      "name": "Tiffany Young：Edge of Calm Tour In Taipei",
-      "type": "大型演唱會",
-      "performance_date": "2026-10-09 ~ 2026-10-10",
-      "city": "台北市",
-      "venue": "國立臺灣大學綜合體育館",
-      "source_url": "https://ticketplus.com.tw/activity/0dcd13114224adf9ff51382e8b535894",
-      "discovery": "ticketplus_s3_event_json",
-      "scope": "large_music_taiwan",
-      "note": ""
     },
     "22b9bca4f0a43004": {
       "id": "22b9bca4f0a43004",
@@ -250,20 +194,6 @@
       "venue": "",
       "source_url": "https://2sentertw.kktix.cc/events/b36e675c",
       "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
-    "a5d80262f4bf6b3c": {
-      "id": "a5d80262f4bf6b3c",
-      "sale_date": "2026-09-05",
-      "sale_time": "18:30",
-      "name": "羊米人YUMMY MAN【飛天摩托車】演唱會",
-      "type": "大型演唱會",
-      "performance_date": "2026-09-05",
-      "city": "台北市",
-      "venue": "The Wall Livehouse",
-      "source_url": "https://ticketplus.com.tw/activity/6754f898fb01089075512958f2a40cb9",
-      "discovery": "ticketplus_s3_event_json",
       "scope": "large_music_taiwan",
       "note": ""
     },
@@ -309,34 +239,6 @@
       "scope": "large_music_taiwan",
       "note": ""
     },
-    "f30cf1287f3dd1b4": {
-      "id": "f30cf1287f3dd1b4",
-      "sale_date": "2026-09-26",
-      "sale_time": "18:00",
-      "name": "TREASURE THE STAGE 2026 NEW WAV : LIVE IN KAOHSIUNG",
-      "type": "大型演唱會",
-      "performance_date": "2026-09-26",
-      "city": "高雄市",
-      "venue": "高雄巨蛋",
-      "source_url": "https://ticketplus.com.tw/activity/e5baf60463fccb6391ae4dcb2e314978",
-      "discovery": "ticketplus_s3_event_json",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
-    "2f4db80f5a709078": {
-      "id": "2f4db80f5a709078",
-      "sale_date": "2026-10-18",
-      "sale_time": "17:00",
-      "name": "韓東《仲夏夜之鏡》Fan Concert in Taipei",
-      "type": "Fan meeting",
-      "performance_date": "2026-10-18",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://weekendplanent.kktix.cc/events/d23c8c16",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    },
     "d86b7eb2528c0eb7": {
       "id": "d86b7eb2528c0eb7",
       "sale_date": "2026-10-22",
@@ -364,40 +266,26 @@
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
-    },
-    "abf72d0395e7be78": {
-      "id": "abf72d0395e7be78",
-      "sale_date": "2026-11-06",
-      "sale_time": "20:00",
-      "name": "Jony J 2026「本命」TOUR IN TAIPEI",
-      "type": "大型演唱會",
-      "performance_date": "2026-11-06",
-      "city": "新北市",
-      "venue": "Zepp New Taipei",
-      "source_url": "https://spaceport.kktix.cc/events/jonyj",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
     }
   },
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-13T23:31:51+08:00",
+      "last_success_at": "2026-08-14T23:06:49+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
     },
     "Ticket Plus": {
-      "status": "ok",
+      "status": "failed",
       "last_success_at": "2026-08-13T23:31:51+08:00",
       "primary_method": "mainEvents/event JSON",
       "fallback_used": false,
-      "error": ""
+      "error": "HTTP 403"
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-13T23:31:51+08:00",
+      "last_success_at": "2026-08-14T23:06:49+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -418,21 +306,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-13T23:31:51+08:00",
+      "last_success_at": "2026-08-14T23:06:49+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-08-13T23:31:51+08:00",
+      "last_success_at": "2026-08-14T23:06:49+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-13T23:31:51+08:00",
+      "last_success_at": "2026-08-14T23:06:49+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
