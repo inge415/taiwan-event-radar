@@ -2,7 +2,7 @@ name: Taiwan Event Radar
 
 on:
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "37 9 * * *"
   workflow_dispatch:
 
 permissions:
