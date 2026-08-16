@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T21:20:33+08:00",
+  "generated_at": "2026-08-16T18:43:57+08:00",
   "events": {
     "9bd12ac6c1522ec0": {
       "id": "9bd12ac6c1522ec0",
@@ -61,7 +61,7 @@
       "id": "211dc660a275425d",
       "sale_date": "2026-08-17",
       "sale_time": "10:00",
-      "name": "還有 5個月12日 BIGBANG 台北演唱會 2026",
+      "name": "還有 5個月11日 BIGBANG 台北演唱會 2026",
       "type": "大型演唱會",
       "performance_date": "2026-10-10",
       "city": "台北市",
@@ -243,7 +243,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-15T21:20:33+08:00",
+      "last_success_at": "2026-08-16T18:43:57+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -257,7 +257,7 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-15T21:20:33+08:00",
+      "last_success_at": "2026-08-16T18:43:57+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -278,21 +278,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-15T21:20:33+08:00",
+      "last_success_at": "2026-08-16T18:43:57+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-08-15T21:20:33+08:00",
+      "last_success_at": "2026-08-16T18:43:57+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-15T21:20:33+08:00",
+      "last_success_at": "2026-08-16T18:43:57+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
