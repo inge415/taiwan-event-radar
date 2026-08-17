@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T18:43:57+08:00",
+  "generated_at": "2026-08-17T18:58:44+08:00",
   "events": {
     "9bd12ac6c1522ec0": {
       "id": "9bd12ac6c1522ec0",
@@ -61,7 +61,7 @@
       "id": "211dc660a275425d",
       "sale_date": "2026-08-17",
       "sale_time": "10:00",
-      "name": "還有 5個月11日 BIGBANG 台北演唱會 2026",
+      "name": "還有 5個月10日 BIGBANG 台北演唱會 2026",
       "type": "大型演唱會",
       "performance_date": "2026-10-10",
       "city": "台北市",
@@ -117,7 +117,7 @@
       "id": "fd0170a1febc0f5b",
       "sale_date": "2026-08-20",
       "sale_time": "12:00",
-      "name": "全球第一男高音 – 胡安・迪亞戈・佛瑞茲",
+      "name": "全球第一男高音 – 胡安・迪亞戈・佛瑞茲演唱會",
       "type": "古典音樂",
       "performance_date": "2026-10-14",
       "city": "台北市",
@@ -224,26 +224,12 @@
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": ""
-    },
-    "a306d9401c0a35ef": {
-      "id": "a306d9401c0a35ef",
-      "sale_date": "2026-11-01",
-      "sale_time": "19:00",
-      "name": "德葵祭",
-      "type": "其他藝文活動",
-      "performance_date": "2026-08-05 ~ 2026-11-01",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://hentin.kktix.cc/events/kifewg",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
     }
   },
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-16T18:43:57+08:00",
+      "last_success_at": "2026-08-17T18:58:44+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -257,7 +243,7 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-16T18:43:57+08:00",
+      "last_success_at": "2026-08-17T18:58:44+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -278,21 +264,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-16T18:43:57+08:00",
+      "last_success_at": "2026-08-17T18:58:44+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-08-16T18:43:57+08:00",
+      "last_success_at": "2026-08-17T18:58:44+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-16T18:43:57+08:00",
+      "last_success_at": "2026-08-17T18:58:44+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""

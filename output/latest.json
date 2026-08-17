@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T18:43:57+08:00",
+  "generated_at": "2026-08-17T18:58:44+08:00",
   "scan_success": true,
   "coverage_ok": false,
   "new_events": [],
@@ -7,12 +7,23 @@
   "changed_events": [
     {
       "id": "211dc660a275425d",
-      "name": "還有 5個月11日 BIGBANG 台北演唱會 2026",
+      "name": "還有 5個月10日 BIGBANG 台北演唱會 2026",
       "source_url": "https://www.tickettw.com/",
       "changes": {
         "name": {
-          "old": "還有 5個月12日 BIGBANG 台北演唱會 2026",
-          "new": "還有 5個月11日 BIGBANG 台北演唱會 2026"
+          "old": "還有 5個月11日 BIGBANG 台北演唱會 2026",
+          "new": "還有 5個月10日 BIGBANG 台北演唱會 2026"
+        }
+      }
+    },
+    {
+      "id": "fd0170a1febc0f5b",
+      "name": "全球第一男高音 – 胡安・迪亞戈・佛瑞茲演唱會",
+      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1EB5DN3",
+      "changes": {
+        "name": {
+          "old": "全球第一男高音 – 胡安・迪亞戈・佛瑞茲",
+          "new": "全球第一男高音 – 胡安・迪亞戈・佛瑞茲演唱會"
         }
       }
     }
@@ -20,7 +31,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-16T18:43:57+08:00",
+      "last_success_at": "2026-08-17T18:58:44+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -34,7 +45,7 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-16T18:43:57+08:00",
+      "last_success_at": "2026-08-17T18:58:44+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -55,21 +66,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-16T18:43:57+08:00",
+      "last_success_at": "2026-08-17T18:58:44+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-08-16T18:43:57+08:00",
+      "last_success_at": "2026-08-17T18:58:44+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-16T18:43:57+08:00",
+      "last_success_at": "2026-08-17T18:58:44+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
