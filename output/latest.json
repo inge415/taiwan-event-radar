@@ -1,37 +1,29 @@
 {
-  "generated_at": "2026-08-17T18:58:44+08:00",
+  "generated_at": "2026-08-18T18:57:07+08:00",
   "scan_success": true,
   "coverage_ok": false,
-  "new_events": [],
-  "new_sale_info": [],
-  "changed_events": [
+  "new_events": [
     {
-      "id": "211dc660a275425d",
-      "name": "還有 5個月10日 BIGBANG 台北演唱會 2026",
-      "source_url": "https://www.tickettw.com/",
-      "changes": {
-        "name": {
-          "old": "還有 5個月11日 BIGBANG 台北演唱會 2026",
-          "new": "還有 5個月10日 BIGBANG 台北演唱會 2026"
-        }
-      }
-    },
-    {
-      "id": "fd0170a1febc0f5b",
-      "name": "全球第一男高音 – 胡安・迪亞戈・佛瑞茲演唱會",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1EB5DN3",
-      "changes": {
-        "name": {
-          "old": "全球第一男高音 – 胡安・迪亞戈・佛瑞茲",
-          "new": "全球第一男高音 – 胡安・迪亞戈・佛瑞茲演唱會"
-        }
-      }
+      "id": "db9d4d152fbb26f2",
+      "sale_date": "2026-09-19",
+      "sale_time": "18:00",
+      "name": "銀幕之外 朱芸編 Beyond the Screen",
+      "type": "其他藝文活動",
+      "performance_date": "2026-08-19 ~ 2026-09-19",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://triplefivelnfinitymission.kktix.cc/events/2d5e87bd",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
     }
   ],
+  "new_sale_info": [],
+  "changed_events": [],
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-17T18:58:44+08:00",
+      "last_success_at": "2026-08-18T18:57:07+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -45,7 +37,7 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-17T18:58:44+08:00",
+      "last_success_at": "2026-08-18T18:57:07+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -66,21 +58,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-17T18:58:44+08:00",
+      "last_success_at": "2026-08-18T18:57:07+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-08-17T18:58:44+08:00",
+      "last_success_at": "2026-08-18T18:57:07+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-17T18:58:44+08:00",
+      "last_success_at": "2026-08-18T18:57:07+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
