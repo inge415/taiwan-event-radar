@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T18:57:07+08:00",
+  "generated_at": "2026-08-19T18:55:37+08:00",
   "events": {
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
@@ -43,48 +43,6 @@
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
     },
-    "817863c3c0ef832b": {
-      "id": "817863c3c0ef832b",
-      "sale_date": "2026-08-18",
-      "sale_time": "12:00",
-      "name": "2026臺中國際巨星音樂節 Yo-Yo Ma Live in Concert",
-      "type": "古典音樂",
-      "performance_date": "2026-10-18 ~ 2026-10-21",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1DXKS2A",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
-    "c5ef2717adf036e8": {
-      "id": "c5ef2717adf036e8",
-      "sale_date": "2026-08-18",
-      "sale_time": "12:00",
-      "name": "凱基雋永饗宴—Yo-Yo Ma Live in Concert",
-      "type": "古典音樂",
-      "performance_date": "2026-10-18 ~ 2026-10-21",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1DXKS27",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
-    "42f8452a86e1188d": {
-      "id": "42f8452a86e1188d",
-      "sale_date": "2026-08-18",
-      "sale_time": "12:00",
-      "name": "遠東璀璨饗宴—Yo-Yo Ma Live in Concert",
-      "type": "古典音樂",
-      "performance_date": "2026-10-18 ~ 2026-10-21",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1DXKS28",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
     "fd0170a1febc0f5b": {
       "id": "fd0170a1febc0f5b",
       "sale_date": "2026-08-20",
@@ -99,30 +57,16 @@
       "scope": "taipei_only",
       "note": "MNA public event overview discovery"
     },
-    "22b9bca4f0a43004": {
-      "id": "22b9bca4f0a43004",
-      "sale_date": "2026-08-22",
-      "sale_time": "19:30",
-      "name": "HowZ 2026 專場演唱會【Bloomin：最深的那一夜】",
-      "type": "大型演唱會",
-      "performance_date": "2026-08-22 ~ 2026-06-13",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://kklivetw.kktix.cc/events/d4666d7a",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
-    "794d7cc9ef5d6d03": {
-      "id": "794d7cc9ef5d6d03",
-      "sale_date": "2026-08-29",
+    "0b401ab91985da8d": {
+      "id": "0b401ab91985da8d",
+      "sale_date": "2026-08-23",
       "sale_time": "11:00",
-      "name": "『偽裝的真實之吻』粉絲見面會 in 台灣",
+      "name": "工藤晴香2026 台北粉絲見面會",
       "type": "Fan meeting",
-      "performance_date": "2026-07-29 ~ 2026-08-29",
+      "performance_date": "2026-11-07",
       "city": "台北市",
       "venue": "",
-      "source_url": "https://shipeee.kktix.cc/events/f8ddc6d5",
+      "source_url": "https://atc-twn.kktix.cc/events/jrsfe",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
@@ -155,24 +99,10 @@
       "scope": "taipei_only",
       "note": ""
     },
-    "8ca2b5a5bb3116fb": {
-      "id": "8ca2b5a5bb3116fb",
-      "sale_date": "2026-09-18",
-      "sale_time": "",
-      "name": "2026 洪佩瑜《開了又開》巡迴演唱會",
-      "type": "大型演唱會",
-      "performance_date": "2026-07-05 ~ 2026-09-05",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://kklivetw.kktix.cc/events/pdiewc",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
     "db9d4d152fbb26f2": {
       "id": "db9d4d152fbb26f2",
       "sale_date": "2026-09-19",
-      "sale_time": "18:00",
+      "sale_time": "19:30",
       "name": "銀幕之外 朱芸編 Beyond the Screen",
       "type": "其他藝文活動",
       "performance_date": "2026-08-19 ~ 2026-09-19",
@@ -183,30 +113,86 @@
       "scope": "taipei_only",
       "note": ""
     },
-    "2c992cf87c310484": {
-      "id": "2c992cf87c310484",
+    "35500c69d22f880b": {
+      "id": "35500c69d22f880b",
       "sale_date": "2026-09-19",
-      "sale_time": "19:30",
-      "name": "Andr [Shedding Skin 脱皮] 2026 Asia Tour in Taipei [Special Edition]",
+      "sale_time": "23:59",
+      "name": "2026 河北彩花 My Angel Fan Meeting 台北站",
+      "type": "Fan meeting",
+      "performance_date": "2026-09-19 ~ 2026-09-20",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://wecan.kktix.cc/events/e5e1c3",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    "6411e43a8e585c9f": {
+      "id": "6411e43a8e585c9f",
+      "sale_date": "2026-10-11",
+      "sale_time": "17:00",
+      "name": "康康SHOW-色·可餐",
+      "type": "其他藝文活動",
+      "performance_date": "2026-08-20 ~ 2026-10-11",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://billboardlivetp.kktix.cc/events/46ce60a8",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    "d2ec9a97ea56a255": {
+      "id": "d2ec9a97ea56a255",
+      "sale_date": "2026-10-17",
+      "sale_time": "19:00",
+      "name": "Silica Gel Asia Tour <Syn.THE.Size: Ballad of You> - TAIPEI",
       "type": "大型演唱會",
-      "performance_date": "2026-07-24 ~ 2026-09-19",
+      "performance_date": "2026-10-17 ~ 2026-07-15",
       "city": "台北市",
       "venue": "Legacy Taipei",
-      "source_url": "https://fujimusic.kktix.cc/events/f268d2ca",
+      "source_url": "https://youngteam.kktix.cc/events/silicagel26",
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": ""
     },
-    "d86b7eb2528c0eb7": {
-      "id": "d86b7eb2528c0eb7",
-      "sale_date": "2026-10-22",
-      "sale_time": "19:30",
-      "name": "向井太一 MUKAI TAICHI〈THE 34 TOUR〉",
-      "type": "大型演唱會",
-      "performance_date": "2026-10-22 ~ 2026-07-30",
+    "338f5bd593e6f597": {
+      "id": "338f5bd593e6f597",
+      "sale_date": "2026-10-17",
+      "sale_time": "20:00",
+      "name": "RIKI《投幣式伴唱雞》專場",
+      "type": "其他藝文活動",
+      "performance_date": "2026-10-17 ~ 2026-07-31",
       "city": "台北市",
-      "venue": "Legacy Taipei",
-      "source_url": "https://jmgroup.kktix.cc/events/ceb65567",
+      "venue": "",
+      "source_url": "https://lorfeg.kktix.cc/events/f01725b9",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    "a8df25350955248a": {
+      "id": "a8df25350955248a",
+      "sale_date": "2026-10-24",
+      "sale_time": "18:00",
+      "name": "高橋洋子 2026亞洲巡迴演唱會 -夜想曲- 台北場",
+      "type": "大型演唱會",
+      "performance_date": "2026-10-24",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://atc-twn.kktix.cc/events/0b8a45ac",
+      "discovery": "kktix_search_index",
+      "scope": "large_music_taiwan",
+      "note": ""
+    },
+    "a08d58bc522f5846": {
+      "id": "a08d58bc522f5846",
+      "sale_date": "2026-11-13",
+      "sale_time": "23:59",
+      "name": "AKANE YONEZAWA \"Black Pasta\" TOUR 2026 IN TAIPEI",
+      "type": "大型演唱會",
+      "performance_date": "2026-11-14 ~ 2026-08-29",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://baodaorecords.kktix.cc/events/14793026",
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": ""
@@ -215,7 +201,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-18T18:57:07+08:00",
+      "last_success_at": "2026-08-19T18:55:37+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -229,7 +215,7 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-18T18:57:07+08:00",
+      "last_success_at": "2026-08-19T18:55:37+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -250,21 +236,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-18T18:57:07+08:00",
+      "last_success_at": "2026-08-19T18:55:37+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-08-18T18:57:07+08:00",
+      "last_success_at": "2026-08-19T18:55:37+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-18T18:57:07+08:00",
+      "last_success_at": "2026-08-19T18:55:37+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
