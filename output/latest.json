@@ -1,26 +1,29 @@
 {
-  "generated_at": "2026-08-20T19:00:34+08:00",
+  "generated_at": "2026-08-21T18:59:55+08:00",
   "scan_success": true,
   "coverage_ok": false,
-  "new_events": [],
-  "new_sale_info": [],
-  "changed_events": [
+  "new_events": [
     {
-      "id": "6411e43a8e585c9f",
-      "name": "康康SHOW-色·可餐",
-      "source_url": "https://billboardlivetp.kktix.cc/events/46ce60a8",
-      "changes": {
-        "sale_time": {
-          "old": "17:00",
-          "new": "18:00"
-        }
-      }
+      "id": "e905792e517c7ca4",
+      "sale_date": "2026-09-12",
+      "sale_time": "12:00",
+      "name": "<𝗢𝗡𝗟𝗬 𝗢𝗡𝗘> 𝗡𝗘𝗟𝗟 𝗟𝗜𝗩𝗘 𝗜𝗡 𝗧𝗔𝗜𝗣𝗘𝗜",
+      "type": "其他藝文活動",
+      "performance_date": "2026-11-28",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://unitystar.kktix.cc/events/9549c447",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
     }
   ],
+  "new_sale_info": [],
+  "changed_events": [],
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-20T19:00:34+08:00",
+      "last_success_at": "2026-08-21T18:59:55+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -34,7 +37,7 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-20T19:00:34+08:00",
+      "last_success_at": "2026-08-21T18:59:55+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -55,21 +58,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-20T19:00:34+08:00",
+      "last_success_at": "2026-08-21T18:59:55+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-08-20T19:00:34+08:00",
+      "last_success_at": "2026-08-21T18:59:55+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-20T19:00:34+08:00",
+      "last_success_at": "2026-08-21T18:59:55+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""

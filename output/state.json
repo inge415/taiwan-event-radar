@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T19:00:34+08:00",
+  "generated_at": "2026-08-21T18:59:55+08:00",
   "events": {
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
@@ -43,20 +43,6 @@
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
     },
-    "fd0170a1febc0f5b": {
-      "id": "fd0170a1febc0f5b",
-      "sale_date": "2026-08-20",
-      "sale_time": "12:00",
-      "name": "全球第一男高音 – 胡安・迪亞戈・佛瑞茲演唱會",
-      "type": "古典音樂",
-      "performance_date": "2026-10-14",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1EB5DN3",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
     "0b401ab91985da8d": {
       "id": "0b401ab91985da8d",
       "sale_date": "2026-08-23",
@@ -83,6 +69,20 @@
       "source_url": "https://2sentertw.kktix.cc/events/b36e675c",
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
+      "note": ""
+    },
+    "e905792e517c7ca4": {
+      "id": "e905792e517c7ca4",
+      "sale_date": "2026-09-12",
+      "sale_time": "12:00",
+      "name": "<𝗢𝗡𝗟𝗬 𝗢𝗡𝗘> 𝗡𝗘𝗟𝗟 𝗟𝗜𝗩𝗘 𝗜𝗡 𝗧𝗔𝗜𝗣𝗘𝗜",
+      "type": "其他藝文活動",
+      "performance_date": "2026-11-28",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://unitystar.kktix.cc/events/9549c447",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
       "note": ""
     },
     "629aee72b8af64c2": {
@@ -201,7 +201,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-20T19:00:34+08:00",
+      "last_success_at": "2026-08-21T18:59:55+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -215,7 +215,7 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-20T19:00:34+08:00",
+      "last_success_at": "2026-08-21T18:59:55+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -236,21 +236,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-20T19:00:34+08:00",
+      "last_success_at": "2026-08-21T18:59:55+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-08-20T19:00:34+08:00",
+      "last_success_at": "2026-08-21T18:59:55+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-20T19:00:34+08:00",
+      "last_success_at": "2026-08-21T18:59:55+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
