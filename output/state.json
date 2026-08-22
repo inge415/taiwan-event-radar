@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T18:59:55+08:00",
+  "generated_at": "2026-08-22T18:02:51+08:00",
   "events": {
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
@@ -42,6 +42,20 @@
       "discovery": "tixcraft_search_index",
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
+    },
+    "a8df25350955248a": {
+      "id": "a8df25350955248a",
+      "sale_date": "2026-08-22",
+      "sale_time": "11:00",
+      "name": "高橋洋子 2026亞洲巡迴演唱會 -夜想曲- 台北場",
+      "type": "大型演唱會",
+      "performance_date": "2026-10-24",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://atc-twn.kktix.cc/events/0b8a45ac",
+      "discovery": "kktix_search_index",
+      "scope": "large_music_taiwan",
+      "note": ""
     },
     "0b401ab91985da8d": {
       "id": "0b401ab91985da8d",
@@ -99,6 +113,20 @@
       "scope": "taipei_only",
       "note": ""
     },
+    "9f4f828722943313": {
+      "id": "9f4f828722943313",
+      "sale_date": "2026-09-18",
+      "sale_time": "",
+      "name": "已公開 (售票/派票)活動 - 臺北小巨蛋",
+      "type": "大型演唱會",
+      "performance_date": "2026-09-18",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://www.arena.taipei/News_Photo.aspx?n=2E1489AFE4B1BEA1&sms=F9A95D3F5A5C2C68",
+      "discovery": "public_web_news_search",
+      "scope": "large_music_taiwan",
+      "note": "public search/news discovery"
+    },
     "db9d4d152fbb26f2": {
       "id": "db9d4d152fbb26f2",
       "sale_date": "2026-09-19",
@@ -109,20 +137,6 @@
       "city": "台北市",
       "venue": "",
       "source_url": "https://triplefivelnfinitymission.kktix.cc/events/2d5e87bd",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    },
-    "35500c69d22f880b": {
-      "id": "35500c69d22f880b",
-      "sale_date": "2026-09-19",
-      "sale_time": "23:59",
-      "name": "2026 河北彩花 My Angel Fan Meeting 台北站",
-      "type": "Fan meeting",
-      "performance_date": "2026-09-19 ~ 2026-09-20",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://wecan.kktix.cc/events/e5e1c3",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
@@ -169,20 +183,6 @@
       "scope": "taipei_only",
       "note": ""
     },
-    "a8df25350955248a": {
-      "id": "a8df25350955248a",
-      "sale_date": "2026-10-24",
-      "sale_time": "18:00",
-      "name": "高橋洋子 2026亞洲巡迴演唱會 -夜想曲- 台北場",
-      "type": "大型演唱會",
-      "performance_date": "2026-10-24",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://atc-twn.kktix.cc/events/0b8a45ac",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
     "a08d58bc522f5846": {
       "id": "a08d58bc522f5846",
       "sale_date": "2026-11-13",
@@ -201,7 +201,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-21T18:59:55+08:00",
+      "last_success_at": "2026-08-22T18:02:51+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -215,7 +215,7 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-21T18:59:55+08:00",
+      "last_success_at": "2026-08-22T18:02:51+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -236,21 +236,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-21T18:59:55+08:00",
+      "last_success_at": "2026-08-22T18:02:51+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-08-21T18:59:55+08:00",
+      "last_success_at": "2026-08-22T18:02:51+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-21T18:59:55+08:00",
+      "last_success_at": "2026-08-22T18:02:51+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
