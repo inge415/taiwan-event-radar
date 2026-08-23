@@ -1,45 +1,14 @@
 {
-  "generated_at": "2026-08-22T18:02:51+08:00",
+  "generated_at": "2026-08-23T18:45:23+08:00",
   "scan_success": true,
   "coverage_ok": false,
-  "new_events": [
-    {
-      "id": "9f4f828722943313",
-      "sale_date": "2026-09-18",
-      "sale_time": "",
-      "name": "已公開 (售票/派票)活動 - 臺北小巨蛋",
-      "type": "大型演唱會",
-      "performance_date": "2026-09-18",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://www.arena.taipei/News_Photo.aspx?n=2E1489AFE4B1BEA1&sms=F9A95D3F5A5C2C68",
-      "discovery": "public_web_news_search",
-      "scope": "large_music_taiwan",
-      "note": "public search/news discovery"
-    }
-  ],
+  "new_events": [],
   "new_sale_info": [],
-  "changed_events": [
-    {
-      "id": "a8df25350955248a",
-      "name": "高橋洋子 2026亞洲巡迴演唱會 -夜想曲- 台北場",
-      "source_url": "https://atc-twn.kktix.cc/events/0b8a45ac",
-      "changes": {
-        "sale_date": {
-          "old": "2026-10-24",
-          "new": "2026-08-22"
-        },
-        "sale_time": {
-          "old": "18:00",
-          "new": "11:00"
-        }
-      }
-    }
-  ],
+  "changed_events": [],
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-22T18:02:51+08:00",
+      "last_success_at": "2026-08-23T18:45:23+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -53,7 +22,7 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-22T18:02:51+08:00",
+      "last_success_at": "2026-08-23T18:45:23+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -74,21 +43,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-22T18:02:51+08:00",
+      "last_success_at": "2026-08-23T18:45:23+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-08-22T18:02:51+08:00",
+      "last_success_at": "2026-08-23T18:45:23+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-22T18:02:51+08:00",
+      "last_success_at": "2026-08-23T18:45:23+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
