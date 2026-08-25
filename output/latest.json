@@ -1,49 +1,35 @@
 {
-  "generated_at": "2026-08-24T19:04:53+08:00",
+  "generated_at": "2026-08-25T19:02:38+08:00",
   "scan_success": true,
   "coverage_ok": false,
   "new_events": [
     {
-      "id": "8ab48fe86bbd59b1",
+      "id": "343f3425c1995275",
       "sale_date": "2026-08-26",
-      "sale_time": "13:00",
-      "name": "2026 SUPER JUNIOR-83z FANCON TOUR [1983] in TAIPEI",
-      "type": "大型演唱會",
-      "performance_date": "2026-11-21",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://chuanyeah.kktix.cc/events/lot8iew",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
-    {
-      "id": "499ecf4be276cca0",
-      "sale_date": "2026-08-28",
       "sale_time": "12:00",
-      "name": "2026 YERIN FAN CONCERT ‘STAR BLOOM‘ IN TAIPEI",
-      "type": "Fan meeting",
-      "performance_date": "2026-10-31 ~ 2026-08-28",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://weekendplanent.kktix.cc/events/6b8f2401",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    },
-    {
-      "id": "41e5fff12ad93d76",
-      "sale_date": "2026-12-18",
-      "sale_time": "",
-      "name": "VOOID 2026 線下P2P超慢速低傳真 & 洪申豪 Solo 專場演唱會",
+      "name": "KIM SIHUN ASIA TOUR 2026 [INTO DIZZY STATE] in TAIPEI",
       "type": "大型演唱會",
-      "performance_date": "2026-12-18 ~ 2026-12-20",
+      "performance_date": "2026-09-06",
       "city": "台北市",
       "venue": "",
-      "source_url": "https://redoyster2026.kktix.cc/events/vooid2026",
+      "source_url": "https://lingchenpai.kktix.cc/events/601564a5",
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": ""
+    },
+    {
+      "id": "211dc660a275425d",
+      "sale_date": "2026-09-13",
+      "sale_time": "10:00",
+      "name": "還有 1個月16日 告五人 台北演唱會 2026",
+      "type": "大型演唱會",
+      "performance_date": "2026-11-07",
+      "city": "台北市",
+      "venue": "台北小巨蛋",
+      "source_url": "https://www.tickettw.com/",
+      "discovery": "concert_aggregator_structured",
+      "scope": "large_music_taiwan",
+      "note": "structured public concert aggregator"
     }
   ],
   "new_sale_info": [],
@@ -51,7 +37,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-24T19:04:53+08:00",
+      "last_success_at": "2026-08-25T19:02:38+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -65,7 +51,7 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-24T19:04:53+08:00",
+      "last_success_at": "2026-08-25T19:02:38+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -86,21 +72,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-24T19:04:53+08:00",
+      "last_success_at": "2026-08-25T19:02:38+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
-      "status": "ok",
-      "last_success_at": "2026-08-24T19:04:53+08:00",
+      "status": "degraded",
+      "last_success_at": "2026-08-25T19:02:38+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-24T19:04:53+08:00",
+      "last_success_at": "2026-08-25T19:02:38+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
