@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T19:02:38+08:00",
+  "generated_at": "2026-08-26T19:04:57+08:00",
   "events": {
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
@@ -103,7 +103,7 @@
       "id": "211dc660a275425d",
       "sale_date": "2026-09-13",
       "sale_time": "10:00",
-      "name": "還有 1個月16日 告五人 台北演唱會 2026",
+      "name": "還有 1個月15日 告五人 台北演唱會 2026",
       "type": "大型演唱會",
       "performance_date": "2026-11-07",
       "city": "台北市",
@@ -127,20 +127,6 @@
       "scope": "taipei_only",
       "note": ""
     },
-    "db9d4d152fbb26f2": {
-      "id": "db9d4d152fbb26f2",
-      "sale_date": "2026-09-19",
-      "sale_time": "19:30",
-      "name": "銀幕之外 朱芸編 Beyond the Screen",
-      "type": "其他藝文活動",
-      "performance_date": "2026-08-19 ~ 2026-09-19",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://triplefivelnfinitymission.kktix.cc/events/2d5e87bd",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    },
     "6411e43a8e585c9f": {
       "id": "6411e43a8e585c9f",
       "sale_date": "2026-10-11",
@@ -155,34 +141,6 @@
       "scope": "taipei_only",
       "note": ""
     },
-    "d2ec9a97ea56a255": {
-      "id": "d2ec9a97ea56a255",
-      "sale_date": "2026-10-17",
-      "sale_time": "19:00",
-      "name": "Silica Gel Asia Tour <Syn.THE.Size: Ballad of You> - TAIPEI",
-      "type": "大型演唱會",
-      "performance_date": "2026-10-17 ~ 2026-07-15",
-      "city": "台北市",
-      "venue": "Legacy Taipei",
-      "source_url": "https://youngteam.kktix.cc/events/silicagel26",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
-    "338f5bd593e6f597": {
-      "id": "338f5bd593e6f597",
-      "sale_date": "2026-10-17",
-      "sale_time": "20:00",
-      "name": "RIKI《投幣式伴唱雞》專場",
-      "type": "其他藝文活動",
-      "performance_date": "2026-10-17 ~ 2026-07-31",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://lorfeg.kktix.cc/events/f01725b9",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    },
     "a08d58bc522f5846": {
       "id": "a08d58bc522f5846",
       "sale_date": "2026-11-13",
@@ -193,6 +151,20 @@
       "city": "台北市",
       "venue": "",
       "source_url": "https://baodaorecords.kktix.cc/events/14793026",
+      "discovery": "kktix_search_index",
+      "scope": "large_music_taiwan",
+      "note": ""
+    },
+    "0bc0c9390e0fbc10": {
+      "id": "0bc0c9390e0fbc10",
+      "sale_date": "2026-12-04",
+      "sale_time": "23:59",
+      "name": "AIMI ASIA TOUR 2026 STAR RISING in Taipei",
+      "type": "大型演唱會",
+      "performance_date": "2026-12-05 ~ 2026-08-28",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://baodaorecords.kktix.cc/events/ba87b6aa",
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": ""
@@ -215,7 +187,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-25T19:02:38+08:00",
+      "last_success_at": "2026-08-26T19:04:57+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -229,7 +201,7 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-25T19:02:38+08:00",
+      "last_success_at": "2026-08-26T19:04:57+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -250,21 +222,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-25T19:02:38+08:00",
+      "last_success_at": "2026-08-26T19:04:57+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "degraded",
-      "last_success_at": "2026-08-25T19:02:38+08:00",
+      "last_success_at": "2026-08-26T19:04:57+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-25T19:02:38+08:00",
+      "last_success_at": "2026-08-26T19:04:57+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""

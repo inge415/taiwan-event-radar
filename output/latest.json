@@ -1,43 +1,41 @@
 {
-  "generated_at": "2026-08-25T19:02:38+08:00",
+  "generated_at": "2026-08-26T19:04:57+08:00",
   "scan_success": true,
   "coverage_ok": false,
   "new_events": [
     {
-      "id": "343f3425c1995275",
-      "sale_date": "2026-08-26",
-      "sale_time": "12:00",
-      "name": "KIM SIHUN ASIA TOUR 2026 [INTO DIZZY STATE] in TAIPEI",
+      "id": "0bc0c9390e0fbc10",
+      "sale_date": "2026-12-04",
+      "sale_time": "23:59",
+      "name": "AIMI ASIA TOUR 2026 STAR RISING in Taipei",
       "type": "大型演唱會",
-      "performance_date": "2026-09-06",
+      "performance_date": "2026-12-05 ~ 2026-08-28",
       "city": "台北市",
       "venue": "",
-      "source_url": "https://lingchenpai.kktix.cc/events/601564a5",
+      "source_url": "https://baodaorecords.kktix.cc/events/ba87b6aa",
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": ""
-    },
-    {
-      "id": "211dc660a275425d",
-      "sale_date": "2026-09-13",
-      "sale_time": "10:00",
-      "name": "還有 1個月16日 告五人 台北演唱會 2026",
-      "type": "大型演唱會",
-      "performance_date": "2026-11-07",
-      "city": "台北市",
-      "venue": "台北小巨蛋",
-      "source_url": "https://www.tickettw.com/",
-      "discovery": "concert_aggregator_structured",
-      "scope": "large_music_taiwan",
-      "note": "structured public concert aggregator"
     }
   ],
   "new_sale_info": [],
-  "changed_events": [],
+  "changed_events": [
+    {
+      "id": "211dc660a275425d",
+      "name": "還有 1個月15日 告五人 台北演唱會 2026",
+      "source_url": "https://www.tickettw.com/",
+      "changes": {
+        "name": {
+          "old": "還有 1個月16日 告五人 台北演唱會 2026",
+          "new": "還有 1個月15日 告五人 台北演唱會 2026"
+        }
+      }
+    }
+  ],
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-25T19:02:38+08:00",
+      "last_success_at": "2026-08-26T19:04:57+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -51,7 +49,7 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-25T19:02:38+08:00",
+      "last_success_at": "2026-08-26T19:04:57+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -72,21 +70,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-25T19:02:38+08:00",
+      "last_success_at": "2026-08-26T19:04:57+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "degraded",
-      "last_success_at": "2026-08-25T19:02:38+08:00",
+      "last_success_at": "2026-08-26T19:04:57+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-25T19:02:38+08:00",
+      "last_success_at": "2026-08-26T19:04:57+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
