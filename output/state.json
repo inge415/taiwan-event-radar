@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T05:48:54+08:00",
+  "generated_at": "2026-08-29T17:40:19+08:00",
   "events": {
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
@@ -43,18 +43,18 @@
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
     },
-    "499ecf4be276cca0": {
-      "id": "499ecf4be276cca0",
-      "sale_date": "2026-08-28",
+    "a08d58bc522f5846": {
+      "id": "a08d58bc522f5846",
+      "sale_date": "2026-08-29",
       "sale_time": "12:00",
-      "name": "2026 YERIN FAN CONCERT ‘STAR BLOOM‘ IN TAIPEI",
-      "type": "Fan meeting",
-      "performance_date": "2026-10-31 ~ 2026-08-28",
+      "name": "AKANE YONEZAWA \"Black Pasta\" TOUR 2026 IN TAIPEI",
+      "type": "大型演唱會",
+      "performance_date": "2026-11-14 ~ 2026-08-29",
       "city": "台北市",
       "venue": "",
-      "source_url": "https://weekendplanent.kktix.cc/events/6b8f2401",
+      "source_url": "https://baodaorecords.kktix.cc/events/14793026",
       "discovery": "kktix_search_index",
-      "scope": "taipei_only",
+      "scope": "large_music_taiwan",
       "note": ""
     },
     "be07d948cea20e60": {
@@ -155,20 +155,6 @@
       "scope": "taipei_only",
       "note": ""
     },
-    "a08d58bc522f5846": {
-      "id": "a08d58bc522f5846",
-      "sale_date": "2026-11-13",
-      "sale_time": "23:59",
-      "name": "AKANE YONEZAWA \"Black Pasta\" TOUR 2026 IN TAIPEI",
-      "type": "大型演唱會",
-      "performance_date": "2026-11-14 ~ 2026-08-29",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://baodaorecords.kktix.cc/events/14793026",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
     "e10efaae11c08740": {
       "id": "e10efaae11c08740",
       "sale_date": "2026-11-15",
@@ -201,7 +187,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-29T05:48:54+08:00",
+      "last_success_at": "2026-08-29T17:40:19+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -215,7 +201,7 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-29T05:48:54+08:00",
+      "last_success_at": "2026-08-29T17:40:19+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -236,21 +222,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-29T05:48:54+08:00",
+      "last_success_at": "2026-08-29T17:40:19+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-08-29T05:48:54+08:00",
+      "last_success_at": "2026-08-29T17:40:19+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-29T05:48:54+08:00",
+      "last_success_at": "2026-08-29T17:40:19+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
