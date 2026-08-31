@@ -1,29 +1,61 @@
 {
-  "generated_at": "2026-08-30T17:40:13+08:00",
+  "generated_at": "2026-08-31T17:40:27+08:00",
   "scan_success": true,
   "coverage_ok": false,
   "new_events": [
     {
-      "id": "e70017c2eb9f1e98",
-      "sale_date": "2026-11-06",
-      "sale_time": "19:00",
-      "name": "陳謙文x方馨x簡沛恩 情歌若響公益演唱會",
-      "type": "大型演唱會",
-      "performance_date": "2026-09-03 ~ 2026-11-06",
+      "id": "629aee72b8af64c2",
+      "sale_date": "2026-09-13",
+      "sale_time": "18:00",
+      "name": "2026 PARK EUNBIN FAN CONCERT <EUNBIN NOTE: EUN-iverse> IN TAIPEI",
+      "type": "Fan meeting",
+      "performance_date": "2026-08-07 ~ 2026-09-13",
       "city": "台北市",
       "venue": "",
-      "source_url": "https://flyingwingle.kktix.cc/events/letsflying20261106",
+      "source_url": "https://wve.kktix.cc/events/parkeunbin2026fancon",
       "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
+      "scope": "taipei_only",
       "note": ""
     }
   ],
   "new_sale_info": [],
-  "changed_events": [],
+  "changed_events": [
+    {
+      "id": "211dc660a275425d",
+      "name": "YOASOBI 台北演唱會 2027",
+      "source_url": "https://www.tickettw.com/",
+      "changes": {
+        "sale_date": {
+          "old": "2026-09-07",
+          "new": "2026-09-16"
+        },
+        "sale_time": {
+          "old": "10:00",
+          "new": "12:00"
+        },
+        "performance_date": {
+          "old": "2027-02-27",
+          "new": "2027-01-09"
+        },
+        "city": {
+          "old": "高雄市",
+          "new": "台北市"
+        },
+        "venue": {
+          "old": "高雄國家體育場",
+          "new": "台北大巨蛋"
+        },
+        "name": {
+          "old": "BIGBANG 高雄演唱會 2027",
+          "new": "YOASOBI 台北演唱會 2027"
+        }
+      }
+    }
+  ],
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-30T17:40:13+08:00",
+      "last_success_at": "2026-08-31T17:40:27+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -37,17 +69,17 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-30T17:40:13+08:00",
+      "last_success_at": "2026-08-31T17:40:27+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
-      "status": "failed",
-      "last_success_at": "2026-08-09T05:45:04+08:00",
+      "status": "ok",
+      "last_success_at": "2026-08-31T17:40:27+08:00",
       "primary_method": "ticket website listing",
-      "fallback_used": true,
-      "error": "HTTP 403"
+      "fallback_used": false,
+      "error": ""
     },
     "tixCraft": {
       "status": "failed",
@@ -58,21 +90,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-30T17:40:13+08:00",
+      "last_success_at": "2026-08-31T17:40:27+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-08-30T17:40:13+08:00",
+      "last_success_at": "2026-08-31T17:40:27+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-30T17:40:13+08:00",
+      "last_success_at": "2026-08-31T17:40:27+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
