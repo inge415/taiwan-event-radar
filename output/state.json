@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T17:40:27+08:00",
+  "generated_at": "2026-09-01T17:46:17+08:00",
   "events": {
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
@@ -55,6 +55,20 @@
       "source_url": "https://chuanyeah.kktix.cc/events/msdseg05",
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
+      "note": ""
+    },
+    "bb15765cb4c6c8a1": {
+      "id": "bb15765cb4c6c8a1",
+      "sale_date": "2026-09-05",
+      "sale_time": "12:00",
+      "name": "2026 鄧典果DDG M&M 台北專場",
+      "type": "其他藝文活動",
+      "performance_date": "2026-11-22",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://spaceport.kktix.cc/events/ddg2026",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
       "note": ""
     },
     "e905792e517c7ca4": {
@@ -187,7 +201,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-08-31T17:40:27+08:00",
+      "last_success_at": "2026-09-01T17:46:17+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -201,14 +215,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-08-31T17:40:27+08:00",
+      "last_success_at": "2026-09-01T17:46:17+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-08-31T17:40:27+08:00",
+      "last_success_at": "2026-09-01T17:46:17+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -222,21 +236,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-08-31T17:40:27+08:00",
+      "last_success_at": "2026-09-01T17:46:17+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-08-31T17:40:27+08:00",
+      "last_success_at": "2026-09-01T17:46:17+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-08-31T17:40:27+08:00",
+      "last_success_at": "2026-09-01T17:46:17+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
