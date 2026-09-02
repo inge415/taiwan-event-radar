@@ -1,18 +1,46 @@
 {
-  "generated_at": "2026-09-01T17:46:17+08:00",
+  "generated_at": "2026-09-02T17:44:47+08:00",
   "scan_success": true,
   "coverage_ok": false,
   "new_events": [
     {
-      "id": "bb15765cb4c6c8a1",
-      "sale_date": "2026-09-05",
-      "sale_time": "12:00",
-      "name": "2026 鄧典果DDG M&M 台北專場",
-      "type": "其他藝文活動",
-      "performance_date": "2026-11-22",
+      "id": "35500c69d22f880b",
+      "sale_date": "",
+      "sale_time": "",
+      "name": "2026 河北彩花 My Angel Fan Meeting 台北站",
+      "type": "Fan meeting",
+      "performance_date": "2026-09-19 ~ 2026-09-20",
       "city": "台北市",
       "venue": "",
-      "source_url": "https://spaceport.kktix.cc/events/ddg2026",
+      "source_url": "https://wecan.kktix.cc/events/e5e1c3",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    {
+      "id": "1a34eaa8ded085a7",
+      "sale_date": "2026-10-08",
+      "sale_time": "23:59",
+      "name": "Daoko Special Live in IEGP",
+      "type": "其他藝文活動",
+      "performance_date": "2026-10-09 ~ 2026-09-04",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://baodaorecords.kktix.cc/events/lisde",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    {
+      "id": "ebf0b1f2cce6d7ce",
+      "sale_date": "2026-10-10",
+      "sale_time": "19:00",
+      "name": "Shye 'Return' Live in Taipei 2026",
+      "type": "其他藝文活動",
+      "performance_date": "2026-10-10 ~ 2026-09-03",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://timemachine.kktix.cc/events/c499c8fe",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
@@ -23,7 +51,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-09-01T17:46:17+08:00",
+      "last_success_at": "2026-09-02T17:44:47+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -37,14 +65,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-09-01T17:46:17+08:00",
+      "last_success_at": "2026-09-02T17:44:47+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-09-01T17:46:17+08:00",
+      "last_success_at": "2026-09-02T17:44:47+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -58,21 +86,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-09-01T17:46:17+08:00",
+      "last_success_at": "2026-09-02T17:44:47+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-09-01T17:46:17+08:00",
+      "last_success_at": "2026-09-02T17:44:47+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-09-01T17:46:17+08:00",
+      "last_success_at": "2026-09-02T17:44:47+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
