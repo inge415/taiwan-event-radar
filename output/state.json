@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T17:44:47+08:00",
+  "generated_at": "2026-09-03T17:45:12+08:00",
   "events": {
     "35500c69d22f880b": {
       "id": "35500c69d22f880b",
@@ -99,6 +99,20 @@
       "scope": "taipei_only",
       "note": ""
     },
+    "2c20c81fd5f4739b": {
+      "id": "2c20c81fd5f4739b",
+      "sale_date": "2026-09-16",
+      "sale_time": "12:00",
+      "name": "2026萬海慈善音樂饗宴—指揮大師提勒曼與柏林國家歌劇院管弦",
+      "type": "歌劇 / 戲曲",
+      "performance_date": "2026-11-21 ~ 2026-11-24",
+      "city": "台北市",
+      "venue": "臺北國家音樂廳",
+      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1ETF1DE",
+      "discovery": "mna_public_listing",
+      "scope": "taipei_only",
+      "note": "MNA public event overview discovery"
+    },
     "211dc660a275425d": {
       "id": "211dc660a275425d",
       "sale_date": "2026-09-16",
@@ -112,6 +126,34 @@
       "discovery": "concert_aggregator_structured",
       "scope": "large_music_taiwan",
       "note": "structured public concert aggregator"
+    },
+    "5e5b1b56d82d5093": {
+      "id": "5e5b1b56d82d5093",
+      "sale_date": "2026-09-16",
+      "sale_time": "12:00",
+      "name": "指揮大師提勒曼與柏林國家歌劇院管弦樂團",
+      "type": "歌劇 / 戲曲",
+      "performance_date": "2026-11-21 ~ 2026-11-24",
+      "city": "台北市",
+      "venue": "臺北國家音樂廳",
+      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1ETF1DF",
+      "discovery": "mna_public_listing",
+      "scope": "taipei_only",
+      "note": "MNA public event overview discovery"
+    },
+    "4372765b92f39043": {
+      "id": "4372765b92f39043",
+      "sale_date": "2026-09-16",
+      "sale_time": "12:00",
+      "name": "玉山音樂饗宴—指揮大師提勒曼與柏林國家歌劇院管弦樂團",
+      "type": "歌劇 / 戲曲",
+      "performance_date": "2026-11-21 ~ 2026-11-24",
+      "city": "台北市",
+      "venue": "臺北國家音樂廳",
+      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1ETF1DD",
+      "discovery": "mna_public_listing",
+      "scope": "taipei_only",
+      "note": "MNA public event overview discovery"
     },
     "db9d4d152fbb26f2": {
       "id": "db9d4d152fbb26f2",
@@ -144,7 +186,7 @@
     "ebf0b1f2cce6d7ce": {
       "id": "ebf0b1f2cce6d7ce",
       "sale_date": "2026-10-10",
-      "sale_time": "19:00",
+      "sale_time": "19:30",
       "name": "Shye 'Return' Live in Taipei 2026",
       "type": "其他藝文活動",
       "performance_date": "2026-10-10 ~ 2026-09-03",
@@ -172,7 +214,7 @@
     "e70017c2eb9f1e98": {
       "id": "e70017c2eb9f1e98",
       "sale_date": "2026-11-06",
-      "sale_time": "19:00",
+      "sale_time": "18:30",
       "name": "陳謙文x方馨x簡沛恩 情歌若響公益演唱會",
       "type": "大型演唱會",
       "performance_date": "2026-09-03 ~ 2026-11-06",
@@ -215,7 +257,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-09-02T17:44:47+08:00",
+      "last_success_at": "2026-09-03T17:45:12+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -229,14 +271,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-09-02T17:44:47+08:00",
+      "last_success_at": "2026-09-03T17:45:12+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-09-02T17:44:47+08:00",
+      "last_success_at": "2026-09-03T17:45:12+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -250,21 +292,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-09-02T17:44:47+08:00",
+      "last_success_at": "2026-09-03T17:45:12+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-09-02T17:44:47+08:00",
+      "last_success_at": "2026-09-03T17:45:12+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-09-02T17:44:47+08:00",
+      "last_success_at": "2026-09-03T17:45:12+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
