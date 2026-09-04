@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T17:45:12+08:00",
+  "generated_at": "2026-09-04T17:45:26+08:00",
   "events": {
     "35500c69d22f880b": {
       "id": "35500c69d22f880b",
@@ -57,6 +57,20 @@
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
     },
+    "1a34eaa8ded085a7": {
+      "id": "1a34eaa8ded085a7",
+      "sale_date": "2026-09-04",
+      "sale_time": "12:00",
+      "name": "Daoko Special Live in IEGP",
+      "type": "其他藝文活動",
+      "performance_date": "2026-10-09 ~ 2026-09-04",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://baodaorecords.kktix.cc/events/lisde",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
     "be07d948cea20e60": {
       "id": "be07d948cea20e60",
       "sale_date": "2026-09-04",
@@ -81,6 +95,34 @@
       "city": "台北市",
       "venue": "",
       "source_url": "https://spaceport.kktix.cc/events/ddg2026",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    "02a200c092dfd55c": {
+      "id": "02a200c092dfd55c",
+      "sale_date": "2026-09-09",
+      "sale_time": "12:00",
+      "name": "OrmFolk 1st Fan Meeting in Taipei",
+      "type": "Fan meeting",
+      "performance_date": "2026-09-05 ~ 2026-11-07",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://yanrong.kktix.cc/events/8cb62f50",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    "35b144ed16124689": {
+      "id": "35b144ed16124689",
+      "sale_date": "2026-09-11",
+      "sale_time": "12:00",
+      "name": "乃紫 noa live in Taipei 2026",
+      "type": "其他藝文活動",
+      "performance_date": "2026-12-20 ~ 2026-09-04",
+      "city": "台北市",
+      "venue": "Legacy Taipei",
+      "source_url": "https://jmgroup.kktix.cc/events/0875100c",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
@@ -169,20 +211,6 @@
       "scope": "taipei_only",
       "note": ""
     },
-    "1a34eaa8ded085a7": {
-      "id": "1a34eaa8ded085a7",
-      "sale_date": "2026-10-08",
-      "sale_time": "23:59",
-      "name": "Daoko Special Live in IEGP",
-      "type": "其他藝文活動",
-      "performance_date": "2026-10-09 ~ 2026-09-04",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://baodaorecords.kktix.cc/events/lisde",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    },
     "ebf0b1f2cce6d7ce": {
       "id": "ebf0b1f2cce6d7ce",
       "sale_date": "2026-10-10",
@@ -238,26 +266,12 @@
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
-    },
-    "41e5fff12ad93d76": {
-      "id": "41e5fff12ad93d76",
-      "sale_date": "2026-12-18",
-      "sale_time": "",
-      "name": "VOOID 2026 線下P2P超慢速低傳真 & 洪申豪 Solo 專場演唱會",
-      "type": "大型演唱會",
-      "performance_date": "2026-12-18 ~ 2026-12-20",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://redoyster2026.kktix.cc/events/vooid2026",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
     }
   },
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-09-03T17:45:12+08:00",
+      "last_success_at": "2026-09-04T17:45:26+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -271,14 +285,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-09-03T17:45:12+08:00",
+      "last_success_at": "2026-09-04T17:45:26+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-09-03T17:45:12+08:00",
+      "last_success_at": "2026-09-04T17:45:26+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -292,21 +306,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-09-03T17:45:12+08:00",
+      "last_success_at": "2026-09-04T17:45:26+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-09-03T17:45:12+08:00",
+      "last_success_at": "2026-09-04T17:45:26+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-09-03T17:45:12+08:00",
+      "last_success_at": "2026-09-04T17:45:26+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
