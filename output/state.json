@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T17:46:31+08:00",
+  "generated_at": "2026-09-09T21:51:34+08:00",
   "events": {
     "35500c69d22f880b": {
       "id": "35500c69d22f880b",
@@ -57,16 +57,30 @@
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
     },
-    "02a200c092dfd55c": {
-      "id": "02a200c092dfd55c",
+    "211dc660a275425d": {
+      "id": "211dc660a275425d",
       "sale_date": "2026-09-09",
-      "sale_time": "12:00",
-      "name": "OrmFolk 1st Fan Meeting in Taipei",
-      "type": "Fan meeting",
-      "performance_date": "2026-09-05 ~ 2026-11-07",
+      "sale_time": "10:00",
+      "name": "Stray Kids 台北演唱會 2026",
+      "type": "大型演唱會",
+      "performance_date": "2026-12-12",
       "city": "台北市",
-      "venue": "",
-      "source_url": "https://yanrong.kktix.cc/events/8cb62f50",
+      "venue": "台北大巨蛋",
+      "source_url": "https://www.tickettw.com/",
+      "discovery": "concert_aggregator_structured",
+      "scope": "large_music_taiwan",
+      "note": "structured public concert aggregator"
+    },
+    "35b144ed16124689": {
+      "id": "35b144ed16124689",
+      "sale_date": "2026-09-11",
+      "sale_time": "12:00",
+      "name": "乃紫 noa live in Taipei 2026",
+      "type": "其他藝文活動",
+      "performance_date": "2026-12-20 ~ 2026-09-04",
+      "city": "台北市",
+      "venue": "Legacy Taipei",
+      "source_url": "https://jmgroup.kktix.cc/events/0875100c",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
@@ -112,20 +126,6 @@
       "discovery": "mna_public_listing",
       "scope": "taipei_only",
       "note": "MNA public event overview discovery"
-    },
-    "211dc660a275425d": {
-      "id": "211dc660a275425d",
-      "sale_date": "2026-09-16",
-      "sale_time": "12:00",
-      "name": "YOASOBI 台北演唱會 2027",
-      "type": "大型演唱會",
-      "performance_date": "2027-01-09",
-      "city": "台北市",
-      "venue": "台北大巨蛋",
-      "source_url": "https://www.tickettw.com/",
-      "discovery": "concert_aggregator_structured",
-      "scope": "large_music_taiwan",
-      "note": "structured public concert aggregator"
     },
     "5e5b1b56d82d5093": {
       "id": "5e5b1b56d82d5093",
@@ -211,16 +211,16 @@
       "scope": "taipei_only",
       "note": ""
     },
-    "ebf0b1f2cce6d7ce": {
-      "id": "ebf0b1f2cce6d7ce",
+    "2e48b64c572f6532": {
+      "id": "2e48b64c572f6532",
       "sale_date": "2026-10-10",
-      "sale_time": "19:30",
-      "name": "Shye 'Return' Live in Taipei 2026",
+      "sale_time": "12:00",
+      "name": "藤岡弘、＆天翔天音 Legend & Legacy The First Fanmeeting in Taiwan",
       "type": "其他藝文活動",
-      "performance_date": "2026-10-10 ~ 2026-09-03",
+      "performance_date": "2026-10-10",
       "city": "台北市",
       "venue": "",
-      "source_url": "https://timemachine.kktix.cc/events/c499c8fe",
+      "source_url": "https://starrysky.kktix.cc/events/0f8afa08",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
@@ -239,39 +239,53 @@
       "scope": "taipei_only",
       "note": ""
     },
-    "e70017c2eb9f1e98": {
-      "id": "e70017c2eb9f1e98",
-      "sale_date": "2026-11-06",
-      "sale_time": "18:30",
-      "name": "陳謙文x方馨x簡沛恩 情歌若響公益演唱會",
-      "type": "大型演唱會",
-      "performance_date": "2026-09-03 ~ 2026-11-06",
+    "8b4c9e404f8a3810": {
+      "id": "8b4c9e404f8a3810",
+      "sale_date": "2026-10-18",
+      "sale_time": "16:00",
+      "name": "FANTASTICS LIVE 2026 in TAIPEI \"放大絶\"",
+      "type": "其他藝文活動",
+      "performance_date": "2026-10-18 ~ 2026-08-29",
       "city": "台北市",
       "venue": "",
-      "source_url": "https://flyingwingle.kktix.cc/events/letsflying20261106",
+      "source_url": "https://ldh.kktix.cc/events/fantastics-live-2026",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    "10dc154b2765e905": {
+      "id": "10dc154b2765e905",
+      "sale_date": "2026-11-14",
+      "sale_time": "",
+      "name": "山下智久 2026 巡迴演唱會 DREAMING 高雄場",
+      "type": "大型演唱會",
+      "performance_date": "2026-11-14",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://atc-twn.kktix.cc/events/aikorf",
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": ""
     },
-    "e10efaae11c08740": {
-      "id": "e10efaae11c08740",
-      "sale_date": "2026-11-15",
-      "sale_time": "09:00",
-      "name": "第二屆 TCE 台灣卡牌展覽會",
-      "type": "展覽",
-      "performance_date": "2026-11-14 ~ 2026-11-15",
+    "41b6916d5b2adf2e": {
+      "id": "41b6916d5b2adf2e",
+      "sale_date": "2026-11-28",
+      "sale_time": "18:00",
+      "name": "伊藤美來 出道十週年紀念演唱會「39rpm」台北場",
+      "type": "大型演唱會",
+      "performance_date": "2026-11-28",
       "city": "台北市",
-      "venue": "松山文創園區",
-      "source_url": "https://uimec.kktix.cc/events/li6s8t",
+      "venue": "",
+      "source_url": "https://atc-twn.kktix.cc/events/2ccc2740",
       "discovery": "kktix_search_index",
-      "scope": "taipei_only",
+      "scope": "large_music_taiwan",
       "note": ""
     }
   },
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-09-08T17:46:31+08:00",
+      "last_success_at": "2026-09-09T21:51:34+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -285,14 +299,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-09-08T17:46:31+08:00",
+      "last_success_at": "2026-09-09T21:51:34+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-09-08T17:46:31+08:00",
+      "last_success_at": "2026-09-09T21:51:34+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -306,21 +320,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-09-08T17:46:31+08:00",
+      "last_success_at": "2026-09-09T21:51:34+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-09-08T17:46:31+08:00",
+      "last_success_at": "2026-09-09T21:51:34+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-09-08T17:46:31+08:00",
+      "last_success_at": "2026-09-09T21:51:34+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
