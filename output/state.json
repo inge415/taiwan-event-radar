@@ -1,20 +1,6 @@
 {
-  "generated_at": "2026-09-10T21:46:05+08:00",
+  "generated_at": "2026-09-11T21:45:46+08:00",
   "events": {
-    "35500c69d22f880b": {
-      "id": "35500c69d22f880b",
-      "sale_date": "",
-      "sale_time": "",
-      "name": "2026 河北彩花 My Angel Fan Meeting 台北站",
-      "type": "Fan meeting",
-      "performance_date": "2026-09-19 ~ 2026-09-20",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://wecan.kktix.cc/events/e5e1c3",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    },
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
       "sale_date": "2026-08-10",
@@ -56,6 +42,20 @@
       "discovery": "tixcraft_search_index",
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
+    },
+    "eaf50d7020cbd98e": {
+      "id": "eaf50d7020cbd98e",
+      "sale_date": "2026-09-11",
+      "sale_time": "",
+      "name": "BEAMS 50th Market Life Exhibition",
+      "type": "其他藝文活動",
+      "performance_date": "2026-06-05 ~ 2026-10-17",
+      "city": "台北市",
+      "venue": "松山文創園區",
+      "source_url": "https://beams.kktix.cc/events/beams50th",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
     },
     "35b144ed16124689": {
       "id": "35b144ed16124689",
@@ -145,7 +145,7 @@
       "id": "211dc660a275425d",
       "sale_date": "2026-09-16",
       "sale_time": "12:00",
-      "name": "還有 5日 YOASOBI 台北演唱會 2027",
+      "name": "還有 4日 YOASOBI 台北演唱會 2027",
       "type": "大型演唱會",
       "performance_date": "2027-01-09",
       "city": "台北市",
@@ -193,20 +193,6 @@
       "city": "台北市",
       "venue": "",
       "source_url": "https://triplefivelnfinitymission.kktix.cc/events/2d5e87bd",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    },
-    "2e48b64c572f6532": {
-      "id": "2e48b64c572f6532",
-      "sale_date": "2026-10-10",
-      "sale_time": "12:00",
-      "name": "藤岡弘、＆天翔天音 Legend & Legacy The First Fanmeeting in Taiwan",
-      "type": "其他藝文活動",
-      "performance_date": "2026-10-10",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://starrysky.kktix.cc/events/0f8afa08",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
@@ -285,7 +271,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-09-10T21:46:05+08:00",
+      "last_success_at": "2026-09-11T21:45:46+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -299,14 +285,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-09-10T21:46:05+08:00",
+      "last_success_at": "2026-09-11T21:45:46+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-09-10T21:46:05+08:00",
+      "last_success_at": "2026-09-11T21:45:46+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -320,21 +306,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-09-10T21:46:05+08:00",
+      "last_success_at": "2026-09-11T21:45:46+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-09-10T21:46:05+08:00",
+      "last_success_at": "2026-09-11T21:45:46+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-09-10T21:46:05+08:00",
+      "last_success_at": "2026-09-11T21:45:46+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
