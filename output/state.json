@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T21:45:46+08:00",
+  "generated_at": "2026-09-12T21:03:52+08:00",
   "events": {
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
@@ -43,32 +43,18 @@
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
     },
-    "eaf50d7020cbd98e": {
-      "id": "eaf50d7020cbd98e",
-      "sale_date": "2026-09-11",
-      "sale_time": "",
-      "name": "BEAMS 50th Market Life Exhibition",
-      "type": "其他藝文活動",
-      "performance_date": "2026-06-05 ~ 2026-10-17",
+    "41b6916d5b2adf2e": {
+      "id": "41b6916d5b2adf2e",
+      "sale_date": "2026-09-12",
+      "sale_time": "11:00",
+      "name": "伊藤美來 出道十週年紀念演唱會「39rpm」台北場",
+      "type": "大型演唱會",
+      "performance_date": "2026-11-28",
       "city": "台北市",
-      "venue": "松山文創園區",
-      "source_url": "https://beams.kktix.cc/events/beams50th",
+      "venue": "",
+      "source_url": "https://atc-twn.kktix.cc/events/2ccc2740",
       "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    },
-    "35b144ed16124689": {
-      "id": "35b144ed16124689",
-      "sale_date": "2026-09-11",
-      "sale_time": "12:00",
-      "name": "乃紫 noa live in Taipei 2026",
-      "type": "其他藝文活動",
-      "performance_date": "2026-12-20 ~ 2026-09-04",
-      "city": "台北市",
-      "venue": "Legacy Taipei",
-      "source_url": "https://jmgroup.kktix.cc/events/0875100c",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
+      "scope": "large_music_taiwan",
       "note": ""
     },
     "e905792e517c7ca4": {
@@ -145,7 +131,7 @@
       "id": "211dc660a275425d",
       "sale_date": "2026-09-16",
       "sale_time": "12:00",
-      "name": "還有 4日 YOASOBI 台北演唱會 2027",
+      "name": "還有 3日 YOASOBI 台北演唱會 2027",
       "type": "大型演唱會",
       "performance_date": "2027-01-09",
       "city": "台北市",
@@ -252,26 +238,12 @@
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": ""
-    },
-    "41b6916d5b2adf2e": {
-      "id": "41b6916d5b2adf2e",
-      "sale_date": "2026-11-28",
-      "sale_time": "18:00",
-      "name": "伊藤美來 出道十週年紀念演唱會「39rpm」台北場",
-      "type": "大型演唱會",
-      "performance_date": "2026-11-28",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://atc-twn.kktix.cc/events/2ccc2740",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
     }
   },
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-09-11T21:45:46+08:00",
+      "last_success_at": "2026-09-12T21:03:52+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -285,14 +257,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-09-11T21:45:46+08:00",
+      "last_success_at": "2026-09-12T21:03:52+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-09-11T21:45:46+08:00",
+      "last_success_at": "2026-09-12T21:03:52+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -306,21 +278,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-09-11T21:45:46+08:00",
+      "last_success_at": "2026-09-12T21:03:52+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-09-11T21:45:46+08:00",
+      "last_success_at": "2026-09-12T21:03:52+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-09-11T21:45:46+08:00",
+      "last_success_at": "2026-09-12T21:03:52+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
