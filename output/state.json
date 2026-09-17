@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T22:19:41+08:00",
+  "generated_at": "2026-09-17T22:25:19+08:00",
   "events": {
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
@@ -42,48 +42,6 @@
       "discovery": "tixcraft_search_index",
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
-    },
-    "2c20c81fd5f4739b": {
-      "id": "2c20c81fd5f4739b",
-      "sale_date": "2026-09-16",
-      "sale_time": "12:00",
-      "name": "2026萬海慈善音樂饗宴—指揮大師提勒曼與柏林國家歌劇院管弦",
-      "type": "歌劇 / 戲曲",
-      "performance_date": "2026-11-21 ~ 2026-11-24",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1ETF1DE",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
-    "5e5b1b56d82d5093": {
-      "id": "5e5b1b56d82d5093",
-      "sale_date": "2026-09-16",
-      "sale_time": "12:00",
-      "name": "BMW Concert—指揮大師提勒曼與柏林國家歌劇院管弦樂團",
-      "type": "歌劇 / 戲曲",
-      "performance_date": "2026-11-21 ~ 2026-11-24",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1ETF1DF",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
-    "4372765b92f39043": {
-      "id": "4372765b92f39043",
-      "sale_date": "2026-09-16",
-      "sale_time": "12:00",
-      "name": "玉山音樂饗宴—指揮大師提勒曼與柏林國家歌劇院管弦樂團",
-      "type": "歌劇 / 戲曲",
-      "performance_date": "2026-11-21 ~ 2026-11-24",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1ETF1DD",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
     },
     "e5e896b16d3a56ff": {
       "id": "e5e896b16d3a56ff",
@@ -155,20 +113,6 @@
       "scope": "large_music_taiwan",
       "note": ""
     },
-    "211dc660a275425d": {
-      "id": "211dc660a275425d",
-      "sale_date": "2026-09-26",
-      "sale_time": "11:00",
-      "name": "1:00起 Live Nation Taiwan會員 優先購票: 2026年9月16日11:00起 三星星粉獨享 (還有2種購票方法) 🔥 今天售票中 BABYMONSTER 台北演唱會 2026",
-      "type": "大型演唱會",
-      "performance_date": "2026-11-21",
-      "city": "台北市",
-      "venue": "台北小巨蛋 全面開賣: 有待公佈 ⏰ 即將舉行 ｜還有 2個月6日 MAMAMOO 台北演唱會 2026 ｜門票價錢、座位圖、全面開賣時間、附官方購票連結、完整資訊整理 演出日期: 2026年11月28日 - 29日 (共2場) 門票價錢: NT$ 6980 / 5980 / 3980 / 3280 / 800 演出場館: 台北小巨蛋",
-      "source_url": "https://www.tickettw.com/",
-      "discovery": "concert_aggregator_structured",
-      "scope": "large_music_taiwan",
-      "note": "structured public concert aggregator"
-    },
     "f4412809286f704d": {
       "id": "f4412809286f704d",
       "sale_date": "2026-09-27",
@@ -196,6 +140,20 @@
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": ""
+    },
+    "211dc660a275425d": {
+      "id": "211dc660a275425d",
+      "sale_date": "2026-10-12",
+      "sale_time": "12:00",
+      "name": "NSTER 台北演唱會 2026",
+      "type": "大型演唱會",
+      "performance_date": "2026-11-21",
+      "city": "台北市",
+      "venue": "台北小巨蛋",
+      "source_url": "https://www.tickettw.com/",
+      "discovery": "concert_aggregator_structured",
+      "scope": "large_music_taiwan",
+      "note": "structured public concert aggregator"
     },
     "c47102e99e43a612": {
       "id": "c47102e99e43a612",
@@ -252,12 +210,26 @@
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
+    },
+    "1339292cc98af549": {
+      "id": "1339292cc98af549",
+      "sale_date": "2027-01-08",
+      "sale_time": "23:59",
+      "name": "Himegoto Live in Taipei 2027",
+      "type": "其他藝文活動",
+      "performance_date": "2027-01-09 ~ 2026-09-20",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://baodaorecords.kktix.cc/events/hr6ty8h",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
     }
   },
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-09-16T22:19:41+08:00",
+      "last_success_at": "2026-09-17T22:25:19+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -271,14 +243,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-09-16T22:19:41+08:00",
+      "last_success_at": "2026-09-17T22:25:19+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-09-16T22:19:41+08:00",
+      "last_success_at": "2026-09-17T22:25:19+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -292,21 +264,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-09-16T22:19:41+08:00",
+      "last_success_at": "2026-09-17T22:25:19+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-09-16T22:19:41+08:00",
+      "last_success_at": "2026-09-17T22:25:19+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-09-16T22:19:41+08:00",
+      "last_success_at": "2026-09-17T22:25:19+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""

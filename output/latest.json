@@ -1,46 +1,18 @@
 {
-  "generated_at": "2026-09-16T22:19:41+08:00",
+  "generated_at": "2026-09-17T22:25:19+08:00",
   "scan_success": true,
   "coverage_ok": false,
   "new_events": [
     {
-      "id": "33a8d56ccf5f3c77",
-      "sale_date": "2026-09-23",
-      "sale_time": "19:30",
-      "name": "英格伯漢普汀克 不柘傳奇2026世界巡迴演唱會－台北站",
-      "type": "大型演唱會",
-      "performance_date": "2026-05-07 ~ 2026-09-23",
+      "id": "1339292cc98af549",
+      "sale_date": "2027-01-08",
+      "sale_time": "23:59",
+      "name": "Himegoto Live in Taipei 2027",
+      "type": "其他藝文活動",
+      "performance_date": "2027-01-09 ~ 2026-09-20",
       "city": "台北市",
       "venue": "",
-      "source_url": "https://globalmusic.kktix.cc/events/5dee326c",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
-    {
-      "id": "c47102e99e43a612",
-      "sale_date": "2026-10-16",
-      "sale_time": "12:00",
-      "name": "Hey Girl！跌得漂亮 小男孩樂團巡迴演唱會 高雄場",
-      "type": "大型演唱會",
-      "performance_date": "2026-10-16",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://rockrecords.kktix.cc/events/3e201364",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
-    {
-      "id": "5a41bafd6220d298",
-      "sale_date": "2026-10-18",
-      "sale_time": "14:00",
-      "name": "2026 小宮有紗台北粉絲見面會",
-      "type": "Fan meeting",
-      "performance_date": "2026-09-12 ~ 2026-10-18",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://digitalidea.kktix.cc/events/be56fc71",
+      "source_url": "https://baodaorecords.kktix.cc/events/hr6ty8h",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
@@ -50,12 +22,24 @@
   "changed_events": [
     {
       "id": "211dc660a275425d",
-      "name": "1:00起 Live Nation Taiwan會員 優先購票: 2026年9月16日11:00起 三星星粉獨享 (還有2種購票方法) 🔥 今天售票中 BABYMONSTER 台北演唱會 2026",
+      "name": "NSTER 台北演唱會 2026",
       "source_url": "https://www.tickettw.com/",
       "changes": {
+        "sale_date": {
+          "old": "2026-09-26",
+          "new": "2026-10-12"
+        },
+        "sale_time": {
+          "old": "11:00",
+          "new": "12:00"
+        },
         "venue": {
-          "old": "台北小巨蛋 全面開賣: 有待公佈 ⏰ 即將舉行 ｜還有 2個月7日 MAMAMOO 台北演唱會 2026 ｜門票價錢、座位圖、全面開賣時間、附官方購票連結、完整資訊整理 演出日期: 2026年11月28日 - 29日 (共2場) 門票價錢: NT$ 6980 / 5980 / 3980 / 3280 / 800 演出場館: 台北小巨蛋",
-          "new": "台北小巨蛋 全面開賣: 有待公佈 ⏰ 即將舉行 ｜還有 2個月6日 MAMAMOO 台北演唱會 2026 ｜門票價錢、座位圖、全面開賣時間、附官方購票連結、完整資訊整理 演出日期: 2026年11月28日 - 29日 (共2場) 門票價錢: NT$ 6980 / 5980 / 3980 / 3280 / 800 演出場館: 台北小巨蛋"
+          "old": "台北小巨蛋 全面開賣: 有待公佈 ⏰ 即將舉行 ｜還有 2個月6日 MAMAMOO 台北演唱會 2026 ｜門票價錢、座位圖、全面開賣時間、附官方購票連結、完整資訊整理 演出日期: 2026年11月28日 - 29日 (共2場) 門票價錢: NT$ 6980 / 5980 / 3980 / 3280 / 800 演出場館: 台北小巨蛋",
+          "new": "台北小巨蛋"
+        },
+        "name": {
+          "old": "1:00起 Live Nation Taiwan會員 優先購票: 2026年9月16日11:00起 三星星粉獨享 (還有2種購票方法) 🔥 今天售票中 BABYMONSTER 台北演唱會 2026",
+          "new": "NSTER 台北演唱會 2026"
         }
       }
     }
@@ -63,7 +47,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-09-16T22:19:41+08:00",
+      "last_success_at": "2026-09-17T22:25:19+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -77,14 +61,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-09-16T22:19:41+08:00",
+      "last_success_at": "2026-09-17T22:25:19+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-09-16T22:19:41+08:00",
+      "last_success_at": "2026-09-17T22:25:19+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -98,21 +82,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-09-16T22:19:41+08:00",
+      "last_success_at": "2026-09-17T22:25:19+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-09-16T22:19:41+08:00",
+      "last_success_at": "2026-09-17T22:25:19+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-09-16T22:19:41+08:00",
+      "last_success_at": "2026-09-17T22:25:19+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
