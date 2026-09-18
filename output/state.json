@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T22:25:19+08:00",
+  "generated_at": "2026-09-18T21:46:11+08:00",
   "events": {
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
@@ -43,44 +43,16 @@
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
     },
-    "e5e896b16d3a56ff": {
-      "id": "e5e896b16d3a56ff",
-      "sale_date": "2026-09-17",
-      "sale_time": "12:00",
-      "name": "Diana Krall",
+    "d3854b8e08467052": {
+      "id": "d3854b8e08467052",
+      "sale_date": "2026-09-18",
+      "sale_time": "13:00",
+      "name": "2026 LUDA 10TH ANNIVERSARY FANMEETING ＜CAPTAIN LU : SECRET BASE＞ IN TAIPEI",
       "type": "其他藝文活動",
-      "performance_date": "2026-11-28 ~ 2026-11-29",
-      "city": "台北市",
-      "venue": "臺北流行音樂中心",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1ESVMPP",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
-    "fa8d2c98ae675db2": {
-      "id": "fa8d2c98ae675db2",
-      "sale_date": "2026-09-17",
-      "sale_time": "12:00",
-      "name": "遠東璀璨饗宴—爵士天后 戴安娜·克瑞兒",
-      "type": "其他藝文活動",
-      "performance_date": "2026-11-28 ~ 2026-11-29",
-      "city": "台北市",
-      "venue": "臺北流行音樂中心",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1ESVMPQ",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
-    "db9d4d152fbb26f2": {
-      "id": "db9d4d152fbb26f2",
-      "sale_date": "2026-09-19",
-      "sale_time": "19:30",
-      "name": "銀幕之外 朱芸編 Beyond the Screen",
-      "type": "其他藝文活動",
-      "performance_date": "2026-08-19 ~ 2026-09-19",
+      "performance_date": "2026-11-15 ~ 2026-09-18",
       "city": "台北市",
       "venue": "",
-      "source_url": "https://triplefivelnfinitymission.kktix.cc/events/2d5e87bd",
+      "source_url": "https://weekendplanent.kktix.cc/events/21fde851",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
@@ -139,6 +111,34 @@
       "source_url": "https://walkingmusic.kktix.cc/events/9be3aedc",
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
+      "note": ""
+    },
+    "7936593420b913bb": {
+      "id": "7936593420b913bb",
+      "sale_date": "2026-10-03",
+      "sale_time": "18:00",
+      "name": "【會員優先購、全面啟售】2026 SUPER JUNIOR-83z FANCON TOUR [1983] in KAOHSIUNG",
+      "type": "大型演唱會",
+      "performance_date": "2026-10-03",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://chuanyeah.kktix.cc/events/080cefdf",
+      "discovery": "kktix_search_index",
+      "scope": "large_music_taiwan",
+      "note": ""
+    },
+    "72871f4a024dca27": {
+      "id": "72871f4a024dca27",
+      "sale_date": "2026-10-08",
+      "sale_time": "23:59",
+      "name": "TeddyLoid Special DJ Live in IEGP",
+      "type": "其他藝文活動",
+      "performance_date": "2026-10-09 ~ 2026-09-23",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://baodaorecords.kktix.cc/events/f2890e28",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
       "note": ""
     },
     "211dc660a275425d": {
@@ -229,7 +229,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-09-17T22:25:19+08:00",
+      "last_success_at": "2026-09-18T21:46:11+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -243,14 +243,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-09-17T22:25:19+08:00",
+      "last_success_at": "2026-09-18T21:46:11+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-09-17T22:25:19+08:00",
+      "last_success_at": "2026-09-18T21:46:11+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -264,21 +264,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-09-17T22:25:19+08:00",
+      "last_success_at": "2026-09-18T21:46:11+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-09-17T22:25:19+08:00",
+      "last_success_at": "2026-09-18T21:46:11+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-09-17T22:25:19+08:00",
+      "last_success_at": "2026-09-18T21:46:11+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""

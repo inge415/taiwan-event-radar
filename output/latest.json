@@ -1,53 +1,43 @@
 {
-  "generated_at": "2026-09-17T22:25:19+08:00",
+  "generated_at": "2026-09-18T21:46:11+08:00",
   "scan_success": true,
   "coverage_ok": false,
   "new_events": [
     {
-      "id": "1339292cc98af549",
-      "sale_date": "2027-01-08",
-      "sale_time": "23:59",
-      "name": "Himegoto Live in Taipei 2027",
-      "type": "其他藝文活動",
-      "performance_date": "2027-01-09 ~ 2026-09-20",
+      "id": "7936593420b913bb",
+      "sale_date": "2026-10-03",
+      "sale_time": "18:00",
+      "name": "【會員優先購、全面啟售】2026 SUPER JUNIOR-83z FANCON TOUR [1983] in KAOHSIUNG",
+      "type": "大型演唱會",
+      "performance_date": "2026-10-03",
       "city": "台北市",
       "venue": "",
-      "source_url": "https://baodaorecords.kktix.cc/events/hr6ty8h",
+      "source_url": "https://chuanyeah.kktix.cc/events/080cefdf",
+      "discovery": "kktix_search_index",
+      "scope": "large_music_taiwan",
+      "note": ""
+    },
+    {
+      "id": "72871f4a024dca27",
+      "sale_date": "2026-10-08",
+      "sale_time": "23:59",
+      "name": "TeddyLoid Special DJ Live in IEGP",
+      "type": "其他藝文活動",
+      "performance_date": "2026-10-09 ~ 2026-09-23",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://baodaorecords.kktix.cc/events/f2890e28",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
     }
   ],
   "new_sale_info": [],
-  "changed_events": [
-    {
-      "id": "211dc660a275425d",
-      "name": "NSTER 台北演唱會 2026",
-      "source_url": "https://www.tickettw.com/",
-      "changes": {
-        "sale_date": {
-          "old": "2026-09-26",
-          "new": "2026-10-12"
-        },
-        "sale_time": {
-          "old": "11:00",
-          "new": "12:00"
-        },
-        "venue": {
-          "old": "台北小巨蛋 全面開賣: 有待公佈 ⏰ 即將舉行 ｜還有 2個月6日 MAMAMOO 台北演唱會 2026 ｜門票價錢、座位圖、全面開賣時間、附官方購票連結、完整資訊整理 演出日期: 2026年11月28日 - 29日 (共2場) 門票價錢: NT$ 6980 / 5980 / 3980 / 3280 / 800 演出場館: 台北小巨蛋",
-          "new": "台北小巨蛋"
-        },
-        "name": {
-          "old": "1:00起 Live Nation Taiwan會員 優先購票: 2026年9月16日11:00起 三星星粉獨享 (還有2種購票方法) 🔥 今天售票中 BABYMONSTER 台北演唱會 2026",
-          "new": "NSTER 台北演唱會 2026"
-        }
-      }
-    }
-  ],
+  "changed_events": [],
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-09-17T22:25:19+08:00",
+      "last_success_at": "2026-09-18T21:46:11+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -61,14 +51,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-09-17T22:25:19+08:00",
+      "last_success_at": "2026-09-18T21:46:11+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-09-17T22:25:19+08:00",
+      "last_success_at": "2026-09-18T21:46:11+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -82,21 +72,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-09-17T22:25:19+08:00",
+      "last_success_at": "2026-09-18T21:46:11+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-09-17T22:25:19+08:00",
+      "last_success_at": "2026-09-18T21:46:11+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-09-17T22:25:19+08:00",
+      "last_success_at": "2026-09-18T21:46:11+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
