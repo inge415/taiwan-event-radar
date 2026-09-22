@@ -1,57 +1,14 @@
 {
-  "generated_at": "2026-09-21T23:59:46+08:00",
+  "generated_at": "2026-09-22T22:08:42+08:00",
   "scan_success": true,
   "coverage_ok": false,
-  "new_events": [
-    {
-      "id": "9187ec3c6db05a80",
-      "sale_date": "2026-09-30",
-      "sale_time": "12:00",
-      "name": "2026臺中國際巨星音樂節 鋼琴天后王羽佳與馬勒室內樂團",
-      "type": "古典音樂",
-      "performance_date": "2026-11-21 ~ 2026-11-24",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1FX0H7L",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
-    {
-      "id": "14069528a2a50e9e",
-      "sale_date": "2026-09-30",
-      "sale_time": "12:00",
-      "name": "璞永三十・雋永樂章 鋼琴天后王羽佳與馬勒室內樂團",
-      "type": "古典音樂",
-      "performance_date": "2026-11-21 ~ 2026-11-24",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1FX0ASD",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
-    {
-      "id": "db096dd418820702",
-      "sale_date": "2026-09-30",
-      "sale_time": "12:00",
-      "name": "鋼琴天后王羽佳與馬勒室內樂團",
-      "type": "古典音樂",
-      "performance_date": "2026-11-21 ~ 2026-11-24",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1FX0ASC",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    }
-  ],
+  "new_events": [],
   "new_sale_info": [],
   "changed_events": [],
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-09-21T23:59:46+08:00",
+      "last_success_at": "2026-09-22T22:08:42+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -65,14 +22,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-09-21T23:59:46+08:00",
+      "last_success_at": "2026-09-22T22:08:42+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-09-21T23:59:46+08:00",
+      "last_success_at": "2026-09-22T22:08:42+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -86,21 +43,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-09-21T23:59:46+08:00",
+      "last_success_at": "2026-09-22T22:08:42+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-09-21T23:59:46+08:00",
+      "last_success_at": "2026-09-22T22:08:42+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-09-21T23:59:46+08:00",
+      "last_success_at": "2026-09-22T22:08:42+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
