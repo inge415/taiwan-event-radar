@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T22:08:42+08:00",
+  "generated_at": "2026-09-23T22:21:54+08:00",
   "events": {
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
@@ -43,44 +43,16 @@
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
     },
-    "9f16b5a5f9315891": {
-      "id": "9f16b5a5f9315891",
-      "sale_date": "2026-09-22",
-      "sale_time": "12:00",
-      "name": "《進擊的巨人》—Beyond the Walls世界巡演—",
-      "type": "其他藝文活動",
-      "performance_date": "2026-00-17 ~ 2027-02-15",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1FK94VM",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
-    "33a8d56ccf5f3c77": {
-      "id": "33a8d56ccf5f3c77",
+    "72871f4a024dca27": {
+      "id": "72871f4a024dca27",
       "sale_date": "2026-09-23",
-      "sale_time": "19:30",
-      "name": "英格伯漢普汀克 不柘傳奇2026世界巡迴演唱會－台北站",
-      "type": "大型演唱會",
-      "performance_date": "2026-05-07 ~ 2026-09-23",
+      "sale_time": "12:00",
+      "name": "TeddyLoid Special DJ Live in IEGP",
+      "type": "其他藝文活動",
+      "performance_date": "2026-10-09 ~ 2026-09-23",
       "city": "台北市",
       "venue": "",
-      "source_url": "https://globalmusic.kktix.cc/events/5dee326c",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
-    "f4412809286f704d": {
-      "id": "f4412809286f704d",
-      "sale_date": "2026-09-27",
-      "sale_time": "19:30",
-      "name": "你是毋是拄著魔神仔 —— 隨性《魔神仔》發片最終場",
-      "type": "其他藝文活動",
-      "performance_date": "2026-07-22 ~ 2026-09-27",
-      "city": "台北市",
-      "venue": "Legacy Taipei",
-      "source_url": "https://nicetoseeyou.kktix.cc/events/48d24194",
+      "source_url": "https://baodaorecords.kktix.cc/events/f2890e28",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
@@ -141,19 +113,19 @@
       "scope": "taipei_only",
       "note": "MNA public event overview discovery"
     },
-    "72871f4a024dca27": {
-      "id": "72871f4a024dca27",
-      "sale_date": "2026-10-08",
-      "sale_time": "23:59",
-      "name": "TeddyLoid Special DJ Live in IEGP",
-      "type": "其他藝文活動",
-      "performance_date": "2026-10-09 ~ 2026-09-23",
+    "211dc660a275425d": {
+      "id": "211dc660a275425d",
+      "sale_date": "2026-10-12",
+      "sale_time": "12:00",
+      "name": "18日 BABYMONSTER 台北演唱會 2026",
+      "type": "大型演唱會",
+      "performance_date": "2026-11-21",
       "city": "台北市",
-      "venue": "",
-      "source_url": "https://baodaorecords.kktix.cc/events/f2890e28",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
+      "venue": "台北小巨蛋",
+      "source_url": "https://www.tickettw.com/",
+      "discovery": "concert_aggregator_structured",
+      "scope": "large_music_taiwan",
+      "note": "structured public concert aggregator"
     },
     "c47102e99e43a612": {
       "id": "c47102e99e43a612",
@@ -179,6 +151,20 @@
       "city": "台北市",
       "venue": "",
       "source_url": "https://digitalidea.kktix.cc/events/be56fc71",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    "8b4c9e404f8a3810": {
+      "id": "8b4c9e404f8a3810",
+      "sale_date": "2026-10-18",
+      "sale_time": "16:00",
+      "name": "FANTASTICS LIVE 2026 in TAIPEI \"放大絶\"",
+      "type": "其他藝文活動",
+      "performance_date": "2026-10-18 ~ 2026-08-29",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://ldh.kktix.cc/events/fantastics-live-2026",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
@@ -215,7 +201,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-09-22T22:08:42+08:00",
+      "last_success_at": "2026-09-23T22:21:54+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -229,14 +215,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-09-22T22:08:42+08:00",
+      "last_success_at": "2026-09-23T22:21:54+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-09-22T22:08:42+08:00",
+      "last_success_at": "2026-09-23T22:21:54+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -250,21 +236,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-09-22T22:08:42+08:00",
+      "last_success_at": "2026-09-23T22:21:54+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-09-22T22:08:42+08:00",
+      "last_success_at": "2026-09-23T22:21:54+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-09-22T22:08:42+08:00",
+      "last_success_at": "2026-09-23T22:21:54+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
