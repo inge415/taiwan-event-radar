@@ -1,51 +1,49 @@
 {
-  "generated_at": "2026-09-23T22:21:54+08:00",
+  "generated_at": "2026-09-24T22:22:19+08:00",
   "scan_success": true,
   "coverage_ok": false,
   "new_events": [
     {
-      "id": "211dc660a275425d",
-      "sale_date": "2026-10-12",
+      "id": "7efa2f38c55f8a32",
+      "sale_date": "2026-10-01",
       "sale_time": "12:00",
-      "name": "18日 BABYMONSTER 台北演唱會 2026",
-      "type": "大型演唱會",
-      "performance_date": "2026-11-21",
+      "name": "馬克．安德烈低音提琴音樂會",
+      "type": "古典音樂",
+      "performance_date": "2026-11-20",
       "city": "台北市",
-      "venue": "台北小巨蛋",
-      "source_url": "https://www.tickettw.com/",
-      "discovery": "concert_aggregator_structured",
-      "scope": "large_music_taiwan",
-      "note": "structured public concert aggregator"
-    },
-    {
-      "id": "8b4c9e404f8a3810",
-      "sale_date": "2026-10-18",
-      "sale_time": "16:00",
-      "name": "FANTASTICS LIVE 2026 in TAIPEI \"放大絶\"",
-      "type": "其他藝文活動",
-      "performance_date": "2026-10-18 ~ 2026-08-29",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://ldh.kktix.cc/events/fantastics-live-2026",
-      "discovery": "kktix_search_index",
+      "venue": "臺北國家音樂廳",
+      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1G62Y88",
+      "discovery": "mna_public_listing",
       "scope": "taipei_only",
-      "note": ""
+      "note": "MNA public event overview discovery"
     }
   ],
   "new_sale_info": [],
   "changed_events": [
     {
-      "id": "72871f4a024dca27",
-      "name": "TeddyLoid Special DJ Live in IEGP",
-      "source_url": "https://baodaorecords.kktix.cc/events/f2890e28",
+      "id": "211dc660a275425d",
+      "name": "F FOREVER 台北演唱會 2026",
+      "source_url": "https://www.tickettw.com/",
       "changes": {
         "sale_date": {
-          "old": "2026-10-08",
-          "new": "2026-09-23"
+          "old": "2026-10-12",
+          "new": "2026-10-04"
         },
         "sale_time": {
-          "old": "23:59",
-          "new": "12:00"
+          "old": "12:00",
+          "new": "13:00"
+        },
+        "performance_date": {
+          "old": "2026-11-21",
+          "new": "2026-11-28"
+        },
+        "venue": {
+          "old": "台北小巨蛋",
+          "new": "台北大巨蛋"
+        },
+        "name": {
+          "old": "18日 BABYMONSTER 台北演唱會 2026",
+          "new": "F FOREVER 台北演唱會 2026"
         }
       }
     }
@@ -53,7 +51,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-09-23T22:21:54+08:00",
+      "last_success_at": "2026-09-24T22:22:19+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -67,14 +65,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-09-23T22:21:54+08:00",
+      "last_success_at": "2026-09-24T22:22:19+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-09-23T22:21:54+08:00",
+      "last_success_at": "2026-09-24T22:22:19+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -88,21 +86,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-09-23T22:21:54+08:00",
+      "last_success_at": "2026-09-24T22:22:19+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-09-23T22:21:54+08:00",
+      "last_success_at": "2026-09-24T22:22:19+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-09-23T22:21:54+08:00",
+      "last_success_at": "2026-09-24T22:22:19+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
