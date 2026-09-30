@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-09-30T00:05:24+08:00",
+  "generated_at": "2026-10-01T00:03:13+08:00",
   "events": {
+    "1a6a9df7d86e0efb": {
+      "id": "1a6a9df7d86e0efb",
+      "sale_date": "",
+      "sale_time": "",
+      "name": "ART TAIPEI 2026台北國際藝術博覽會",
+      "type": "展覽",
+      "performance_date": "2026-10-30 ~ 2026-11-02",
+      "city": "台北市",
+      "venue": "世貿一館",
+      "source_url": "https://www.twtc.com.tw/exhibition",
+      "discovery": "twtc_public_schedule",
+      "scope": "taipei_only",
+      "note": "public venue exhibition schedule"
+    },
+    "3d0d6024f70b1b0e": {
+      "id": "3d0d6024f70b1b0e",
+      "sale_date": "",
+      "sale_time": "",
+      "name": "CARDPASS 青年收藏創業暨卡牌文化產業交流展",
+      "type": "展覽",
+      "performance_date": "2026-10-17 ~ 2026-10-18",
+      "city": "台北市",
+      "venue": "世貿一館",
+      "source_url": "https://www.twtc.com.tw/exhibition",
+      "discovery": "twtc_public_schedule",
+      "scope": "taipei_only",
+      "note": "public venue exhibition schedule"
+    },
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
       "sale_date": "2026-08-10",
@@ -42,6 +70,20 @@
       "discovery": "tixcraft_search_index",
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
+    },
+    "bac72d89ea0e117f": {
+      "id": "bac72d89ea0e117f",
+      "sale_date": "2026-09-30",
+      "sale_time": "10:00",
+      "name": "2026 鄭宜農 Enno Cheng 《缺與圓之後 Inter-Phases》高雄演唱會",
+      "type": "大型演唱會",
+      "performance_date": "2026-02-05 ~ 2026-12-27",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://walkingmusic.kktix.cc/events/9be3aedc",
+      "discovery": "kktix_search_index",
+      "scope": "large_music_taiwan",
+      "note": ""
     },
     "9187ec3c6db05a80": {
       "id": "9187ec3c6db05a80",
@@ -99,6 +141,34 @@
       "scope": "taipei_only",
       "note": "MNA public event overview discovery"
     },
+    "b06111579d393434": {
+      "id": "b06111579d393434",
+      "sale_date": "2026-10-01",
+      "sale_time": "19:00",
+      "name": "蟬鳴迴響 - AYANE / ITO KANAKO / SHIMAMIYA EIKO Special Live in Taipei",
+      "type": "其他藝文活動",
+      "performance_date": "2026-10-30 ~ 2026-10-01",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://urbanrootmusic.kktix.cc/events/625ebae8",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    "6689521cca6d6e75": {
+      "id": "6689521cca6d6e75",
+      "sale_date": "2026-10-03",
+      "sale_time": "23:59",
+      "name": "HOKUTO LIVE&FAN MEETING 2026 \"JUKE BOX LAND\" IN TAIPEI",
+      "type": "Fan meeting",
+      "performance_date": "2026-09-30 ~ 2026-10-03",
+      "city": "台北市",
+      "venue": "Legacy Taipei",
+      "source_url": "https://ldh.kktix.cc/events/hokuto2026",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
     "211dc660a275425d": {
       "id": "211dc660a275425d",
       "sale_date": "2026-10-04",
@@ -112,20 +182,6 @@
       "discovery": "concert_aggregator_structured",
       "scope": "large_music_taiwan",
       "note": "structured public concert aggregator"
-    },
-    "c47102e99e43a612": {
-      "id": "c47102e99e43a612",
-      "sale_date": "2026-10-16",
-      "sale_time": "19:30",
-      "name": "Hey Girl！跌得漂亮 小男孩樂團巡迴演唱會 高雄場",
-      "type": "大型演唱會",
-      "performance_date": "2026-10-16",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://rockrecords.kktix.cc/events/3e201364",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
     },
     "5a41bafd6220d298": {
       "id": "5a41bafd6220d298",
@@ -141,18 +197,18 @@
       "scope": "taipei_only",
       "note": ""
     },
-    "8b4c9e404f8a3810": {
-      "id": "8b4c9e404f8a3810",
-      "sale_date": "2026-10-18",
-      "sale_time": "16:00",
-      "name": "FANTASTICS LIVE 2026 in TAIPEI \"放大絶\"",
-      "type": "其他藝文活動",
-      "performance_date": "2026-10-18 ~ 2026-08-29",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://ldh.kktix.cc/events/fantastics-live-2026",
+    "26b3a36cecfba46b": {
+      "id": "26b3a36cecfba46b",
+      "sale_date": "2026-11-12",
+      "sale_time": "",
+      "name": "藍井艾露 EIR AOI LIVE TOUR 2026-2027〈UNBOUND〉台北",
+      "type": "大型演唱會",
+      "performance_date": "2027-02-13 ~ 2026-11-13",
+      "city": "新北市",
+      "venue": "Zepp New Taipei",
+      "source_url": "https://jmgroup.kktix.cc/events/fbcbc20e",
       "discovery": "kktix_search_index",
-      "scope": "taipei_only",
+      "scope": "large_music_taiwan",
       "note": ""
     },
     "10dc154b2765e905": {
@@ -169,6 +225,34 @@
       "scope": "large_music_taiwan",
       "note": ""
     },
+    "e10efaae11c08740": {
+      "id": "e10efaae11c08740",
+      "sale_date": "2026-11-15",
+      "sale_time": "09:00",
+      "name": "第二屆 TCE 台灣卡牌展覽會",
+      "type": "展覽",
+      "performance_date": "2026-11-14 ~ 2026-11-15",
+      "city": "台北市",
+      "venue": "松山文創園區",
+      "source_url": "https://uimec.kktix.cc/events/li6s8t",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    "5f7b0b7df69cb764": {
+      "id": "5f7b0b7df69cb764",
+      "sale_date": "2026-11-29",
+      "sale_time": "12:00",
+      "name": "THE EDGE OF HORIZON 1st FAN MEETING IN TAIWAN",
+      "type": "Fan meeting",
+      "performance_date": "2026-10-06 ~ 2026-11-29",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://porticomedia.kktix.cc/events/e7a60cf1",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
     "335d4da250ed7225": {
       "id": "335d4da250ed7225",
       "sale_date": "2026-11-29",
@@ -181,20 +265,6 @@
       "source_url": "https://sotmrtw.kktix.cc/events/tls0d8e",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
-      "note": ""
-    },
-    "bac72d89ea0e117f": {
-      "id": "bac72d89ea0e117f",
-      "sale_date": "2026-12-27",
-      "sale_time": "00:00",
-      "name": "2026 鄭宜農 Enno Cheng 《缺與圓之後 Inter-Phases》高雄演唱會",
-      "type": "大型演唱會",
-      "performance_date": "2026-02-05 ~ 2026-12-27",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://walkingmusic.kktix.cc/events/9be3aedc",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
       "note": ""
     },
     "a17b3a377348c467": {
@@ -215,7 +285,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-09-30T00:05:24+08:00",
+      "last_success_at": "2026-10-01T00:03:13+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -229,14 +299,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-09-30T00:05:24+08:00",
+      "last_success_at": "2026-10-01T00:03:13+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-09-30T00:05:24+08:00",
+      "last_success_at": "2026-10-01T00:03:13+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -250,21 +320,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-09-30T00:05:24+08:00",
+      "last_success_at": "2026-10-01T00:03:13+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-09-30T00:05:24+08:00",
+      "last_success_at": "2026-10-01T00:03:13+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-09-30T00:05:24+08:00",
+      "last_success_at": "2026-10-01T00:03:13+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
