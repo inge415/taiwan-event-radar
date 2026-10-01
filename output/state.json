@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T00:03:13+08:00",
+  "generated_at": "2026-10-02T00:40:08+08:00",
   "events": {
     "1a6a9df7d86e0efb": {
       "id": "1a6a9df7d86e0efb",
@@ -71,62 +71,6 @@
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
     },
-    "bac72d89ea0e117f": {
-      "id": "bac72d89ea0e117f",
-      "sale_date": "2026-09-30",
-      "sale_time": "10:00",
-      "name": "2026 鄭宜農 Enno Cheng 《缺與圓之後 Inter-Phases》高雄演唱會",
-      "type": "大型演唱會",
-      "performance_date": "2026-02-05 ~ 2026-12-27",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://walkingmusic.kktix.cc/events/9be3aedc",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
-    "9187ec3c6db05a80": {
-      "id": "9187ec3c6db05a80",
-      "sale_date": "2026-09-30",
-      "sale_time": "12:00",
-      "name": "2026臺中國際巨星音樂節 鋼琴天后王羽佳與馬勒室內樂團",
-      "type": "古典音樂",
-      "performance_date": "2026-11-21 ~ 2026-11-24",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1FX0H7L",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
-    "14069528a2a50e9e": {
-      "id": "14069528a2a50e9e",
-      "sale_date": "2026-09-30",
-      "sale_time": "12:00",
-      "name": "璞永三十・雋永樂章 鋼琴天后王羽佳與馬勒室內樂團",
-      "type": "古典音樂",
-      "performance_date": "2026-11-21 ~ 2026-11-24",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1FX0ASD",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
-    "db096dd418820702": {
-      "id": "db096dd418820702",
-      "sale_date": "2026-09-30",
-      "sale_time": "12:00",
-      "name": "鋼琴天后王羽佳與馬勒室內樂團",
-      "type": "古典音樂",
-      "performance_date": "2026-11-21 ~ 2026-11-24",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1FX0ASC",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
     "7efa2f38c55f8a32": {
       "id": "7efa2f38c55f8a32",
       "sale_date": "2026-10-01",
@@ -183,6 +127,20 @@
       "scope": "large_music_taiwan",
       "note": "structured public concert aggregator"
     },
+    "63894da3470df668": {
+      "id": "63894da3470df668",
+      "sale_date": "2026-10-13",
+      "sale_time": "12:00",
+      "name": "富邦世紀音樂盛宴 鋼琴巨星 郎朗",
+      "type": "古典音樂",
+      "performance_date": "2026-12-24 ~ 2026-12-26",
+      "city": "台北市",
+      "venue": "臺北國家音樂廳",
+      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1EUV5H4",
+      "discovery": "mna_public_listing",
+      "scope": "taipei_only",
+      "note": "MNA public event overview discovery"
+    },
     "5a41bafd6220d298": {
       "id": "5a41bafd6220d298",
       "sale_date": "2026-10-18",
@@ -207,20 +165,6 @@
       "city": "新北市",
       "venue": "Zepp New Taipei",
       "source_url": "https://jmgroup.kktix.cc/events/fbcbc20e",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
-    "10dc154b2765e905": {
-      "id": "10dc154b2765e905",
-      "sale_date": "2026-11-14",
-      "sale_time": "",
-      "name": "山下智久 2026 巡迴演唱會 DREAMING 高雄場",
-      "type": "大型演唱會",
-      "performance_date": "2026-11-14",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://atc-twn.kktix.cc/events/aikorf",
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": ""
@@ -285,7 +229,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-10-01T00:03:13+08:00",
+      "last_success_at": "2026-10-02T00:40:08+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -299,14 +243,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-10-01T00:03:13+08:00",
+      "last_success_at": "2026-10-02T00:40:08+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-10-01T00:03:13+08:00",
+      "last_success_at": "2026-10-02T00:40:08+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -320,21 +264,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-10-01T00:03:13+08:00",
+      "last_success_at": "2026-10-02T00:40:08+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-10-01T00:03:13+08:00",
+      "last_success_at": "2026-10-02T00:40:08+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-10-01T00:03:13+08:00",
+      "last_success_at": "2026-10-02T00:40:08+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
