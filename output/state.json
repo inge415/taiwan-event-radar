@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T00:40:08+08:00",
+  "generated_at": "2026-10-02T23:56:45+08:00",
   "events": {
     "1a6a9df7d86e0efb": {
       "id": "1a6a9df7d86e0efb",
@@ -71,34 +71,6 @@
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
     },
-    "7efa2f38c55f8a32": {
-      "id": "7efa2f38c55f8a32",
-      "sale_date": "2026-10-01",
-      "sale_time": "12:00",
-      "name": "馬克．安德烈低音提琴音樂會",
-      "type": "古典音樂",
-      "performance_date": "2026-11-20",
-      "city": "台北市",
-      "venue": "臺北國家音樂廳",
-      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1G62Y88",
-      "discovery": "mna_public_listing",
-      "scope": "taipei_only",
-      "note": "MNA public event overview discovery"
-    },
-    "b06111579d393434": {
-      "id": "b06111579d393434",
-      "sale_date": "2026-10-01",
-      "sale_time": "19:00",
-      "name": "蟬鳴迴響 - AYANE / ITO KANAKO / SHIMAMIYA EIKO Special Live in Taipei",
-      "type": "其他藝文活動",
-      "performance_date": "2026-10-30 ~ 2026-10-01",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://urbanrootmusic.kktix.cc/events/625ebae8",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    },
     "6689521cca6d6e75": {
       "id": "6689521cca6d6e75",
       "sale_date": "2026-10-03",
@@ -115,13 +87,13 @@
     },
     "211dc660a275425d": {
       "id": "211dc660a275425d",
-      "sale_date": "2026-10-04",
-      "sale_time": "13:00",
-      "name": "F FOREVER 台北演唱會 2026",
+      "sale_date": "2026-10-06",
+      "sale_time": "12:00",
+      "name": "田馥甄 台北演唱會 2026",
       "type": "大型演唱會",
-      "performance_date": "2026-11-28",
+      "performance_date": "2026-12-12",
       "city": "台北市",
-      "venue": "台北大巨蛋",
+      "venue": "台北小巨蛋",
       "source_url": "https://www.tickettw.com/",
       "discovery": "concert_aggregator_structured",
       "scope": "large_music_taiwan",
@@ -155,20 +127,6 @@
       "scope": "taipei_only",
       "note": ""
     },
-    "26b3a36cecfba46b": {
-      "id": "26b3a36cecfba46b",
-      "sale_date": "2026-11-12",
-      "sale_time": "",
-      "name": "藍井艾露 EIR AOI LIVE TOUR 2026-2027〈UNBOUND〉台北",
-      "type": "大型演唱會",
-      "performance_date": "2027-02-13 ~ 2026-11-13",
-      "city": "新北市",
-      "venue": "Zepp New Taipei",
-      "source_url": "https://jmgroup.kktix.cc/events/fbcbc20e",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
     "e10efaae11c08740": {
       "id": "e10efaae11c08740",
       "sale_date": "2026-11-15",
@@ -183,6 +141,20 @@
       "scope": "taipei_only",
       "note": ""
     },
+    "eda1c67c8baa4fe2": {
+      "id": "eda1c67c8baa4fe2",
+      "sale_date": "2026-11-25",
+      "sale_time": "19:45",
+      "name": "指揮巨星庫倫奇斯與烏托邦管弦樂團 首度訪臺",
+      "type": "古典音樂",
+      "performance_date": "2026-11-25",
+      "city": "台北市",
+      "venue": "臺北國家音樂廳",
+      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1GIAJDO",
+      "discovery": "mna_public_listing",
+      "scope": "taipei_only",
+      "note": "MNA public event overview discovery"
+    },
     "5f7b0b7df69cb764": {
       "id": "5f7b0b7df69cb764",
       "sale_date": "2026-11-29",
@@ -193,20 +165,6 @@
       "city": "台北市",
       "venue": "",
       "source_url": "https://porticomedia.kktix.cc/events/e7a60cf1",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    },
-    "335d4da250ed7225": {
-      "id": "335d4da250ed7225",
-      "sale_date": "2026-11-29",
-      "sale_time": "20:00",
-      "name": "椅子樂團 Rolling On, Marching On 十週年巡演",
-      "type": "其他藝文活動",
-      "performance_date": "2026-09-11 ~ 2026-11-13",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://sotmrtw.kktix.cc/events/tls0d8e",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
@@ -229,7 +187,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-10-02T00:40:08+08:00",
+      "last_success_at": "2026-10-02T23:56:45+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -243,14 +201,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-10-02T00:40:08+08:00",
+      "last_success_at": "2026-10-02T23:56:45+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-10-02T00:40:08+08:00",
+      "last_success_at": "2026-10-02T23:56:45+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -264,21 +222,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-10-02T00:40:08+08:00",
+      "last_success_at": "2026-10-02T23:56:45+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-10-02T00:40:08+08:00",
+      "last_success_at": "2026-10-02T23:56:45+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-10-02T00:40:08+08:00",
+      "last_success_at": "2026-10-02T23:56:45+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
