@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T23:56:45+08:00",
+  "generated_at": "2026-10-03T22:24:03+08:00",
   "events": {
     "1a6a9df7d86e0efb": {
       "id": "1a6a9df7d86e0efb",
@@ -187,7 +187,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-10-02T23:56:45+08:00",
+      "last_success_at": "2026-10-03T22:24:03+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -201,14 +201,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-10-02T23:56:45+08:00",
+      "last_success_at": "2026-10-03T22:24:03+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-10-02T23:56:45+08:00",
+      "last_success_at": "2026-10-03T22:24:03+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -222,21 +222,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-10-02T23:56:45+08:00",
+      "last_success_at": "2026-10-03T22:24:03+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-10-02T23:56:45+08:00",
+      "last_success_at": "2026-10-03T22:24:03+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-10-02T23:56:45+08:00",
+      "last_success_at": "2026-10-03T22:24:03+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
