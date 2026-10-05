@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T22:56:51+08:00",
+  "generated_at": "2026-10-06T02:47:24+08:00",
   "events": {
     "1a6a9df7d86e0efb": {
       "id": "1a6a9df7d86e0efb",
@@ -155,6 +155,34 @@
       "scope": "taipei_only",
       "note": ""
     },
+    "88675833f35025d4": {
+      "id": "88675833f35025d4",
+      "sale_date": "2026-12-15",
+      "sale_time": "",
+      "name": "維也納柏林首席獨奏家合奏團",
+      "type": "古典音樂",
+      "performance_date": "2023-03-28 ~ 2026-27-28",
+      "city": "台北市",
+      "venue": "臺北國家音樂廳",
+      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1G676GR",
+      "discovery": "mna_public_listing",
+      "scope": "taipei_only",
+      "note": "MNA public event overview discovery"
+    },
+    "cd9b5fa834f4856a": {
+      "id": "cd9b5fa834f4856a",
+      "sale_date": "2026-12-17",
+      "sale_time": "",
+      "name": "維也納柏林首席獨奏家合奏團",
+      "type": "古典音樂",
+      "performance_date": "2023-03-28 ~ 2026-12-17",
+      "city": "台北市",
+      "venue": "臺北國家音樂廳",
+      "source_url": "https://ticket.mna.com.tw/UTK0201_?PRODUCT_ID=P1G676GS",
+      "discovery": "mna_public_listing",
+      "scope": "taipei_only",
+      "note": "MNA public event overview discovery"
+    },
     "a17b3a377348c467": {
       "id": "a17b3a377348c467",
       "sale_date": "2026-12-30",
@@ -173,7 +201,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-10-04T22:56:51+08:00",
+      "last_success_at": "2026-10-06T02:47:24+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -187,14 +215,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-10-04T22:56:51+08:00",
+      "last_success_at": "2026-10-06T02:47:24+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-10-04T22:56:51+08:00",
+      "last_success_at": "2026-10-06T02:47:24+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -208,21 +236,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-10-04T22:56:51+08:00",
+      "last_success_at": "2026-10-06T02:47:24+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-10-04T22:56:51+08:00",
+      "last_success_at": "2026-10-06T02:47:24+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-10-04T22:56:51+08:00",
+      "last_success_at": "2026-10-06T02:47:24+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
