@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T00:29:59+08:00",
+  "generated_at": "2026-10-10T23:32:54+08:00",
   "events": {
     "1a6a9df7d86e0efb": {
       "id": "1a6a9df7d86e0efb",
@@ -75,7 +75,7 @@
       "id": "211dc660a275425d",
       "sale_date": "2026-10-12",
       "sale_time": "12:00",
-      "name": "2日 BABYMONSTER 台北演唱會 2026",
+      "name": "1日 BABYMONSTER 台北演唱會 2026",
       "type": "大型演唱會",
       "performance_date": "2026-11-21",
       "city": "台北市",
@@ -201,7 +201,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-10-10T00:29:59+08:00",
+      "last_success_at": "2026-10-10T23:32:54+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -215,14 +215,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-10-10T00:29:59+08:00",
+      "last_success_at": "2026-10-10T23:32:54+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-10-10T00:29:59+08:00",
+      "last_success_at": "2026-10-10T23:32:54+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -236,21 +236,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-10-10T00:29:59+08:00",
+      "last_success_at": "2026-10-10T23:32:54+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-10-10T00:29:59+08:00",
+      "last_success_at": "2026-10-10T23:32:54+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-10-10T00:29:59+08:00",
+      "last_success_at": "2026-10-10T23:32:54+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
