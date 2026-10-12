@@ -1,26 +1,43 @@
 {
-  "generated_at": "2026-10-11T23:55:22+08:00",
+  "generated_at": "2026-10-13T03:16:13+08:00",
   "scan_success": true,
   "coverage_ok": false,
-  "new_events": [],
-  "new_sale_info": [],
-  "changed_events": [
+  "new_events": [
     {
-      "id": "211dc660a275425d",
-      "name": "BABYMONSTER 台北演唱會 2026",
-      "source_url": "https://www.tickettw.com/",
-      "changes": {
-        "name": {
-          "old": "1日 BABYMONSTER 台北演唱會 2026",
-          "new": "BABYMONSTER 台北演唱會 2026"
-        }
-      }
+      "id": "1248eb8c91e93cf5",
+      "sale_date": "2026-12-11",
+      "sale_time": "12:00",
+      "name": "Car, the garden Live in Taipei 2026",
+      "type": "其他藝文活動",
+      "performance_date": "2026-12-11 ~ 2026-10-16",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://jmgroup.kktix.cc/events/550f388f",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    {
+      "id": "7bb2463bdea9503f",
+      "sale_date": "2026-12-13",
+      "sale_time": "16:00",
+      "name": "SHE'S 15th Anniversary Tour \"Who am I?\" Extra -Live In Taipei 2026-",
+      "type": "大型演唱會",
+      "performance_date": "2026-10-10 ~ 2026-12-13",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://digitalidea.kktix.cc/events/17dcd7ed",
+      "discovery": "kktix_search_index",
+      "scope": "large_music_taiwan",
+      "note": ""
     }
   ],
+  "new_sale_info": [],
+  "changed_events": [],
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-10-11T23:55:22+08:00",
+      "last_success_at": "2026-10-13T03:16:13+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -34,14 +51,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-10-11T23:55:22+08:00",
+      "last_success_at": "2026-10-13T03:16:13+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-10-11T23:55:22+08:00",
+      "last_success_at": "2026-10-13T03:16:13+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -55,21 +72,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-10-11T23:55:22+08:00",
+      "last_success_at": "2026-10-13T03:16:13+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-10-11T23:55:22+08:00",
+      "last_success_at": "2026-10-13T03:16:13+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-10-11T23:55:22+08:00",
+      "last_success_at": "2026-10-13T03:16:13+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
