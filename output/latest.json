@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-10-13T03:16:13+08:00",
+  "generated_at": "2026-10-14T01:06:06+08:00",
   "scan_success": true,
   "coverage_ok": false,
   "new_events": [
     {
-      "id": "1248eb8c91e93cf5",
-      "sale_date": "2026-12-11",
-      "sale_time": "12:00",
-      "name": "Car, the garden Live in Taipei 2026",
-      "type": "其他藝文活動",
-      "performance_date": "2026-12-11 ~ 2026-10-16",
+      "id": "2bad0eefb0180163",
+      "sale_date": "2026-10-14",
+      "sale_time": "17:00",
+      "name": "【11/28】2026 YESUNG 10TH ANNIVERSARY TOUR – ABOUT THE THINGS WE CALLED ORDINARY IN KAOHSIUNG",
+      "type": "大型演唱會",
+      "performance_date": "2026-11-28 ~ 2026-10-14",
       "city": "台北市",
       "venue": "",
-      "source_url": "https://jmgroup.kktix.cc/events/550f388f",
+      "source_url": "https://farglorycreative.kktix.cc/events/cofr3t",
       "discovery": "kktix_search_index",
-      "scope": "taipei_only",
+      "scope": "large_music_taiwan",
       "note": ""
     },
     {
-      "id": "7bb2463bdea9503f",
-      "sale_date": "2026-12-13",
-      "sale_time": "16:00",
-      "name": "SHE'S 15th Anniversary Tour \"Who am I?\" Extra -Live In Taipei 2026-",
+      "id": "0eb2c20a57fdbc52",
+      "sale_date": "2026-11-02",
+      "sale_time": "19:30",
+      "name": "Jason Mraz ASIA TOUR 2026 IN TAIPEI",
       "type": "大型演唱會",
-      "performance_date": "2026-10-10 ~ 2026-12-13",
+      "performance_date": "2026-10-13 ~ 2026-11-02",
       "city": "台北市",
-      "venue": "",
-      "source_url": "https://digitalidea.kktix.cc/events/17dcd7ed",
+      "venue": "台北南港展覽館",
+      "source_url": "https://xinzemedia.kktix.cc/events/0145dd91",
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": ""
@@ -37,7 +37,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-10-13T03:16:13+08:00",
+      "last_success_at": "2026-10-14T01:06:06+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -51,14 +51,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-10-13T03:16:13+08:00",
+      "last_success_at": "2026-10-14T01:06:06+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-10-13T03:16:13+08:00",
+      "last_success_at": "2026-10-14T01:06:06+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -72,21 +72,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-10-13T03:16:13+08:00",
+      "last_success_at": "2026-10-14T01:06:06+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-10-13T03:16:13+08:00",
+      "last_success_at": "2026-10-14T01:06:06+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-10-13T03:16:13+08:00",
+      "last_success_at": "2026-10-14T01:06:06+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
