@@ -1,43 +1,14 @@
 {
-  "generated_at": "2026-10-14T22:38:10+08:00",
+  "generated_at": "2026-10-15T22:21:34+08:00",
   "scan_success": true,
   "coverage_ok": false,
-  "new_events": [
-    {
-      "id": "abf72d0395e7be78",
-      "sale_date": "2026-11-06",
-      "sale_time": "20:00",
-      "name": "Jony J 2026「本命」TOUR IN TAIPEI",
-      "type": "大型演唱會",
-      "performance_date": "2026-11-06",
-      "city": "新北市",
-      "venue": "Zepp New Taipei",
-      "source_url": "https://spaceport.kktix.cc/events/jonyj",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
-    {
-      "id": "65e5d99ac098eeab",
-      "sale_date": "2026-11-21",
-      "sale_time": "18:00",
-      "name": "Key Live ~ Distant Promise ~ 2026 in Taipei - 台北站",
-      "type": "其他藝文活動",
-      "performance_date": "2026-10-16 ~ 2026-10-19",
-      "city": "台北市",
-      "venue": "Legacy Taipei",
-      "source_url": "https://goldendeerjr.kktix.cc/events/0390454c",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    }
-  ],
+  "new_events": [],
   "new_sale_info": [],
   "changed_events": [],
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-10-14T22:38:10+08:00",
+      "last_success_at": "2026-10-15T22:21:34+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -51,14 +22,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-10-14T22:38:10+08:00",
+      "last_success_at": "2026-10-15T22:21:34+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-10-14T22:38:10+08:00",
+      "last_success_at": "2026-10-15T22:21:34+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -72,21 +43,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-10-14T22:38:10+08:00",
+      "last_success_at": "2026-10-15T22:21:34+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-10-14T22:38:10+08:00",
+      "last_success_at": "2026-10-15T22:21:34+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-10-14T22:38:10+08:00",
+      "last_success_at": "2026-10-15T22:21:34+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
