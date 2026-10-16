@@ -1,14 +1,41 @@
 {
-  "generated_at": "2026-10-15T22:21:34+08:00",
+  "generated_at": "2026-10-16T22:10:38+08:00",
   "scan_success": true,
   "coverage_ok": false,
-  "new_events": [],
+  "new_events": [
+    {
+      "id": "211dc660a275425d",
+      "sale_date": "2026-10-24",
+      "sale_time": "12:00",
+      "name": "25日 米津玄師 台北演唱會 2026",
+      "type": "大型演唱會",
+      "performance_date": "2026-12-26",
+      "city": "台北市",
+      "venue": "台北大巨蛋",
+      "source_url": "https://www.tickettw.com/",
+      "discovery": "concert_aggregator_structured",
+      "scope": "large_music_taiwan",
+      "note": "structured public concert aggregator"
+    }
+  ],
   "new_sale_info": [],
-  "changed_events": [],
+  "changed_events": [
+    {
+      "id": "1248eb8c91e93cf5",
+      "name": "Car, the garden Live in Taipei 2026",
+      "source_url": "https://jmgroup.kktix.cc/events/550f388f",
+      "changes": {
+        "sale_date": {
+          "old": "2026-12-11",
+          "new": "2026-10-16"
+        }
+      }
+    }
+  ],
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-10-15T22:21:34+08:00",
+      "last_success_at": "2026-10-16T22:10:38+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -22,14 +49,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-10-15T22:21:34+08:00",
+      "last_success_at": "2026-10-16T22:10:38+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-10-15T22:21:34+08:00",
+      "last_success_at": "2026-10-16T22:10:38+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -43,21 +70,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-10-15T22:21:34+08:00",
+      "last_success_at": "2026-10-16T22:10:38+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-10-15T22:21:34+08:00",
+      "last_success_at": "2026-10-16T22:10:38+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-10-15T22:21:34+08:00",
+      "last_success_at": "2026-10-16T22:10:38+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
