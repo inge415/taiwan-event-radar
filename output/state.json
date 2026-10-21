@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T22:27:20+08:00",
+  "generated_at": "2026-10-21T22:37:05+08:00",
   "events": {
     "1a6a9df7d86e0efb": {
       "id": "1a6a9df7d86e0efb",
@@ -57,11 +57,25 @@
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
     },
+    "6e5676c179aba228": {
+      "id": "6e5676c179aba228",
+      "sale_date": "2026-10-21",
+      "sale_time": "12:00",
+      "name": "maya ongaku ASIA TOUR 2026 in Taipei",
+      "type": "大型演唱會",
+      "performance_date": "2026-12-17 ~ 2026-10-21",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://romanticoffice.kktix.cc/events/mayaongaku2026",
+      "discovery": "kktix_search_index",
+      "scope": "large_music_taiwan",
+      "note": ""
+    },
     "211dc660a275425d": {
       "id": "211dc660a275425d",
       "sale_date": "2026-10-24",
       "sale_time": "12:00",
-      "name": "21日 米津玄師 台北演唱會 2026",
+      "name": "20日 米津玄師 台北演唱會 2026",
       "type": "大型演唱會",
       "performance_date": "2026-12-26",
       "city": "台北市",
@@ -95,6 +109,20 @@
       "city": "台北市",
       "venue": "台北南港展覽館",
       "source_url": "https://xinzemedia.kktix.cc/events/0145dd91",
+      "discovery": "kktix_search_index",
+      "scope": "large_music_taiwan",
+      "note": ""
+    },
+    "16875793065737c8": {
+      "id": "16875793065737c8",
+      "sale_date": "2026-11-14",
+      "sale_time": "14:00",
+      "name": "【2026 JUNG DAE HYUN FAN-CONCERT [CRITICAL] in TAIPEI】",
+      "type": "大型演唱會",
+      "performance_date": "2026-11-14",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://lingchenpai.kktix.cc/events/9b43b4b2",
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": ""
@@ -141,6 +169,20 @@
       "scope": "large_music_taiwan",
       "note": ""
     },
+    "a5e1c585264cdf25": {
+      "id": "a5e1c585264cdf25",
+      "sale_date": "2026-12-17",
+      "sale_time": "17:00",
+      "name": "TOMICA & PLARAIL 交通慶典",
+      "type": "其他藝文活動",
+      "performance_date": "2026-12-17 ~ 2027-03-01",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://leinternational.kktix.cc/events/a09bc39b",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
     "f8c06a6a6b663091": {
       "id": "f8c06a6a6b663091",
       "sale_date": "2026-12-24",
@@ -173,7 +215,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-10-20T22:27:20+08:00",
+      "last_success_at": "2026-10-21T22:37:05+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -187,14 +229,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-10-20T22:27:20+08:00",
+      "last_success_at": "2026-10-21T22:37:05+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-10-20T22:27:20+08:00",
+      "last_success_at": "2026-10-21T22:37:05+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -208,21 +250,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-10-20T22:27:20+08:00",
+      "last_success_at": "2026-10-21T22:37:05+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-10-20T22:27:20+08:00",
+      "last_success_at": "2026-10-21T22:37:05+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-10-20T22:27:20+08:00",
+      "last_success_at": "2026-10-21T22:37:05+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
