@@ -1,29 +1,14 @@
 {
-  "generated_at": "2026-10-30T00:22:51+08:00",
+  "generated_at": "2026-10-31T00:10:36+08:00",
   "scan_success": true,
   "coverage_ok": false,
-  "new_events": [
-    {
-      "id": "f53301874a807d68",
-      "sale_date": "2026-12-25",
-      "sale_time": "20:00",
-      "name": "南西肯恩NeciKen 怪物 The Monster",
-      "type": "其他藝文活動",
-      "performance_date": "2026-10-22 ~ 2026-10-30",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://xiaonan.kktix.cc/events/5d7f60d0",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    }
-  ],
+  "new_events": [],
   "new_sale_info": [],
   "changed_events": [],
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-10-30T00:22:51+08:00",
+      "last_success_at": "2026-10-31T00:10:36+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -37,14 +22,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-10-30T00:22:51+08:00",
+      "last_success_at": "2026-10-31T00:10:36+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-10-30T00:22:51+08:00",
+      "last_success_at": "2026-10-31T00:10:36+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -58,21 +43,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-10-30T00:22:51+08:00",
+      "last_success_at": "2026-10-31T00:10:36+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-10-30T00:22:51+08:00",
+      "last_success_at": "2026-10-31T00:10:36+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-10-30T00:22:51+08:00",
+      "last_success_at": "2026-10-31T00:10:36+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
