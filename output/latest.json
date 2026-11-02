@@ -1,14 +1,29 @@
 {
-  "generated_at": "2026-11-02T00:16:17+08:00",
+  "generated_at": "2026-11-03T03:43:36+08:00",
   "scan_success": true,
   "coverage_ok": false,
-  "new_events": [],
+  "new_events": [
+    {
+      "id": "c7e397c5624d9ad0",
+      "sale_date": "2026-11-08",
+      "sale_time": "12:00",
+      "name": "Juice=Juice Fan Meeting 2026 in Taipei “Nice to meet Juice”",
+      "type": "Fan meeting",
+      "performance_date": "2026-12-05",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://welcome-music.kktix.cc/events/buzma0t1",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    }
+  ],
   "new_sale_info": [],
   "changed_events": [],
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-11-02T00:16:17+08:00",
+      "last_success_at": "2026-11-03T03:43:36+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -22,14 +37,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-11-02T00:16:17+08:00",
+      "last_success_at": "2026-11-03T03:43:36+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-11-02T00:16:17+08:00",
+      "last_success_at": "2026-11-03T03:43:36+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -43,21 +58,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-11-02T00:16:17+08:00",
+      "last_success_at": "2026-11-03T03:43:36+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-11-02T00:16:17+08:00",
+      "last_success_at": "2026-11-03T03:43:36+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-11-02T00:16:17+08:00",
+      "last_success_at": "2026-11-03T03:43:36+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
