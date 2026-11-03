@@ -1,20 +1,6 @@
 {
-  "generated_at": "2026-11-03T03:43:36+08:00",
+  "generated_at": "2026-11-04T01:16:50+08:00",
   "events": {
-    "1a6a9df7d86e0efb": {
-      "id": "1a6a9df7d86e0efb",
-      "sale_date": "",
-      "sale_time": "",
-      "name": "ART TAIPEI 2026台北國際藝術博覽會",
-      "type": "展覽",
-      "performance_date": "2026-10-30 ~ 2026-11-02",
-      "city": "台北市",
-      "venue": "世貿一館",
-      "source_url": "https://www.twtc.com.tw/exhibition",
-      "discovery": "twtc_public_schedule",
-      "scope": "taipei_only",
-      "note": "public venue exhibition schedule"
-    },
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
       "sale_date": "2026-08-10",
@@ -57,20 +43,6 @@
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
     },
-    "0eb2c20a57fdbc52": {
-      "id": "0eb2c20a57fdbc52",
-      "sale_date": "2026-11-02",
-      "sale_time": "19:30",
-      "name": "Jason Mraz ASIA TOUR 2026 IN TAIPEI",
-      "type": "大型演唱會",
-      "performance_date": "2026-10-13 ~ 2026-11-02",
-      "city": "台北市",
-      "venue": "台北南港展覽館",
-      "source_url": "https://xinzemedia.kktix.cc/events/0145dd91",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
     "d9384ba4a2fbf45b": {
       "id": "d9384ba4a2fbf45b",
       "sale_date": "2026-11-04",
@@ -111,6 +83,20 @@
       "source_url": "https://porticomedia.kktix.cc/events/e7a60cf1",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
+      "note": ""
+    },
+    "543f7e0960c2cfb3": {
+      "id": "543f7e0960c2cfb3",
+      "sale_date": "2026-12-04",
+      "sale_time": "19:00",
+      "name": "第二屆北流演唱會學院成果展演《那狠會》ABAO 阿爆 ft. Team 那屋瓦",
+      "type": "大型演唱會",
+      "performance_date": "2026-11-03 ~ 2026-12-04",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://taipeimusiccenter.kktix.cc/events/306d7dc9",
+      "discovery": "kktix_search_index",
+      "scope": "large_music_taiwan",
       "note": ""
     },
     "7bb2463bdea9503f": {
@@ -173,7 +159,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-11-03T03:43:36+08:00",
+      "last_success_at": "2026-11-04T01:16:50+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -187,14 +173,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-11-03T03:43:36+08:00",
+      "last_success_at": "2026-11-04T01:16:50+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-11-03T03:43:36+08:00",
+      "last_success_at": "2026-11-04T01:16:50+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -208,21 +194,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-11-03T03:43:36+08:00",
+      "last_success_at": "2026-11-04T01:16:50+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-11-03T03:43:36+08:00",
+      "last_success_at": "2026-11-04T01:16:50+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-11-03T03:43:36+08:00",
+      "last_success_at": "2026-11-04T01:16:50+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
