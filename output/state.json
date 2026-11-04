@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T01:16:50+08:00",
+  "generated_at": "2026-11-05T01:27:09+08:00",
   "events": {
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
@@ -71,6 +71,20 @@
       "scope": "taipei_only",
       "note": ""
     },
+    "cdab9c16de84ba5d": {
+      "id": "cdab9c16de84ba5d",
+      "sale_date": "2026-11-15",
+      "sale_time": "12:00",
+      "name": "康士坦的變化球 KST《犬的視線》2027 巡迴",
+      "type": "其他藝文活動",
+      "performance_date": "2026-11-15 ~ 2027-01-08",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://kklivetw.kktix.cc/events/ki8dg3w",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
     "5f7b0b7df69cb764": {
       "id": "5f7b0b7df69cb764",
       "sale_date": "2026-11-29",
@@ -95,20 +109,6 @@
       "city": "台北市",
       "venue": "",
       "source_url": "https://taipeimusiccenter.kktix.cc/events/306d7dc9",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
-    "7bb2463bdea9503f": {
-      "id": "7bb2463bdea9503f",
-      "sale_date": "2026-12-13",
-      "sale_time": "16:00",
-      "name": "SHE'S 15th Anniversary Tour \"Who am I?\" Extra -Live In Taipei 2026-",
-      "type": "大型演唱會",
-      "performance_date": "2026-10-10 ~ 2026-12-13",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://digitalidea.kktix.cc/events/17dcd7ed",
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": ""
@@ -154,12 +154,26 @@
       "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
       "note": ""
+    },
+    "b898c0a47e55dabc": {
+      "id": "b898c0a47e55dabc",
+      "sale_date": "2027-01-23",
+      "sale_time": "12:00",
+      "name": "迷悠奈MIYUNA First Live in Taipei 2027 ～ Memory Frame ～",
+      "type": "其他藝文活動",
+      "performance_date": "2027-01-23",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://hashien.kktix.cc/events/febbfaae",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
     }
   },
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-11-04T01:16:50+08:00",
+      "last_success_at": "2026-11-05T01:27:09+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -173,14 +187,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-11-04T01:16:50+08:00",
+      "last_success_at": "2026-11-05T01:27:09+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-11-04T01:16:50+08:00",
+      "last_success_at": "2026-11-05T01:27:09+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -194,21 +208,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-11-04T01:16:50+08:00",
+      "last_success_at": "2026-11-05T01:27:09+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-11-04T01:16:50+08:00",
+      "last_success_at": "2026-11-05T01:27:09+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-11-04T01:16:50+08:00",
+      "last_success_at": "2026-11-05T01:27:09+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
