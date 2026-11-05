@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T01:27:09+08:00",
+  "generated_at": "2026-11-06T01:36:08+08:00",
   "events": {
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
@@ -43,20 +43,6 @@
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
     },
-    "d9384ba4a2fbf45b": {
-      "id": "d9384ba4a2fbf45b",
-      "sale_date": "2026-11-04",
-      "sale_time": "11:00",
-      "name": "草蜢 THREE IN LOVE 演唱會 2027－台北站",
-      "type": "大型演唱會",
-      "performance_date": "2027-01-16 ~ 2027-01-17",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://kwan.kktix.cc/events/2b4874b0",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
     "c7e397c5624d9ad0": {
       "id": "c7e397c5624d9ad0",
       "sale_date": "2026-11-08",
@@ -67,6 +53,20 @@
       "city": "台北市",
       "venue": "",
       "source_url": "https://welcome-music.kktix.cc/events/buzma0t1",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    "efe95f159fd5c644": {
+      "id": "efe95f159fd5c644",
+      "sale_date": "2026-11-10",
+      "sale_time": "12:00",
+      "name": "芒果醬 Mango Jump【再見小肉舖】歲末沒有烤肉趴（蛤）",
+      "type": "其他藝文活動",
+      "performance_date": "2026-12-31",
+      "city": "台北市",
+      "venue": "Legacy Taipei",
+      "source_url": "https://yourunproduction.kktix.cc/events/fc7fcc6f",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
@@ -85,16 +85,16 @@
       "scope": "taipei_only",
       "note": ""
     },
-    "5f7b0b7df69cb764": {
-      "id": "5f7b0b7df69cb764",
-      "sale_date": "2026-11-29",
-      "sale_time": "12:00",
-      "name": "THE EDGE OF HORIZON 1st FAN MEETING IN TAIWAN",
-      "type": "Fan meeting",
-      "performance_date": "2026-10-06 ~ 2026-11-29",
+    "a0048b3e30f9b637": {
+      "id": "a0048b3e30f9b637",
+      "sale_date": "2026-11-25",
+      "sale_time": "23:59",
+      "name": "鍇睿大辦桌 Love Carry Please",
+      "type": "其他藝文活動",
+      "performance_date": "2026-11-09 ~ 2026-12-06",
       "city": "台北市",
       "venue": "",
-      "source_url": "https://porticomedia.kktix.cc/events/e7a60cf1",
+      "source_url": "https://carry-international.kktix.cc/events/f4e0db01",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
@@ -113,16 +113,16 @@
       "scope": "large_music_taiwan",
       "note": ""
     },
-    "a5e1c585264cdf25": {
-      "id": "a5e1c585264cdf25",
-      "sale_date": "2026-12-17",
-      "sale_time": "17:00",
-      "name": "TOMICA & PLARAIL 交通慶典",
+    "01e7fcec70ccb2e9": {
+      "id": "01e7fcec70ccb2e9",
+      "sale_date": "2026-12-20",
+      "sale_time": "18:30",
+      "name": "《漂亮，祝你美好。》",
       "type": "其他藝文活動",
-      "performance_date": "2026-12-17 ~ 2027-03-01",
+      "performance_date": "2026-12-18 ~ 2026-12-20",
       "city": "台北市",
       "venue": "",
-      "source_url": "https://leinternational.kktix.cc/events/a09bc39b",
+      "source_url": "https://ballinglikejay.kktix.cc/events/ae569416",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
@@ -139,20 +139,6 @@
       "source_url": "https://xiaonan.kktix.cc/events/5d7f60d0",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
-      "note": ""
-    },
-    "a17b3a377348c467": {
-      "id": "a17b3a377348c467",
-      "sale_date": "2026-12-30",
-      "sale_time": "18:30",
-      "name": "IRIS MONDO「LIFELINE」Asia Tour 台灣站",
-      "type": "大型演唱會",
-      "performance_date": "2026-12-30 ~ 2026-09-26",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://ballinglikejay.kktix.cc/events/ed75e5c5",
-      "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
       "note": ""
     },
     "b898c0a47e55dabc": {
@@ -173,7 +159,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-11-05T01:27:09+08:00",
+      "last_success_at": "2026-11-06T01:36:08+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -187,14 +173,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-11-05T01:27:09+08:00",
+      "last_success_at": "2026-11-06T01:36:08+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-11-05T01:27:09+08:00",
+      "last_success_at": "2026-11-06T01:36:08+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -208,21 +194,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-11-05T01:27:09+08:00",
+      "last_success_at": "2026-11-06T01:36:08+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-11-05T01:27:09+08:00",
+      "last_success_at": "2026-11-06T01:36:08+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-11-05T01:27:09+08:00",
+      "last_success_at": "2026-11-06T01:36:08+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
