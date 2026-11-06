@@ -1,46 +1,18 @@
 {
-  "generated_at": "2026-11-06T01:36:08+08:00",
+  "generated_at": "2026-11-07T00:54:05+08:00",
   "scan_success": true,
   "coverage_ok": false,
   "new_events": [
     {
-      "id": "efe95f159fd5c644",
-      "sale_date": "2026-11-10",
+      "id": "3d38ee2323a72864",
+      "sale_date": "2026-12-05",
       "sale_time": "12:00",
-      "name": "芒果醬 Mango Jump【再見小肉舖】歲末沒有烤肉趴（蛤）",
+      "name": "RE:MEMBER",
       "type": "其他藝文活動",
-      "performance_date": "2026-12-31",
-      "city": "台北市",
-      "venue": "Legacy Taipei",
-      "source_url": "https://yourunproduction.kktix.cc/events/fc7fcc6f",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    },
-    {
-      "id": "a0048b3e30f9b637",
-      "sale_date": "2026-11-25",
-      "sale_time": "23:59",
-      "name": "鍇睿大辦桌 Love Carry Please",
-      "type": "其他藝文活動",
-      "performance_date": "2026-11-09 ~ 2026-12-06",
+      "performance_date": "2026-11-09 ~ 2026-12-05",
       "city": "台北市",
       "venue": "",
-      "source_url": "https://carry-international.kktix.cc/events/f4e0db01",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    },
-    {
-      "id": "01e7fcec70ccb2e9",
-      "sale_date": "2026-12-20",
-      "sale_time": "18:30",
-      "name": "《漂亮，祝你美好。》",
-      "type": "其他藝文活動",
-      "performance_date": "2026-12-18 ~ 2026-12-20",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://ballinglikejay.kktix.cc/events/ae569416",
+      "source_url": "https://reasonentertainment.kktix.cc/events/2f9ca2d2",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
@@ -51,7 +23,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-11-06T01:36:08+08:00",
+      "last_success_at": "2026-11-07T00:54:05+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -65,14 +37,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-11-06T01:36:08+08:00",
+      "last_success_at": "2026-11-07T00:54:05+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-11-06T01:36:08+08:00",
+      "last_success_at": "2026-11-07T00:54:05+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -86,21 +58,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-11-06T01:36:08+08:00",
+      "last_success_at": "2026-11-07T00:54:05+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-11-06T01:36:08+08:00",
+      "last_success_at": "2026-11-07T00:54:05+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-11-06T01:36:08+08:00",
+      "last_success_at": "2026-11-07T00:54:05+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
