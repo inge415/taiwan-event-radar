@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T00:14:49+08:00",
+  "generated_at": "2026-11-10T03:59:02+08:00",
   "events": {
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
@@ -43,19 +43,33 @@
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
     },
-    "c7e397c5624d9ad0": {
-      "id": "c7e397c5624d9ad0",
-      "sale_date": "2026-11-08",
+    "efe95f159fd5c644": {
+      "id": "efe95f159fd5c644",
+      "sale_date": "2026-11-10",
       "sale_time": "12:00",
-      "name": "Juice=Juice Fan Meeting 2026 in Taipei “Nice to meet Juice”",
-      "type": "Fan meeting",
-      "performance_date": "2026-12-05",
+      "name": "芒果醬 Mango Jump【再見小肉舖】歲末沒有烤肉趴（蛤）",
+      "type": "其他藝文活動",
+      "performance_date": "2026-12-31",
       "city": "台北市",
-      "venue": "",
-      "source_url": "https://welcome-music.kktix.cc/events/buzma0t1",
+      "venue": "Legacy Taipei",
+      "source_url": "https://yourunproduction.kktix.cc/events/fc7fcc6f",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
+    },
+    "211dc660a275425d": {
+      "id": "211dc660a275425d",
+      "sale_date": "2026-11-14",
+      "sale_time": "10:00",
+      "name": "結束了 51 日 FTISLAND 台北演唱會 2027",
+      "type": "大型演唱會",
+      "performance_date": "2026-11-14",
+      "city": "台北市",
+      "venue": "TICC 臺北國際會議中心",
+      "source_url": "https://www.tickettw.com/",
+      "discovery": "concert_aggregator_structured",
+      "scope": "large_music_taiwan",
+      "note": "structured public concert aggregator"
     },
     "cdab9c16de84ba5d": {
       "id": "cdab9c16de84ba5d",
@@ -67,20 +81,6 @@
       "city": "台北市",
       "venue": "",
       "source_url": "https://kklivetw.kktix.cc/events/ki8dg3w",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    },
-    "a0048b3e30f9b637": {
-      "id": "a0048b3e30f9b637",
-      "sale_date": "2026-11-25",
-      "sale_time": "23:59",
-      "name": "鍇睿大辦桌 Love Carry Please",
-      "type": "其他藝文活動",
-      "performance_date": "2026-11-09 ~ 2026-12-06",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://carry-international.kktix.cc/events/f4e0db01",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
@@ -102,13 +102,27 @@
     "3d38ee2323a72864": {
       "id": "3d38ee2323a72864",
       "sale_date": "2026-12-05",
-      "sale_time": "12:00",
+      "sale_time": "19:00",
       "name": "RE:MEMBER",
       "type": "其他藝文活動",
       "performance_date": "2026-11-09 ~ 2026-12-05",
       "city": "台北市",
       "venue": "",
       "source_url": "https://reasonentertainment.kktix.cc/events/2f9ca2d2",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    "a0048b3e30f9b637": {
+      "id": "a0048b3e30f9b637",
+      "sale_date": "2026-12-06",
+      "sale_time": "16:30",
+      "name": "鍇睿大辦桌 Love Carry Please",
+      "type": "其他藝文活動",
+      "performance_date": "2026-11-09 ~ 2026-12-06",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://carry-international.kktix.cc/events/f4e0db01",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
@@ -159,7 +173,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-11-09T00:14:49+08:00",
+      "last_success_at": "2026-11-10T03:59:02+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -173,14 +187,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-11-09T00:14:49+08:00",
+      "last_success_at": "2026-11-10T03:59:02+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-11-09T00:14:49+08:00",
+      "last_success_at": "2026-11-10T03:59:02+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -194,21 +208,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-11-09T00:14:49+08:00",
+      "last_success_at": "2026-11-10T03:59:02+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-11-09T00:14:49+08:00",
+      "last_success_at": "2026-11-10T03:59:02+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-11-09T00:14:49+08:00",
+      "last_success_at": "2026-11-10T03:59:02+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
