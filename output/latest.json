@@ -1,62 +1,51 @@
 {
-  "generated_at": "2026-11-10T03:59:02+08:00",
+  "generated_at": "2026-11-11T01:14:51+08:00",
   "scan_success": true,
   "coverage_ok": false,
   "new_events": [
     {
-      "id": "efe95f159fd5c644",
-      "sale_date": "2026-11-10",
+      "id": "a7a5816183ed172b",
+      "sale_date": "2026-11-13",
       "sale_time": "12:00",
-      "name": "芒果醬 Mango Jump【再見小肉舖】歲末沒有烤肉趴（蛤）",
+      "name": "一青窈 Live Show 2026 in TAIPEI～序曲～",
       "type": "其他藝文活動",
-      "performance_date": "2026-12-31",
+      "performance_date": "2026-12-20",
       "city": "台北市",
-      "venue": "Legacy Taipei",
-      "source_url": "https://yourunproduction.kktix.cc/events/fc7fcc6f",
+      "venue": "",
+      "source_url": "https://welcome-music.kktix.cc/events/g7dy3hr",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
     },
     {
-      "id": "211dc660a275425d",
+      "id": "8b10e35ff1b2fb34",
       "sale_date": "2026-11-14",
-      "sale_time": "10:00",
-      "name": "結束了 51 日 FTISLAND 台北演唱會 2027",
+      "sale_time": "11:11",
+      "name": "康康秀60+\"我是從小聽你的歌長大的\" 30週年巡迴演唱會",
       "type": "大型演唱會",
-      "performance_date": "2026-11-14",
+      "performance_date": "2026-11-13 ~ 2026-11-14",
       "city": "台北市",
-      "venue": "TICC 臺北國際會議中心",
-      "source_url": "https://www.tickettw.com/",
-      "discovery": "concert_aggregator_structured",
+      "venue": "",
+      "source_url": "https://wenwende.kktix.cc/events/31580979",
+      "discovery": "kktix_search_index",
       "scope": "large_music_taiwan",
-      "note": "structured public concert aggregator"
+      "note": ""
     }
   ],
   "new_sale_info": [],
   "changed_events": [
     {
-      "id": "3d38ee2323a72864",
-      "name": "RE:MEMBER",
-      "source_url": "https://reasonentertainment.kktix.cc/events/2f9ca2d2",
-      "changes": {
-        "sale_time": {
-          "old": "12:00",
-          "new": "19:00"
-        }
-      }
-    },
-    {
-      "id": "a0048b3e30f9b637",
-      "name": "鍇睿大辦桌 Love Carry Please",
-      "source_url": "https://carry-international.kktix.cc/events/f4e0db01",
+      "id": "efe95f159fd5c644",
+      "name": "芒果醬 Mango Jump【再見小肉舖】歲末沒有烤肉趴（蛤）",
+      "source_url": "https://yourunproduction.kktix.cc/events/fc7fcc6f",
       "changes": {
         "sale_date": {
-          "old": "2026-11-25",
-          "new": "2026-12-06"
+          "old": "2026-11-10",
+          "new": "2026-12-31"
         },
         "sale_time": {
-          "old": "23:59",
-          "new": "16:30"
+          "old": "12:00",
+          "new": "19:30"
         }
       }
     }
@@ -64,7 +53,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-11-10T03:59:02+08:00",
+      "last_success_at": "2026-11-11T01:14:51+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -78,14 +67,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-11-10T03:59:02+08:00",
+      "last_success_at": "2026-11-11T01:14:51+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-11-10T03:59:02+08:00",
+      "last_success_at": "2026-11-11T01:14:51+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -99,24 +88,24 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-11-10T03:59:02+08:00",
+      "last_success_at": "2026-11-11T01:14:51+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-11-10T03:59:02+08:00",
+      "last_success_at": "2026-11-11T01:14:51+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
-      "status": "ok",
+      "status": "failed",
       "last_success_at": "2026-11-10T03:59:02+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
-      "error": ""
+      "error": "HTTP 403"
     }
   }
 }
