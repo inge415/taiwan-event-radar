@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T01:23:34+08:00",
+  "generated_at": "2026-11-13T01:43:08+08:00",
   "events": {
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
@@ -61,7 +61,7 @@
       "id": "211dc660a275425d",
       "sale_date": "2026-11-14",
       "sale_time": "10:00",
-      "name": "結束了 53 日 FTISLAND 台北演唱會 2027",
+      "name": "結束了 55 日 FTISLAND 台北演唱會 2027",
       "type": "大型演唱會",
       "performance_date": "2026-11-14",
       "city": "台北市",
@@ -127,20 +127,6 @@
       "scope": "taipei_only",
       "note": ""
     },
-    "a0048b3e30f9b637": {
-      "id": "a0048b3e30f9b637",
-      "sale_date": "2026-12-06",
-      "sale_time": "16:30",
-      "name": "鍇睿大辦桌 Love Carry Please",
-      "type": "其他藝文活動",
-      "performance_date": "2026-11-09 ~ 2026-12-06",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://carry-international.kktix.cc/events/f4e0db01",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    },
     "01e7fcec70ccb2e9": {
       "id": "01e7fcec70ccb2e9",
       "sale_date": "2026-12-20",
@@ -171,8 +157,8 @@
     },
     "71d2e7c27bafcc0d": {
       "id": "71d2e7c27bafcc0d",
-      "sale_date": "2027-01-09",
-      "sale_time": "23:59",
+      "sale_date": "2027-01-10",
+      "sale_time": "18:00",
       "name": "OBSESS【花謝花開自有時】發片專場",
       "type": "其他藝文活動",
       "performance_date": "2026-11-12 ~ 2027-01-10",
@@ -196,12 +182,26 @@
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
+    },
+    "cdfb7ac22b2356a8": {
+      "id": "cdfb7ac22b2356a8",
+      "sale_date": "2027-01-31",
+      "sale_time": "12:00",
+      "name": "奧華子 Piano&Vocal LIVE in TAIPEI",
+      "type": "其他藝文活動",
+      "performance_date": "2026-11-22 ~ 2027-01-31",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://welcome-music.kktix.cc/events/2d693f86",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
     }
   },
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-11-12T01:23:34+08:00",
+      "last_success_at": "2026-11-13T01:43:08+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -215,14 +215,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-11-12T01:23:34+08:00",
+      "last_success_at": "2026-11-13T01:43:08+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-11-12T01:23:34+08:00",
+      "last_success_at": "2026-11-13T01:43:08+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -236,21 +236,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-11-12T01:23:34+08:00",
+      "last_success_at": "2026-11-13T01:43:08+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-11-12T01:23:34+08:00",
+      "last_success_at": "2026-11-13T01:43:08+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-11-12T01:23:34+08:00",
+      "last_success_at": "2026-11-13T01:43:08+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
