@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T00:31:51+08:00",
+  "generated_at": "2026-11-17T03:47:40+08:00",
   "events": {
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
@@ -43,17 +43,101 @@
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
     },
-    "cdab9c16de84ba5d": {
-      "id": "cdab9c16de84ba5d",
-      "sale_date": "2026-11-15",
+    "32cfb6e613812293": {
+      "id": "32cfb6e613812293",
+      "sale_date": "2026-11-16",
       "sale_time": "12:00",
-      "name": "康士坦的變化球 KST《犬的視線》2027 巡迴",
+      "name": "段芸芸 Cloudie《麻雀雖小 Little Sparrow》創作專場",
       "type": "其他藝文活動",
-      "performance_date": "2026-11-15 ~ 2027-01-08",
+      "performance_date": "2026-12-19",
       "city": "台北市",
-      "venue": "",
-      "source_url": "https://kklivetw.kktix.cc/events/ki8dg3w",
-      "discovery": "kktix_search_index",
+      "venue": "女巫店",
+      "source_url": "https://ticketplus.com.tw/activity/f75c546b00b4403f933c4fa2ea89ef90",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    "f25ffbe14dd57b6c": {
+      "id": "f25ffbe14dd57b6c",
+      "sale_date": "2026-11-17",
+      "sale_time": "23:59",
+      "name": "JEONGHAN X JOSHUA JOURNEY INTO [DREAMING] - TAIPEI",
+      "type": "大型演唱會",
+      "performance_date": "2027-01-09 ~ 2027-01-10",
+      "city": "台北市",
+      "venue": "台北小巨蛋",
+      "source_url": "https://ticketplus.com.tw/activity/c28f10dad8b2acf1de5e6aff4051a269",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "large_music_taiwan",
+      "note": ""
+    },
+    "2166302d378043e4": {
+      "id": "2166302d378043e4",
+      "sale_date": "2026-11-18",
+      "sale_time": "12:00",
+      "name": "Yellowbrenda X Project: Point of Departure by Krzysztof Zimmermann",
+      "type": "其他藝文活動",
+      "performance_date": "2027-01-07",
+      "city": "台北市",
+      "venue": "女巫店",
+      "source_url": "https://ticketplus.com.tw/activity/c84204c5f96560ce8dda705da57bbd99",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    "75987c29a7bc7dca": {
+      "id": "75987c29a7bc7dca",
+      "sale_date": "2026-11-21",
+      "sale_time": "12:00",
+      "name": "王謙Goatak【memories】專輯演唱會",
+      "type": "大型演唱會",
+      "performance_date": "2027-03-13",
+      "city": "台北市",
+      "venue": "Legacy TERA",
+      "source_url": "https://ticketplus.com.tw/activity/427165df32e22b97075198104bbe0e7e",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "large_music_taiwan",
+      "note": ""
+    },
+    "5a4ff973ff1ab1fb": {
+      "id": "5a4ff973ff1ab1fb",
+      "sale_date": "2026-11-22",
+      "sale_time": "14:30",
+      "name": "2026 Saturnday 三周年 FAN-CON",
+      "type": "其他藝文活動",
+      "performance_date": "2026-11-22",
+      "city": "台北市",
+      "venue": "Corner House",
+      "source_url": "https://ticketplus.com.tw/activity/964ee6764fdfd86e2e1b13f0866c8ee3",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    "171637cd88d6e9f8": {
+      "id": "171637cd88d6e9f8",
+      "sale_date": "2026-11-22",
+      "sale_time": "17:00",
+      "name": "音田雅則 One Man Tour 2026 “Hiraeth” in Taipei",
+      "type": "大型演唱會",
+      "performance_date": "2026-11-22",
+      "city": "台北市",
+      "venue": "SUB LIVE",
+      "source_url": "https://ticketplus.com.tw/activity/4b47b5360d42451f65704664c40b1c72",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "large_music_taiwan",
+      "note": ""
+    },
+    "5fbe674267044f07": {
+      "id": "5fbe674267044f07",
+      "sale_date": "2026-11-27",
+      "sale_time": "19:30",
+      "name": "鄒序 Hogan T. 無端端 2026 鄒序秋冬小巡",
+      "type": "其他藝文活動",
+      "performance_date": "2026-10-30 ~ 2026-11-27",
+      "city": "台北市",
+      "venue": "PIPE Live Music、柱 The Pillars",
+      "source_url": "https://ticketplus.com.tw/activity/25820e1cdfdd84ef2345b210391fc2aa",
+      "discovery": "ticketplus_s3_event_json",
       "scope": "taipei_only",
       "note": ""
     },
@@ -97,6 +181,20 @@
       "source_url": "https://ballinglikejay.kktix.cc/events/ae569416",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
+      "note": ""
+    },
+    "6e5153be03ac7af8": {
+      "id": "6e5153be03ac7af8",
+      "sale_date": "2026-12-27",
+      "sale_time": "18:30",
+      "name": "2026 VERA 四周年演唱會《NEXTERA》",
+      "type": "大型演唱會",
+      "performance_date": "2026-12-27",
+      "city": "台北市",
+      "venue": "Clapper Studio",
+      "source_url": "https://ticketplus.com.tw/activity/146cbb24e0128239e2c80db2c63fa417",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "large_music_taiwan",
       "note": ""
     },
     "71d2e7c27bafcc0d": {
@@ -145,21 +243,21 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-11-16T00:31:51+08:00",
+      "last_success_at": "2026-11-17T03:47:40+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
     },
     "Ticket Plus": {
-      "status": "failed",
-      "last_success_at": "2026-08-13T23:31:51+08:00",
+      "status": "ok",
+      "last_success_at": "2026-11-17T03:47:40+08:00",
       "primary_method": "mainEvents/event JSON",
       "fallback_used": false,
-      "error": "HTTP 403"
+      "error": ""
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-11-16T00:31:51+08:00",
+      "last_success_at": "2026-11-17T03:47:40+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -180,21 +278,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-11-16T00:31:51+08:00",
+      "last_success_at": "2026-11-17T03:47:40+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-11-16T00:31:51+08:00",
+      "last_success_at": "2026-11-17T03:47:40+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-11-16T00:31:51+08:00",
+      "last_success_at": "2026-11-17T03:47:40+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
