@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T03:47:40+08:00",
+  "generated_at": "2026-11-18T02:43:39+08:00",
   "events": {
     "7a749ac79a3a8b85": {
       "id": "7a749ac79a3a8b85",
@@ -43,17 +43,17 @@
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
     },
-    "32cfb6e613812293": {
-      "id": "32cfb6e613812293",
-      "sale_date": "2026-11-16",
-      "sale_time": "12:00",
-      "name": "段芸芸 Cloudie《麻雀雖小 Little Sparrow》創作專場",
+    "8f2174148e00108e": {
+      "id": "8f2174148e00108e",
+      "sale_date": "2026-11-17",
+      "sale_time": "18:00",
+      "name": "FOREVER YOUNG 2627’",
       "type": "其他藝文活動",
-      "performance_date": "2026-12-19",
+      "performance_date": "2026-12-31",
       "city": "台北市",
-      "venue": "女巫店",
-      "source_url": "https://ticketplus.com.tw/activity/f75c546b00b4403f933c4fa2ea89ef90",
-      "discovery": "ticketplus_s3_event_json",
+      "venue": "",
+      "source_url": "https://chihan.kktix.cc/events/d0738570",
+      "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
     },
@@ -125,6 +125,20 @@
       "source_url": "https://ticketplus.com.tw/activity/4b47b5360d42451f65704664c40b1c72",
       "discovery": "ticketplus_s3_event_json",
       "scope": "large_music_taiwan",
+      "note": ""
+    },
+    "e493f8f32e84166d": {
+      "id": "e493f8f32e84166d",
+      "sale_date": "2026-11-23",
+      "sale_time": "12:00",
+      "name": "BACK TO LEAD！《回來找你是真的》第三單元見面會",
+      "type": "Fan meeting",
+      "performance_date": "2026-12-19",
+      "city": "台北市",
+      "venue": "光點華山電影館A Two廳",
+      "source_url": "https://ticketplus.com.tw/activity/c7328d186b83da82e24f71132d24726c",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "taipei_only",
       "note": ""
     },
     "5fbe674267044f07": {
@@ -243,21 +257,21 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-11-17T03:47:40+08:00",
+      "last_success_at": "2026-11-18T02:43:39+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
     },
     "Ticket Plus": {
       "status": "ok",
-      "last_success_at": "2026-11-17T03:47:40+08:00",
+      "last_success_at": "2026-11-18T02:43:39+08:00",
       "primary_method": "mainEvents/event JSON",
       "fallback_used": false,
       "error": ""
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-11-17T03:47:40+08:00",
+      "last_success_at": "2026-11-18T02:43:39+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
@@ -278,21 +292,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-11-17T03:47:40+08:00",
+      "last_success_at": "2026-11-18T02:43:39+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-11-17T03:47:40+08:00",
+      "last_success_at": "2026-11-18T02:43:39+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-11-17T03:47:40+08:00",
+      "last_success_at": "2026-11-18T02:43:39+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
