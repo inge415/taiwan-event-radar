@@ -1,32 +1,46 @@
 {
-  "generated_at": "2026-11-19T02:20:00+08:00",
+  "generated_at": "2026-11-20T02:36:07+08:00",
   "scan_success": true,
   "coverage_ok": false,
   "new_events": [
     {
-      "id": "8b76acf3b952c79c",
-      "sale_date": "2027-03-13",
-      "sale_time": "13:30",
-      "name": "SHIROSE Live in Taipei 2027",
-      "type": "其他藝文活動",
-      "performance_date": "2027-03-13 ~ 2026-11-06",
+      "id": "ac37a250e473a8e5",
+      "sale_date": "",
+      "sale_time": "",
+      "name": "2027第46屆新一代設計展",
+      "type": "展覽",
+      "performance_date": "2027-05-21 ~ 2027-05-24",
       "city": "台北市",
-      "venue": "",
-      "source_url": "https://baodaorecords.kktix.cc/events/4d8a7ccb",
+      "venue": "一樓展場 四樓展場",
+      "source_url": "https://www.tainex.com.tw/event",
+      "discovery": "tainex_public_schedule",
+      "scope": "taipei_only",
+      "note": "public venue exhibition schedule"
+    },
+    {
+      "id": "4f4e71501aa8fa03",
+      "sale_date": "2027-04-06",
+      "sale_time": "12:00",
+      "name": "尋找梵谷：SVR實境探索之旅 FINDING VINCENT SVR",
+      "type": "其他藝文活動",
+      "performance_date": "2026-12-24 ~ 2027-04-06",
+      "city": "台北市",
+      "venue": "華山文創園區",
+      "source_url": "https://kklivetw.kktix.cc/events/cb960c27",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
     },
     {
-      "id": "0c8d92d927997c1d",
-      "sale_date": "2027-03-13",
-      "sale_time": "20:00",
-      "name": "WHITE JAM Live in Taipei",
-      "type": "其他藝文活動",
-      "performance_date": "2027-03-13 ~ 2026-11-06",
+      "id": "552e1d07f23052c8",
+      "sale_date": "2027-04-06",
+      "sale_time": "18:00",
+      "name": "藥師少女的獨語《宮廷的試煉》沉浸體驗展",
+      "type": "展覽",
+      "performance_date": "2026-12-19 ~ 2027-04-06",
       "city": "台北市",
-      "venue": "",
-      "source_url": "https://baodaorecords.kktix.cc/events/943a3c67",
+      "venue": "華山",
+      "source_url": "https://tropicsentertainment.kktix.cc/events/3099c414",
       "discovery": "kktix_search_index",
       "scope": "taipei_only",
       "note": ""
@@ -37,7 +51,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-11-19T02:20:00+08:00",
+      "last_success_at": "2026-11-20T02:36:07+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -51,14 +65,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-11-19T02:20:00+08:00",
+      "last_success_at": "2026-11-20T02:36:07+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-11-19T02:20:00+08:00",
+      "last_success_at": "2026-11-20T02:36:07+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -72,21 +86,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-11-19T02:20:00+08:00",
+      "last_success_at": "2026-11-20T02:36:07+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-11-19T02:20:00+08:00",
+      "last_success_at": "2026-11-20T02:36:07+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-11-19T02:20:00+08:00",
+      "last_success_at": "2026-11-20T02:36:07+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
