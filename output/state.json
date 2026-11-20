@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T02:36:07+08:00",
+  "generated_at": "2026-11-21T01:57:53+08:00",
   "events": {
     "ac37a250e473a8e5": {
       "id": "ac37a250e473a8e5",
@@ -71,6 +71,34 @@
       "scope": "taipei_only",
       "note": ""
     },
+    "211dc660a275425d": {
+      "id": "211dc660a275425d",
+      "sale_date": "2026-12-10",
+      "sale_time": "11:00",
+      "name": "蔡依林 台北演唱會 2027",
+      "type": "大型演唱會",
+      "performance_date": "2027-01-22",
+      "city": "台北市",
+      "venue": "台北大巨蛋",
+      "source_url": "https://www.tickettw.com/",
+      "discovery": "concert_aggregator_structured",
+      "scope": "large_music_taiwan",
+      "note": "structured public concert aggregator"
+    },
+    "f392fe3b87ac2956": {
+      "id": "f392fe3b87ac2956",
+      "sale_date": "2026-12-12",
+      "sale_time": "17:00",
+      "name": "AKINO GENESIS 台北個人演唱會 “新時代開啟.”",
+      "type": "大型演唱會",
+      "performance_date": "2026-11-02 ~ 2026-12-12",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://facioculb.kktix.cc/events/0efeb493",
+      "discovery": "kktix_search_index",
+      "scope": "large_music_taiwan",
+      "note": ""
+    },
     "71d2e7c27bafcc0d": {
       "id": "71d2e7c27bafcc0d",
       "sale_date": "2027-01-10",
@@ -113,34 +141,6 @@
       "scope": "taipei_only",
       "note": ""
     },
-    "8b76acf3b952c79c": {
-      "id": "8b76acf3b952c79c",
-      "sale_date": "2027-03-13",
-      "sale_time": "13:30",
-      "name": "SHIROSE Live in Taipei 2027",
-      "type": "其他藝文活動",
-      "performance_date": "2027-03-13 ~ 2026-11-06",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://baodaorecords.kktix.cc/events/4d8a7ccb",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    },
-    "0c8d92d927997c1d": {
-      "id": "0c8d92d927997c1d",
-      "sale_date": "2027-03-13",
-      "sale_time": "20:00",
-      "name": "WHITE JAM Live in Taipei",
-      "type": "其他藝文活動",
-      "performance_date": "2027-03-13 ~ 2026-11-06",
-      "city": "台北市",
-      "venue": "",
-      "source_url": "https://baodaorecords.kktix.cc/events/943a3c67",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    },
     "4f4e71501aa8fa03": {
       "id": "4f4e71501aa8fa03",
       "sale_date": "2027-04-06",
@@ -173,7 +173,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-11-20T02:36:07+08:00",
+      "last_success_at": "2026-11-21T01:57:53+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -187,14 +187,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-11-20T02:36:07+08:00",
+      "last_success_at": "2026-11-21T01:57:53+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-11-20T02:36:07+08:00",
+      "last_success_at": "2026-11-21T01:57:53+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -208,21 +208,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-11-20T02:36:07+08:00",
+      "last_success_at": "2026-11-21T01:57:53+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-11-20T02:36:07+08:00",
+      "last_success_at": "2026-11-21T01:57:53+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-11-20T02:36:07+08:00",
+      "last_success_at": "2026-11-21T01:57:53+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""

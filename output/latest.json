@@ -1,48 +1,34 @@
 {
-  "generated_at": "2026-11-20T02:36:07+08:00",
+  "generated_at": "2026-11-21T01:57:53+08:00",
   "scan_success": true,
   "coverage_ok": false,
   "new_events": [
     {
-      "id": "ac37a250e473a8e5",
-      "sale_date": "",
-      "sale_time": "",
-      "name": "2027第46屆新一代設計展",
-      "type": "展覽",
-      "performance_date": "2027-05-21 ~ 2027-05-24",
+      "id": "211dc660a275425d",
+      "sale_date": "2026-12-10",
+      "sale_time": "11:00",
+      "name": "蔡依林 台北演唱會 2027",
+      "type": "大型演唱會",
+      "performance_date": "2027-01-22",
       "city": "台北市",
-      "venue": "一樓展場 四樓展場",
-      "source_url": "https://www.tainex.com.tw/event",
-      "discovery": "tainex_public_schedule",
-      "scope": "taipei_only",
-      "note": "public venue exhibition schedule"
+      "venue": "台北大巨蛋",
+      "source_url": "https://www.tickettw.com/",
+      "discovery": "concert_aggregator_structured",
+      "scope": "large_music_taiwan",
+      "note": "structured public concert aggregator"
     },
     {
-      "id": "4f4e71501aa8fa03",
-      "sale_date": "2027-04-06",
-      "sale_time": "12:00",
-      "name": "尋找梵谷：SVR實境探索之旅 FINDING VINCENT SVR",
-      "type": "其他藝文活動",
-      "performance_date": "2026-12-24 ~ 2027-04-06",
+      "id": "f392fe3b87ac2956",
+      "sale_date": "2026-12-12",
+      "sale_time": "17:00",
+      "name": "AKINO GENESIS 台北個人演唱會 “新時代開啟.”",
+      "type": "大型演唱會",
+      "performance_date": "2026-11-02 ~ 2026-12-12",
       "city": "台北市",
-      "venue": "華山文創園區",
-      "source_url": "https://kklivetw.kktix.cc/events/cb960c27",
+      "venue": "",
+      "source_url": "https://facioculb.kktix.cc/events/0efeb493",
       "discovery": "kktix_search_index",
-      "scope": "taipei_only",
-      "note": ""
-    },
-    {
-      "id": "552e1d07f23052c8",
-      "sale_date": "2027-04-06",
-      "sale_time": "18:00",
-      "name": "藥師少女的獨語《宮廷的試煉》沉浸體驗展",
-      "type": "展覽",
-      "performance_date": "2026-12-19 ~ 2027-04-06",
-      "city": "台北市",
-      "venue": "華山",
-      "source_url": "https://tropicsentertainment.kktix.cc/events/3099c414",
-      "discovery": "kktix_search_index",
-      "scope": "taipei_only",
+      "scope": "large_music_taiwan",
       "note": ""
     }
   ],
@@ -51,7 +37,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-11-20T02:36:07+08:00",
+      "last_success_at": "2026-11-21T01:57:53+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -65,14 +51,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-11-20T02:36:07+08:00",
+      "last_success_at": "2026-11-21T01:57:53+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-11-20T02:36:07+08:00",
+      "last_success_at": "2026-11-21T01:57:53+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -86,21 +72,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-11-20T02:36:07+08:00",
+      "last_success_at": "2026-11-21T01:57:53+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-11-20T02:36:07+08:00",
+      "last_success_at": "2026-11-21T01:57:53+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-11-20T02:36:07+08:00",
+      "last_success_at": "2026-11-21T01:57:53+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
