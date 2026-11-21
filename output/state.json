@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T01:57:53+08:00",
+  "generated_at": "2026-11-22T00:54:57+08:00",
   "events": {
     "ac37a250e473a8e5": {
       "id": "ac37a250e473a8e5",
@@ -113,6 +113,20 @@
       "scope": "taipei_only",
       "note": ""
     },
+    "01cc6e30dfc74f39": {
+      "id": "01cc6e30dfc74f39",
+      "sale_date": "2027-01-16",
+      "sale_time": "13:00",
+      "name": "礒部花凜2027台北粉絲見面會",
+      "type": "Fan meeting",
+      "performance_date": "2026-11-22 ~ 2026-11-25",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://hashien.kktix.cc/events/f177fd4b",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
     "8d3d51669bf46232": {
       "id": "8d3d51669bf46232",
       "sale_date": "2027-01-24",
@@ -173,7 +187,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-11-21T01:57:53+08:00",
+      "last_success_at": "2026-11-22T00:54:57+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -187,14 +201,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-11-21T01:57:53+08:00",
+      "last_success_at": "2026-11-22T00:54:57+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-11-21T01:57:53+08:00",
+      "last_success_at": "2026-11-22T00:54:57+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -208,21 +222,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-11-21T01:57:53+08:00",
+      "last_success_at": "2026-11-22T00:54:57+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-11-21T01:57:53+08:00",
+      "last_success_at": "2026-11-22T00:54:57+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-11-21T01:57:53+08:00",
+      "last_success_at": "2026-11-22T00:54:57+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""

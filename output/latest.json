@@ -1,34 +1,20 @@
 {
-  "generated_at": "2026-11-21T01:57:53+08:00",
+  "generated_at": "2026-11-22T00:54:57+08:00",
   "scan_success": true,
   "coverage_ok": false,
   "new_events": [
     {
-      "id": "211dc660a275425d",
-      "sale_date": "2026-12-10",
-      "sale_time": "11:00",
-      "name": "蔡依林 台北演唱會 2027",
-      "type": "大型演唱會",
-      "performance_date": "2027-01-22",
-      "city": "台北市",
-      "venue": "台北大巨蛋",
-      "source_url": "https://www.tickettw.com/",
-      "discovery": "concert_aggregator_structured",
-      "scope": "large_music_taiwan",
-      "note": "structured public concert aggregator"
-    },
-    {
-      "id": "f392fe3b87ac2956",
-      "sale_date": "2026-12-12",
-      "sale_time": "17:00",
-      "name": "AKINO GENESIS 台北個人演唱會 “新時代開啟.”",
-      "type": "大型演唱會",
-      "performance_date": "2026-11-02 ~ 2026-12-12",
+      "id": "01cc6e30dfc74f39",
+      "sale_date": "2027-01-16",
+      "sale_time": "13:00",
+      "name": "礒部花凜2027台北粉絲見面會",
+      "type": "Fan meeting",
+      "performance_date": "2026-11-22 ~ 2026-11-25",
       "city": "台北市",
       "venue": "",
-      "source_url": "https://facioculb.kktix.cc/events/0efeb493",
+      "source_url": "https://hashien.kktix.cc/events/f177fd4b",
       "discovery": "kktix_search_index",
-      "scope": "large_music_taiwan",
+      "scope": "taipei_only",
       "note": ""
     }
   ],
@@ -37,7 +23,7 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-11-21T01:57:53+08:00",
+      "last_success_at": "2026-11-22T00:54:57+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
@@ -51,14 +37,14 @@
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-11-21T01:57:53+08:00",
+      "last_success_at": "2026-11-22T00:54:57+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-11-21T01:57:53+08:00",
+      "last_success_at": "2026-11-22T00:54:57+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -72,21 +58,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-11-21T01:57:53+08:00",
+      "last_success_at": "2026-11-22T00:54:57+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-11-21T01:57:53+08:00",
+      "last_success_at": "2026-11-22T00:54:57+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-11-21T01:57:53+08:00",
+      "last_success_at": "2026-11-22T00:54:57+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
