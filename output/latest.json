@@ -1,53 +1,165 @@
 {
-  "generated_at": "2026-11-24T05:38:08+08:00",
+  "generated_at": "2026-11-25T04:18:38+08:00",
   "scan_success": true,
-  "coverage_ok": false,
+  "coverage_ok": true,
   "new_events": [
     {
-      "id": "583d346f1e18d616",
-      "sale_date": "2027-02-21",
-      "sale_time": "17:00",
-      "name": "HYUKOH [33] TOUR TAIPEI",
-      "type": "大型演唱會",
-      "performance_date": "2026-11-20 ~ 2026-11-23",
+      "id": "5fbe674267044f07",
+      "sale_date": "2026-11-27",
+      "sale_time": "19:30",
+      "name": "鄒序 Hogan T. 無端端 2026 鄒序秋冬小巡",
+      "type": "其他藝文活動",
+      "performance_date": "2026-10-30 ~ 2026-11-27",
       "city": "台北市",
-      "venue": "",
-      "source_url": "https://sunsetmusic.kktix.cc/events/620883ae",
-      "discovery": "kktix_search_index",
+      "venue": "PIPE Live Music、柱 The Pillars",
+      "source_url": "https://ticketplus.com.tw/activity/25820e1cdfdd84ef2345b210391fc2aa",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    {
+      "id": "22288775aa70dae2",
+      "sale_date": "2026-11-29",
+      "sale_time": "12:00",
+      "name": "Moi dix Mois Live in Taipei 2027 with Kaya 〜Revanche〜",
+      "type": "展覽",
+      "performance_date": "2027-02-28",
+      "city": "台北市",
+      "venue": "這牆音樂展演空間",
+      "source_url": "https://ticketplus.com.tw/activity/917590f52e04248d395735a3df475c96",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "taipei_only",
+      "note": ""
+    },
+    {
+      "id": "0e16c016bbe1f8b4",
+      "sale_date": "2026-11-29",
+      "sale_time": "14:00",
+      "name": "EVNNE FAN-CONCERT [ONE TAKE] IN TAIPEI",
+      "type": "大型演唱會",
+      "performance_date": "2027-01-09",
+      "city": "台北市",
+      "venue": "Clapper Studio",
+      "source_url": "https://ticketplus.com.tw/activity/d99e2c7433858284264f26c78f9d99ac",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "large_music_taiwan",
+      "note": ""
+    },
+    {
+      "id": "6c4f31be37699431",
+      "sale_date": "2026-11-29",
+      "sale_time": "16:00",
+      "name": "2027 VERIVERY CONCERT “GIVE ME FIVE, KEEP THAT VIBE” TAIPEI",
+      "type": "大型演唱會",
+      "performance_date": "2027-01-10",
+      "city": "台北市",
+      "venue": "Clapper Studio",
+      "source_url": "https://ticketplus.com.tw/activity/e924f0f8702df064e6ec49cac4b07079",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "large_music_taiwan",
+      "note": ""
+    },
+    {
+      "id": "330b25e9b094beff",
+      "sale_date": "2026-12-10",
+      "sale_time": "11:00",
+      "name": "【凱基尊榮貴賓優先購票】凱基銀行 JOLIN 蔡依林 PLEASURE世界巡迴演唱會 TAIPEI 2027",
+      "type": "大型演唱會",
+      "performance_date": "2027-01-22 ~ 2027-01-31",
+      "city": "台北市",
+      "venue": "臺北大巨蛋",
+      "source_url": "https://ticketplus.com.tw/activity/2ad3ca0f9fd5a63e0bff0889b12457ea",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "large_music_taiwan",
+      "note": ""
+    },
+    {
+      "id": "8158bcce542f1c71",
+      "sale_date": "2026-12-14",
+      "sale_time": "12:00",
+      "name": "凱基銀行 JOLIN 蔡依林 PLEASURE世界巡迴演唱會 TAIPEI 2027",
+      "type": "大型演唱會",
+      "performance_date": "2027-01-22 ~ 2027-01-31",
+      "city": "台北市",
+      "venue": "臺北大巨蛋",
+      "source_url": "https://ticketplus.com.tw/activity/032981c587736fb2fd1b3701dc9909ff",
+      "discovery": "ticketplus_s3_event_json",
+      "scope": "large_music_taiwan",
+      "note": ""
+    },
+    {
+      "id": "6e5153be03ac7af8",
+      "sale_date": "2026-12-27",
+      "sale_time": "18:30",
+      "name": "2026 VERA 四周年演唱會《NEXTERA》",
+      "type": "大型演唱會",
+      "performance_date": "2026-12-27",
+      "city": "台北市",
+      "venue": "Clapper Studio",
+      "source_url": "https://ticketplus.com.tw/activity/146cbb24e0128239e2c80db2c63fa417",
+      "discovery": "ticketplus_s3_event_json",
       "scope": "large_music_taiwan",
       "note": ""
     }
   ],
   "new_sale_info": [],
-  "changed_events": [],
+  "changed_events": [
+    {
+      "id": "211dc660a275425d",
+      "name": "五月天阿信 台北演唱會 2026",
+      "source_url": "https://www.tickettw.com/",
+      "changes": {
+        "sale_date": {
+          "old": "2026-12-10",
+          "new": "2026-11-25"
+        },
+        "sale_time": {
+          "old": "11:00",
+          "new": "12:06"
+        },
+        "performance_date": {
+          "old": "2027-01-22",
+          "new": "2026-12-06"
+        },
+        "venue": {
+          "old": "台北大巨蛋",
+          "new": "台北小巨蛋"
+        },
+        "name": {
+          "old": "蔡依林 台北演唱會 2027",
+          "new": "五月天阿信 台北演唱會 2026"
+        }
+      }
+    }
+  ],
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-11-24T05:38:08+08:00",
+      "last_success_at": "2026-11-25T04:18:38+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
     },
     "Ticket Plus": {
-      "status": "failed",
-      "last_success_at": "2026-11-18T02:43:39+08:00",
+      "status": "ok",
+      "last_success_at": "2026-11-25T04:18:38+08:00",
       "primary_method": "mainEvents/event JSON",
       "fallback_used": false,
-      "error": "HTTP 403"
+      "error": ""
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-11-24T05:38:08+08:00",
+      "last_success_at": "2026-11-25T04:18:38+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
-      "status": "ok",
+      "status": "failed",
       "last_success_at": "2026-11-24T05:38:08+08:00",
       "primary_method": "ticket website listing",
-      "fallback_used": false,
-      "error": ""
+      "fallback_used": true,
+      "error": "HTTP 403"
     },
     "tixCraft": {
       "status": "failed",
@@ -58,21 +170,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-11-24T05:38:08+08:00",
+      "last_success_at": "2026-11-25T04:18:38+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-11-24T05:38:08+08:00",
+      "last_success_at": "2026-11-25T04:18:38+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-11-24T05:38:08+08:00",
+      "last_success_at": "2026-11-25T04:18:38+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
