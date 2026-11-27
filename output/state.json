@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T03:15:02+08:00",
+  "generated_at": "2026-11-28T03:08:33+08:00",
   "events": {
     "ac37a250e473a8e5": {
       "id": "ac37a250e473a8e5",
@@ -57,30 +57,16 @@
       "scope": "taipei_only",
       "note": "直接抓取 401 時，以可索引公開資訊補足"
     },
-    "6328c6f5875bae73": {
-      "id": "6328c6f5875bae73",
-      "sale_date": "2026-11-26",
+    "26aea444c25d28ce": {
+      "id": "26aea444c25d28ce",
+      "sale_date": "2026-11-27",
       "sale_time": "12:00",
-      "name": "NCT 127 5TH TOUR ‘NEO CITY : TAIPEI - THE REDLINE’",
-      "type": "大型演唱會",
+      "name": "《Waff!e（extra syrup ver.）》｜Wednesday Waflow feat.寬平Ekko&53mo",
+      "type": "其他藝文活動",
       "performance_date": "2027-01-02",
       "city": "台北市",
-      "venue": "台北小巨蛋",
-      "source_url": "https://ticketplus.com.tw/activity/6d632dd655e722bb62f05f6bd080fcd0",
-      "discovery": "ticketplus_s3_event_json",
-      "scope": "large_music_taiwan",
-      "note": ""
-    },
-    "5fbe674267044f07": {
-      "id": "5fbe674267044f07",
-      "sale_date": "2026-11-27",
-      "sale_time": "19:30",
-      "name": "鄒序 Hogan T. 無端端 2026 鄒序秋冬小巡",
-      "type": "其他藝文活動",
-      "performance_date": "2026-10-30 ~ 2026-11-27",
-      "city": "台北市",
-      "venue": "PIPE Live Music、柱 The Pillars",
-      "source_url": "https://ticketplus.com.tw/activity/25820e1cdfdd84ef2345b210391fc2aa",
+      "venue": "女巫店",
+      "source_url": "https://ticketplus.com.tw/activity/e03fc4f314e34e5aa615636a1f230cec",
       "discovery": "ticketplus_s3_event_json",
       "scope": "taipei_only",
       "note": ""
@@ -239,6 +225,20 @@
       "scope": "large_music_taiwan",
       "note": ""
     },
+    "cdfb7ac22b2356a8": {
+      "id": "cdfb7ac22b2356a8",
+      "sale_date": "2027-01-31",
+      "sale_time": "17:00",
+      "name": "奧華子 Piano&Vocal LIVE in TAIPEI",
+      "type": "其他藝文活動",
+      "performance_date": "2026-11-22 ~ 2027-01-31",
+      "city": "台北市",
+      "venue": "",
+      "source_url": "https://welcome-music.kktix.cc/events/2d693f86",
+      "discovery": "kktix_search_index",
+      "scope": "taipei_only",
+      "note": ""
+    },
     "583d346f1e18d616": {
       "id": "583d346f1e18d616",
       "sale_date": "2027-02-21",
@@ -285,28 +285,28 @@
   "source_health": {
     "OPENTIX": {
       "status": "ok",
-      "last_success_at": "2026-11-27T03:15:02+08:00",
+      "last_success_at": "2026-11-28T03:08:33+08:00",
       "primary_method": "programs/detail API",
       "fallback_used": false,
       "error": ""
     },
     "Ticket Plus": {
       "status": "ok",
-      "last_success_at": "2026-11-27T03:15:02+08:00",
+      "last_success_at": "2026-11-28T03:08:33+08:00",
       "primary_method": "mainEvents/event JSON",
       "fallback_used": false,
       "error": ""
     },
     "KKTIX": {
       "status": "degraded",
-      "last_success_at": "2026-11-27T03:15:02+08:00",
+      "last_success_at": "2026-11-28T03:08:33+08:00",
       "primary_method": "public kktix.cc listing",
       "fallback_used": false,
       "error": ""
     },
     "ibon": {
       "status": "ok",
-      "last_success_at": "2026-11-27T03:15:02+08:00",
+      "last_success_at": "2026-11-28T03:08:33+08:00",
       "primary_method": "ticket website listing",
       "fallback_used": false,
       "error": ""
@@ -320,21 +320,21 @@
     },
     "Public Web/News": {
       "status": "ok",
-      "last_success_at": "2026-11-27T03:15:02+08:00",
+      "last_success_at": "2026-11-28T03:08:33+08:00",
       "primary_method": "Bing RSS search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Performing Arts Web": {
       "status": "ok",
-      "last_success_at": "2026-11-27T03:15:02+08:00",
+      "last_success_at": "2026-11-28T03:08:33+08:00",
       "primary_method": "Bing RSS taxonomy search + public pages",
       "fallback_used": false,
       "error": ""
     },
     "Concert Aggregators": {
       "status": "ok",
-      "last_success_at": "2026-11-27T03:15:02+08:00",
+      "last_success_at": "2026-11-28T03:08:33+08:00",
       "primary_method": "structured public concert aggregators",
       "fallback_used": false,
       "error": ""
